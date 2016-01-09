@@ -1,0 +1,249 @@
+$color-main:      #BCE3E8 //Primary 0
+$color-light:     #E6F7F9 //Primary 2
+$color-dark:      #8BC4CC //Primary 3
+$color-highlight: #FFCFCE //Secondary2 0
+
+$white:   #fefefe
+$black1:  rgba(0,0,0,0.87)
+$black2:  rgba(0,0,0,0.67)
+$black3:  rgba(0,0,0,0.54)
+$black4:  rgba(0,0,0,0.43)
+
+$text-color:        $black1
+$display-color:     $black3
+$background-color:  $white
+
+$hatena:    #008fde
+$google:    #cc3732
+$facebook:  #3b5998
+$twitter:   #68aade
+$pocket:    #ff004c
+
+// SVG指定も出力するように(IE9用)
+$experimental-support-for-svg: true
+
+@import "compass/css3/images"
+
+@mixin render($property, $value)
+  -webkit-#{$property}: $value
+  -moz-#{$property}: $value
+  -o-#{$property}: $value
+  -ms-#{$property}: $value
+  #{$property}: $value
+
+@mixin gradient-darken($color: $black3, $lighten: 12.5%)
+  background-color: $color
+  @include filter-gradient(lighten($color, $lighten), $color, vertical)
+  @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 100%))
+  //@include render(linear-gradient)
+
+=background-white
+  :background
+    :color $background-color
+    :image url(/creampaper/creampaper.png)
+    :blend-mode overlay
+
+body, h1, h2, h3, h4, .h1, .h2, .h3, .h4
+  font-weight: 300
+.page-header
+  h1, .h1
+    :font
+      :size 4em
+      :weight lighter
+
+body
+  font-family: 'Helvetica Neue',Helvetica,Arial,'游ゴシック体','Yu Gothic',YuGothic,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif
+  //font-family: Cambria,'Times New Roman',Times,'游明朝体','Yu Mincho',YuMincho,'Hiragino Mincho ProN',serif
+  +background-white
+  color: $text-color
+
+h1,h2,h3,h4,h5,h6
+  margin-top: 2em
+.display-1,.display-2,.display-3,.display-4,.lead
+  color: $display-color
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6,dt
+  color: $display-color
+a
+  &:link, &:visited, &:active
+    color: $color-dark
+  &:hover
+    color: $color-main
+
+
+@media (min-width: 768px) //{}
+  body > .container,body > .jumbotron:not(:nth-child(2)) > .container,.navbar--bottom > .container
+    width: 700px
+    margin: 0 auto
+
+img
+  max-width: 100%
+img.media-object
+  max-width: initial
+
+hr
+  height: 0
+  margin-top: 0
+  padding: 0
+  border: 0
+  border-top: 1px solid rgba(0,0,0,.1)
+  border-bottom: 1px solid rgba(255,255,255,1)
+
+.blockquote
+  border: none
+  position: absolute
+  right: 0
+  margin-top: -6rem
+  a
+    color: white
+
+.navbar
+  background-color: $color-light
+body > .container, body > .jumbotron
+  min-height: 570px
+body > .container,body > .jumbotron:not(:nth-child(2)),.navbar--bottom > .container
+  :padding
+    :top 2rem
+    :bottom 6rem
+.jumbotron
+  margin-bottom: 0
+  background-color: $black4
+  color: white
+  *
+    color: white
+  text-shadow: 0 0 8px $text-color
+  border-radius: initial
+  min-height: initial
+  :background
+    :size 100% auto
+    :blend-mode luminosity
+    :repeat no-repeat
+  &:nth-child(2)
+    background-image: url(/img/jumbotron.jpg)
+  &:nth-child(4)
+    background-image: url(/img/skyscrapers.jpg)
+  &:nth-child(6)
+    background-image: url(/img/beach.jpg)
+  &:nth-child(8)
+    background-image: url(/img/building.jpg)
+  &:nth-child(10)
+    background-image: url(/img/information.jpg)
+
+  hr
+    border-top: 1px solid rgba(0,0,0,.2)
+    border-bottom: 1px solid rgba(255,255,255,.2)
+
+article
+  header,section
+    .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6
+      letter-spacing: -0.02em
+      font-weight: 700
+      margin-left: -1.8px
+      line-height: 1.2
+      margin-top: 40px
+      margin-bottom: 4px
+    p
+      margin-bottom: 30px
+    li
+      margin-bottom: 15px
+    p,li
+      font-size: 22px
+      letter-spacing: .01rem
+      line-height: 2
+      font-weight: 400
+  > a
+    color: rgba(0, 0, 0, 0.8)
+    &:active,&:hover,&:visited
+      color: rgba(0, 0, 0, 0.8)
+      text-decoration: none
+    .h2,h2
+      font-weight: 700
+      margin-top: 16px
+      margin-bottom: 6px
+  .share--btn
+    padding: 0 10px
+  .pocket-btn
+    display: inline-block
+    height: 20px
+    vertical-align: middle
+    margin-top: -2px
+
+.share-icon
+  [class^="icon-"],[class*=" icon-"]
+    color: rgb(153,153,153)
+    text-decoration: underline !important
+    background-color: white
+  .icon-share-hatena
+    color: $hatena
+    &:hover,&:active,&:focus
+      color: $hatena
+  .icon-share-pocket
+    color: $pocket
+    &:hover,&:active,&:focus
+      color: $pocket
+
+@media (max-width: 767px) //{}
+  article
+    header,section
+      .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6
+        line-height: 1.2
+      .h1,.h2,h1,h2
+        font-size: 26px
+      p,li
+        font-size: 20px
+        line-height: 1.6
+
+article
+  header,section
+    .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6
+      line-height: 1.15
+      letter-spacing: -0.02em
+    .h1,.h2,h1,h2
+      font-size: 28px
+    p,li
+      font-size: 18px
+      line-height: 1.45
+      letter-spacing: .005rem
+
+body > footer
+  margin-top: 2em
+  color: $white
+  @include gradient-darken()
+  >.container
+    padding-top: 2em
+    padding-bottom: 2em
+  .btn-secondary-outline
+    color: $white
+
+#share-button
+  .btn
+    padding-top: 11px
+    padding-bottom: 11px
+
+.alliance
+  img
+    @include render(filter, contrast(0.87))
+.alliance-business
+  img
+    background-color: white
+    //@include render(filter, grayscale(1))
+    @include render(filter, grayscale(1) contrast(0.95))
+  a:hover img
+    @include render(filter, saturate(1.5))
+#member
+  img
+    width: 50%
+    margin: auto 25%
+    @include render(filter, saturate(0.8))
+  a:hover img
+    @include render(filter, saturate(1.5))
+  .dummy
+    opacity: 0.3
+#news
+  .card-block .card-text:first-child:first-letter
+    color: $display-color
+    float: left
+    font-size: 2.5em
+    line-height: 1
+    margin: .1em .2em 0 0
+  img
+    @include render(filter, grayscale(1))

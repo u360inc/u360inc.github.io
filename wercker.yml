@@ -1,0 +1,13 @@
+box: michilu/deploy-gh-pages
+build:
+  steps:
+    - script:
+        name: nothing
+        code: echo
+deploy:
+  steps:
+    # https://github.com/lvivier/step-gh-pages
+    - lukevivier/gh-pages:
+      domain: test.u360inc.com
+      repo: u360inc/u360inc.github.io
+      token: $GITHUB_TOKEN

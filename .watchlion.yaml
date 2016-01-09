@@ -1,0 +1,5 @@
+build:
+  coffee: make js
+  haml: make html
+  sass: make css
+loglevel: info
