@@ -89,12 +89,14 @@ hr
 
 .navbar
   background-color: $color-light
-body > .container, body > .jumbotron
-  min-height: 570px
 body > .container,body > .jumbotron:not(:nth-child(2)),.navbar--bottom > .container
   :padding
-    :top 2rem
-    :bottom 6rem
+    :top 60px
+    :bottom 250px
+body > .jumbotron:nth-child(2)
+  :padding
+    :top 250px
+    :bottom 250px
 .jumbotron
   margin-bottom: 0
   background-color: $black4
