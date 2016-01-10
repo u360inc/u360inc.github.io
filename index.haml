@@ -399,16 +399,6 @@
           %br
           &copy;&nbsp;2014 U360 CO. LTD.
 
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#android-stock-browser
-    :javascript
-      (function () {
-        var nua = navigator.userAgent
-        var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
-        if (isAndroid) {
-          $('select.form-control').removeClass('form-control').css('width', '100%')
-        }
-      })();
-
     :javascript
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -418,16 +408,3 @@
       ga('create', 'UA-12345678-1', 'auto');
       ga('require', 'displayfeatures');
       ga('send', 'pageview');
-    -#:javascript
-    -#  window._pt_sp_2 = [];
-    -#  _pt_sp_2.push('setAccount,25cefa21');
-    -#  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-
-    -#  (function() {
-    -#  	var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
-    -#  	atag.src = _protocol + 'js.ptengine.jp/pta.js';
-    -#  	var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
-    -#  	stag.src = _protocol + 'js.ptengine.jp/pts.js';
-    -#  	var s = document.getElementsByTagName('script')[0];
-    -#  	s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
-    -#  })();
