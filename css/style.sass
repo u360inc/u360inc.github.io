@@ -124,7 +124,9 @@ body > .container,body > .jumbotron:not(:nth-child(2)),.navbar--bottom > .contai
     :blend-mode luminosity
     :repeat no-repeat
   &:nth-child(2)
-    background-image: url(/img/jumbotron.jpg)
+    :background
+      :image url(/img/forest.jpg)
+      :blend-mode initial
   &:nth-child(4)
     background-image: url(/img/skyscrapers.jpg)
   &:nth-child(6)
@@ -256,6 +258,6 @@ body > footer
     @include render(filter, grayscale(1))
 
 .betu
-  color: $betu
+  color: lighten($betu, 6%)
 .seki
-  color: $seki
+  color: lighten($seki, 6%)
