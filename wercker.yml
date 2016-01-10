@@ -1,9 +1,12 @@
 box: michilu/deploy-gh-pages
 build:
   steps:
+    - bundle-install:
+        binstubs: true
+        jobs: 4
     - script:
-        name: nothing
-        code: echo
+        name: build
+        code: make
 deploy:
   steps:
     # https://github.com/lvivier/step-gh-pages
