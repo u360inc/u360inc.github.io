@@ -7,6 +7,10 @@ build:
     - script:
         name: build
         code: make
+  after-steps:
+    - hipchat-notify:
+        token: $HIPCHAT_TOKEN
+        room-id: $HIPCHAT_ID
 deploy:
   steps:
     # https://github.com/lvivier/step-gh-pages
@@ -14,3 +18,7 @@ deploy:
       domain: u360inc.com
       repo: u360inc/u360inc.github.io
       token: $GITHUB_TOKEN
+  after-steps:
+    - hipchat-notify:
+        token: $HIPCHAT_TOKEN
+        room-id: $HIPCHAT_ID
