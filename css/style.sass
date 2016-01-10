@@ -19,6 +19,7 @@ $facebook:  #3b5998
 $twitter:   #68aade
 $pocket:    #ff004c
 
+$brand-primary: #BCE2E8
 $betu: rgb(252,122,119)
 $seki: rgb(0,173,231)
 
@@ -98,6 +99,10 @@ body > .container,body > .jumbotron:not(:nth-child(2)),.navbar--bottom > .contai
   margin-bottom: 0
   background-color: $black4
   color: white
+  a
+    color: lighten($brand-primary, 7%)
+    &:active,&:hover
+      color: $brand-primary
   text-shadow: 0 0 8px $text-color
   border-radius: initial
   min-height: initial
