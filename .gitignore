@@ -4,6 +4,6 @@
 /node_modules
 /vendor
 
-*.css
 *.html
-*.js
+/css/**/*.css
+/js/**/*.js
