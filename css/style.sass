@@ -54,24 +54,8 @@ body, h1, h2, h3, h4, .h1, .h2, .h3, .h4
       :size 4em
       :weight lighter
 
-body
-  font-family: 'Helvetica Neue',Helvetica,Arial,'游ゴシック体','Yu Gothic',YuGothic,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif
-  //font-family: Cambria,'Times New Roman',Times,'游明朝体','Yu Mincho',YuMincho,'Hiragino Mincho ProN',serif
-  +background-white
-  color: $text-color
-
 h1,h2,h3,h4,h5,h6
   margin-top: 2em
-.display-1,.display-2,.display-3,.display-4,.lead
-  color: $display-color
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6,dt
-  color: $display-color
-a
-  &:link, &:visited, &:active
-    color: $color-dark
-  &:hover
-    color: $color-main
-
 
 @media (min-width: 768px) //{}
   body > .container,body > .jumbotron:not(:nth-child(2)) > .container,.navbar--bottom > .container
@@ -178,20 +162,6 @@ article
     vertical-align: middle
     margin-top: -2px
 
-.share-icon
-  [class^="icon-"],[class*=" icon-"]
-    color: rgb(153,153,153)
-    text-decoration: underline !important
-    background-color: white
-  .icon-share-hatena
-    color: $hatena
-    &:hover,&:active,&:focus
-      color: $hatena
-  .icon-share-pocket
-    color: $pocket
-    &:hover,&:active,&:focus
-      color: $pocket
-
 @media (max-width: 767px) //{}
   article
     header,section
@@ -225,11 +195,6 @@ body > footer
   .btn
     color: $white
     background-color: initial
-
-#share-button
-  .btn
-    padding-top: 11px
-    padding-bottom: 11px
 
 .alliance
   img
