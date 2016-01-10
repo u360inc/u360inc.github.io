@@ -19,7 +19,6 @@ deploy:
   steps:
     # https://github.com/lvivier/step-gh-pages
     - lukevivier/gh-pages:
-      basedir: $WERCKER_OUTPUT_DIR
       domain: u360inc.com
       repo: u360inc/u360inc.github.io
       token: $GITHUB_TOKEN
