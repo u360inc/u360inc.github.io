@@ -57,20 +57,6 @@
 
     -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
 
-    -# http://updates.html5rocks.com/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android
-    %link(rel='manifest' href='manifest.json')
-    :coffee
-      window._loadScript = ((d, id, src) ->
-        if d.getElementById(id) isnt null
-          return
-        e = d.createElement('script')
-        e.id = id
-        e.src = src
-        e.async = true
-        (d.getElementsByTagName('head')[0] or d.getElementsByTagName('body')[0]).appendChild(e)
-        return
-      ).bind(null, document)
-
   %body
 
     %nav.navbar.navbar-default.navbar-static-top
