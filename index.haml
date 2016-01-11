@@ -160,22 +160,33 @@
 
         .page-header
           .h1 U360の新規事業
-        %p.padding
-        .alliance.row
-          .col-sm-6
-            %img.img-rounded(width='58' src='/banner/biriyani.png')
-            %a(href='http://www.biriyani.info/' target='_blank')>ビリヤニ協会
-            %hr
-          .col-sm-6
-            %a(href='https://peraichi.com/landing_pages/view/crossroad' target='_blank')>CrossRoad
-            （転職支援）
-            %hr
-        .alliance.row
-          .col-sm-6
-            %img.img-rounded(width='58' src='/img/bali.svg')
-            （バリ島事業）
-            %hr
-        U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業にも取り組んでいます。
+
+        .row
+
+          .media.col-xs-12.col-sm-4
+            .media-left
+              %img.media-object(width='58' src='/banner/biriyani.png' alt='')
+            .media-body.media-middle
+              .h4.media-heading
+                %a(href='http://www.biriyani.info/' target='_blank')>ビリヤニ協会
+
+          .media.col-xs-12.col-sm-4
+            .media-body.media-middle
+              .h4.media-heading
+                %a(href='https://peraichi.com/landing_pages/view/crossroad' target='_blank')>CrossRoad
+              （転職支援）
+
+          .media.col-xs-12.col-sm-4
+            .media-left
+              %img.media-object(width='58' src='/img/bali.svg' alt='')
+            .media-body.media-middle
+              .h4.media-heading
+              （バリ島事業）
+
+        .row
+
+          %p &nbsp;
+          U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業にも取り組んでいます。
 
     #member.container
 
