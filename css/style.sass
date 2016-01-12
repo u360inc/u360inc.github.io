@@ -32,7 +32,7 @@ $experimental-support-for-svg: true
 
 @import "compass/css3/images"
 
-@mixin render($property, $value)
+@mixin render($property, $value...)
   -webkit-#{$property}: $value
   -moz-#{$property}: $value
   -o-#{$property}: $value
@@ -113,6 +113,7 @@ body > .container,body > .jumbotron,.navbar--bottom > .container
       color: $brand-primary
   text-shadow: 0 0 8px $text-color
   border-radius: initial
+  @include render(box-shadow, inset 0 100px 100px -75px rgba(0, 0, 0, 0.2), inset 0 -100px 100px -75px rgba(0, 0, 0, 0.66))
   min-height: initial
   :background
     :size cover
