@@ -124,7 +124,7 @@ body > .container,body > .jumbotron,.navbar--bottom > .container
       :image url(/img/bg/skyscrapers.jpg)
       :position-y top
     :padding
-      :bottom 100px
+      :bottom 2em
   &:nth-child(6)
     background-image: url(/img/bg/beach.jpg)
   &:nth-child(8)
@@ -133,6 +133,9 @@ body > .container,body > .jumbotron,.navbar--bottom > .container
       :position-y bottom
   &:nth-child(10)
     background-image: url(/img/bg/information.jpg)
+body > .container:nth-child(5)
+  :padding
+    :top 2em
 
   hr
     border-top: 1px solid rgba(0,0,0,.2)
