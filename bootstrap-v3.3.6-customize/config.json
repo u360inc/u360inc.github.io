@@ -159,9 +159,9 @@
     "@navbar-default-brand-color": "rgba(0, 0, 0, 0.8)",
     "@navbar-default-brand-hover-color": "darken(@navbar-default-brand-color, 10%)",
     "@navbar-default-brand-hover-bg": "transparent",
-    "@navbar-default-toggle-hover-bg": "#ddd",
-    "@navbar-default-toggle-icon-bar-bg": "#888",
-    "@navbar-default-toggle-border-color": "#ddd",
+    "@navbar-default-toggle-hover-bg": "darken(@navbar-default-bg, 6.5%)",
+    "@navbar-default-toggle-icon-bar-bg": "#fefefe",
+    "@navbar-default-toggle-border-color": "darken(@navbar-default-bg, 6.5%)",
     "@navbar-inverse-color": "lighten(@gray-light, 15%)",
     "@navbar-inverse-bg": "#222",
     "@navbar-inverse-border": "darken(@navbar-inverse-bg, 10%)",
@@ -397,5 +397,5 @@
   "js": [
     "collapse.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=efb69ecc7ab68ccfe37c"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=2925c32fb47f0150c448"
 }
