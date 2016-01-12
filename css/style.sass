@@ -58,6 +58,13 @@ body, h1, h2, h3, h4, .h1, .h2, .h3, .h4
     :font
       :size 4em
       :weight lighter
+  .h1, .h2, .h3, .h4, .h5, .h6
+    margin-bottom: 0
+  h1, h2, h3, h4, h5, h6
+    margin-top: 0
+    margin-bottom: 0
+.container .page-header
+  margin-top: 0
 @media (max-width: 767px) //{}
   .page-header
     h1, .h1
@@ -66,10 +73,6 @@ body, h1, h2, h3, h4, .h1, .h2, .h3, .h4
 
 h1,h2,h3,h4,h5,h6
   margin-top: 2em
-.container .page-header:first-child
-  margin-top: 0
-  h1, .h1, h2, .h2, h3, .h3
-    margin: 0
 
 @media (min-width: 768px) //{}
   body > .container,body > .jumbotron:not(:nth-child(2)) > .container,.navbar--bottom > .container
