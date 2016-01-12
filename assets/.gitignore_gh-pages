@@ -7,7 +7,6 @@
 /Gemfile*
 /Makefile
 /README.txt
-/assets
 /bin
 /node_modules
 /vendor
