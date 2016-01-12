@@ -119,10 +119,6 @@ body > .container,body > .jumbotron,.navbar--bottom > .container
   margin-bottom: 0
   background-color: $black4
   color: white
-  a
-    color: lighten($brand-primary, 7%)
-    &:active,&:hover
-      color: $brand-primary
   text-shadow: 0 0 8px $text-color
   border-radius: initial
   @include render(box-shadow, inset 0 100px 100px -75px rgba(0, 0, 0, 0.2), inset 0 -100px 100px -75px rgba(0, 0, 0, 0.66))
@@ -131,6 +127,11 @@ body > .container,body > .jumbotron,.navbar--bottom > .container
     :size cover
     :position center center
     :blend-mode luminosity
+
+  a
+    color: lighten($brand-primary, 7%)
+    &:active,&:hover
+      color: $brand-primary
   hr
     border-top: 1px solid rgba(0,0,0,.2)
     border-bottom: 1px solid rgba(255,255,255,.2)
