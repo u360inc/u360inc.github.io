@@ -57,6 +57,10 @@ body, h1, h2, h3, h4, .h1, .h2, .h3, .h4
 
 h1,h2,h3,h4,h5,h6
   margin-top: 2em
+.container .page-header:first-child
+  margin-top: 0
+  h1, .h1, h2, .h2, h3, .h3
+    margin: 0
 
 @media (min-width: 768px) //{}
   body > .container,body > .jumbotron:not(:nth-child(2)) > .container,.navbar--bottom > .container
@@ -93,9 +97,7 @@ dd
 .navbar
   background-color: $color-light
 body > .container,body > .jumbotron,.navbar--bottom > .container
-  :padding
-    :top 60px
-    :bottom 250px
+  padding: 12% 0
 
 .jumbotron
   margin-bottom: 0
@@ -109,15 +111,14 @@ body > .container,body > .jumbotron,.navbar--bottom > .container
   border-radius: initial
   min-height: initial
   :background
-    :size 100% auto
+    :size cover
+    :position center center
     :blend-mode luminosity
-    :repeat no-repeat
   &:nth-child(2)
     :background
       :image url(/img/bg/forest.jpg)
       :blend-mode initial
-    :padding
-      :top 250px
+    padding: 17% 0
   &:nth-child(4)
     background-image: url(/img/bg/skyscrapers.jpg)
     :padding
