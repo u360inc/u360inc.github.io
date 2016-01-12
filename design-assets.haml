@@ -1,12 +1,100 @@
 !!!
 %html(lang='ja')
   %head(prefix='og: http://ogp.me/ns#')
-    %link(href='/bootstrap-v4-43b1300/css/bootstrap.min.css' rel='stylesheet')
+    %meta(charset='utf-8')
+    %title デザインの基本要素とガイドライン | 株式会社U360
+    %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
+
+    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#ie-compatibility-modes
+    %meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#internet-explorer-10-in-windows-phone-8
+    :javascript
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+          document.createTextNode(
+            '@-ms-viewport{width:auto!important}'
+          )
+        )
+        document.querySelector('head').appendChild(msViewportStyle)
+      }
+
+    -#%link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    %link(rel='stylesheet' href='/bootstrap-v3.3.6-customize/css/bootstrap.min.css')
+    %script(src='//code.jquery.com/jquery-1.12.0.min.js')
+    %script(src='/bootstrap-v3.3.6-customize/js/bootstrap.min.js')
+    %link(rel='stylesheet' href='/css/style.css')
+    %link(rel='stylesheet' href='/u360/style.css')
+
+    %meta(name='apple-mobile-web-app-title' content='U360 INC')
+
+    -# http://lealog.hateblo.jp/entry/2015/04/20/234001
+    -# iOS Safari
+    %link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')
+    -# iOS Safari(旧) / Android標準ブラウザ(一部)
+    %link(rel='apple-touch-icon-precomposed' href='/apple-touch-icon.png')
+    -# Android標準ブラウザ(一部)
+    %link(rel='shortcut icon' href='/apple-touch-icon.png')
+    -# Android Chrome
+    %link(rel='icon' sizes='192x192' href='/apple-touch-icon.png')
+
+    %script(src='/js/lazyload-image.js' async)
+
+    -# OGP
+    %meta(property='og:type' content='website')
+    %meta(property='og:title' content='株式会社U360')
+    %meta(itemprop='name' content='株式会社U360')
+    %meta(property='og:site_name' content='株式会社U360')
+    %meta(property='og:url' content='http://u360inc.com/')
+    %meta(property='og:image' content='/apple-touch-icon.png')
+    %link(rel='canonical' href='{{.Permalink}}')
+
+    -# for Chrome on Android Lollipop
+    %meta(name='theme-color' content='#ADE9FD')
+
+    %link(href='{{ .RSSLink }}' rel='alternate' type='application/rss+xml' title='株式会社U360')
+    %link(rel='author' href='https://plus.google.com/105627584664955860899')
+
+    -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
+
   %body
 
-    .jumbotron.jumbotron-fluid
+    %nav.navbar.navbar-default.navbar-static-top
       .container
-        .display-4
+
+        .navbar-header
+          %button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar-collapse')
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand
+            %img(width='22' height='22' alt='株式会社U360' src='/apple-touch-icon.png')
+
+        #navbar-collapse.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a(href='/#news') ニュース
+            %li
+              %a(href='/#about') U360について
+            %li
+              %a(href='/#business') 事業内容
+            %li
+              %a(href='/#member') メンバー紹介
+            %li
+              %a(href='/#company') 会社概要
+            %li
+              %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') 採用情報
+            %li
+              %a(href='/#inquiry') お問い合わせ
+          %form.navbar-form.navbar-right(role='search')
+            .form-group
+              %input.form-control(type='text' placeholder='キーワードを入力')
+            %button.btn.btn-default(type='submit') 検索
+
+    #design-assets.jumbotron.jumbotron-fluid
+      .container
+        .h1
           デザインの基本要素と
           %br
           ガイドライン
@@ -14,7 +102,8 @@
 
     .container
 
-      %h1 U360ロゴ
+      .page-header
+        %h1 U360ロゴ
       %p
         U360ロゴを使用することにより、使用者は
         %a(href='')> U360ロゴガイドライン
@@ -27,7 +116,7 @@
         用途に応じてご利用ください。
         %br
         ※メディア、雑誌などの媒体でご利用になる場合は
-        %a(href='')> こちら
+        %a(href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform' target='_blank')> こちら
         よりご一報くださいますようお願いします。
 
       .row.text-center
@@ -42,7 +131,9 @@
 
       .row
       .text-center
-        %a.btn.btn-primary-outline() ロゴをすべてダウンロード
+        %a.btn.btn-default()
+          %span.icon-download
+          ロゴをすべてダウンロード
 
       %h2 アイソレーション
       %p
@@ -92,7 +183,10 @@
         形状を変更したり、加工したりすることは、シンボルマークの印象を損ないます。
         本ガイドラインを参考にして、間違った使い方をしないでください。
 
-      %h1 公式カラー
+      %p &nbsp;
+
+      .page-header
+        .h1 公式カラー
       %p
         U360の公式カラーには、日本の伝統色である「水色」を採用しています。
         U360は、新しい価値観を作る、クリエイティブな明るいパワー、人をつなぐ、親しみやすさと信頼感の表現するカラーパレットを使用しています。
@@ -111,7 +205,10 @@
           CMYK: 19/3/0/9
 
       .row
-      %h1 フォントスタイル
+      %p &nbsp;
+
+      .page-header
+        .h1 フォントスタイル
 
       %p
         フォントにはHelvetica Neueを使い、黒からグレーの指定色を使用してください。
@@ -163,27 +260,71 @@
           %br
           CMYK: 69/63/62/56
 
-      %h1 ページデザイン
-      %p
-        U360inc.comやU360のページを紹介する際は、次のいずれかの画像を使用してください。
-        すべての画像をまとめてダウンロードし、記事やブログ投稿などに掲載してください。
+      -#%p &nbsp;
 
-      .row
-      .text-center
-        %a.btn.btn-primary-outline() プレス用画像をすべてダウンロード
+      -#.page-header
+      -#  .h1 ページデザイン
+      -#%p
+      -#  U360inc.comやU360のページを紹介する際は、次のいずれかの画像を使用してください。
+      -#  すべての画像をまとめてダウンロードし、記事やブログ投稿などに掲載してください。
 
-      %h1 プレス用画像
-      %p
-        U360のステキな写真をお探しですか？
-        こちらをご覧ください！
-        U360が選んだプレス用画像をダウンロードできます。
-        画像の編集・加工は許可されていません。
+      -#.row
+      -#.text-center
+      -#  %a.btn.btn-default.disabled()
+      -#    %span.icon-download
+      -#    プレス用画像をすべてダウンロード
 
-      .row
-      .text-center
-        %a.btn.btn-primary-outline() すべての画像をダウンロード
+      -#%p &nbsp;
 
-      %h1 法務部門より - 画像の所有権について
+      -#.page-header
+      -#  .h1 プレス用画像
+      -#%p
+      -#  U360のステキな写真をお探しですか？
+      -#  こちらをご覧ください！
+      -#  U360が選んだプレス用画像をダウンロードできます。
+      -#  画像の編集・加工は許可されていません。
+
+      -#.row
+      -#.text-center
+      -#  %a.btn.btn-default.disabled()
+      -#    %span.icon-download
+      -#    すべての画像をダウンロード
+
+      %p &nbsp;
+
+      .page-header
+        .h1 法務部門より - 画像の所有権について
       %p
         画像の所有権はU360が保持しています。
         U360の画像はすべて知的財産権の下に保護されていますので、適切な方法でご利用ください。
+
+    %footer
+      .container
+        %address.pull-left
+          %strong(style='margin-right:1em;') 株式会社U360
+          %br
+          〒141-0031
+          東京都品川区西五反田5-22-5
+          藤ハイムB1F
+        %p.pull-right.text-right
+          %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
+            %span.icon-facebook
+            Facebook
+          %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
+          %br
+          &copy;&nbsp;2014-
+          %span#this-year> 2016
+          &nbsp;U360 CO. LTD.
+
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+
+    :javascript
+      document.getElementById('this-year').textContent = new Date().getFullYear();
