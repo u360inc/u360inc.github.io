@@ -1,0 +1,23 @@
+bg:
+
+beach.jpg
+  http://visualhunt.com/photo/7463/
+building.jpg
+  https://www.flickr.com/photos/pagedooley/2060325146/
+concept.jpg
+  https://picjumbo.com/bottom-view-into-the-treetops/
+forest.jpg
+  http://www.splitshire.com/pine-forest/
+information.jpg
+  https://www.flickr.com/photos/macabrephotographer/8351181923/
+skyscrapers.jpg
+  http://visualhunt.com/photo/5093/
+
+news:
+
+city-1026227_640.jpg
+  https://pixabay.com/en/city-town-light-cityscape-1026227/
+milky-way-1023340_640.jpg
+  https://pixabay.com/en/milky-way-universe-person-stars-1023340/
+model-1007193_640.jpg
+  https://pixabay.com/en/model-girl-fashion-young-style-1007193/
