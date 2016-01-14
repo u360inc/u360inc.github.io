@@ -2,7 +2,7 @@
 ---
 
 [`text`ディレクトリ](https://github.com/u360inc/u360inc.github.io/tree/modifies/text)以下のテキストファイルを編集します。
-ファイルは`haml`形式で記述して、`text`ディレクトリ以下に配置します。
+ファイルは[`haml`形式](http://haml.info/)で記述して、`text`ディレクトリ以下に配置します。
 
 ビルド・ステータス
 ---
