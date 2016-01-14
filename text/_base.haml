@@ -6,20 +6,6 @@
 
     %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
 
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#ie-compatibility-modes
-    %meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#internet-explorer-10-in-windows-phone-8
-    :javascript
-      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-        var msViewportStyle = document.createElement('style')
-        msViewportStyle.appendChild(
-          document.createTextNode(
-            '@-ms-viewport{width:auto!important}'
-          )
-        )
-        document.querySelector('head').appendChild(msViewportStyle)
-      }
-
     -#%link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
     %link(rel='stylesheet' href='/bootstrap-v3.3.6-customize/css/bootstrap.min.css')
     %script(src='//code.jquery.com/jquery-1.12.0.min.js')
