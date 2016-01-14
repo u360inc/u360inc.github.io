@@ -9,7 +9,6 @@ build:
         name: build
         code: |-
           make
-          cd assets && zip -r u360-logo.zip u360-logo
     - script:
         name: copy output
         code: |-

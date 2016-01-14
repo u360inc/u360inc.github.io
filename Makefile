@@ -1,4 +1,4 @@
-all: html css js
+all: html css js assets/u360-logo.zip
 
 NODE_MODULES_BASE=node_modules
 BIN_COFFEE=$(NODE_MODULES_BASE)/.bin/coffee
@@ -39,6 +39,9 @@ html: $(HTML)
 	staticjinja build --srcpath=text
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
+
+assets/u360-logo.zip: $(shell find assets/u360-logo -type f)
+	cd assets && zip -FS -j u360-logo.zip u360-logo
 
 clean:
 	rm $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS)
