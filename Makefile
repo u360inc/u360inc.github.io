@@ -36,6 +36,7 @@ CSS = $(SASS:.sass=.css)
 MINCSS = $(SASS:.sass=.min.css)
 
 html: $(HTML)
+	staticjinja build --srcpath=text
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
