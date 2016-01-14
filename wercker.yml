@@ -6,7 +6,9 @@ build:
         jobs: 4
     - script:
         name: build
-        code: make
+        code: |-
+          make
+          cd assets && zip u360-logo.zip u360-logo
     - script:
         name: copy output
         code: |-
