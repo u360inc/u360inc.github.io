@@ -42,7 +42,7 @@ css: $(MINCSS) $(CSS)
 
 LOGO=$(shell find assets/u360-logo -type f -name "*.png" -or -name "*.svg")
 assets/u360-logo.zip: $(LOGO)
-	cd assets && zip -9DiJor -n png u360-logo.zip $(LOGO)
+	cd assets && zip -9DiJor -n png u360-logo.zip $(subst assets/,,$(LOGO))
 
 clean:
 	rm $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS)
