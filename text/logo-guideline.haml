@@ -1,199 +1,80 @@
-!!!
-%html(lang='ja')
-  %head(prefix='og: http://ogp.me/ns#')
-    %meta(charset='utf-8')
-    %title U360ロゴ利用ガイドライン | 株式会社U360
-    %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
-
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#ie-compatibility-modes
-    %meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#internet-explorer-10-in-windows-phone-8
-    :javascript
-      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-        var msViewportStyle = document.createElement('style')
-        msViewportStyle.appendChild(
-          document.createTextNode(
-            '@-ms-viewport{width:auto!important}'
-          )
-        )
-        document.querySelector('head').appendChild(msViewportStyle)
-      }
-
-    -#%link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
-    %link(rel='stylesheet' href='/bootstrap-v3.3.6-customize/css/bootstrap.min.css')
-    %script(src='//code.jquery.com/jquery-1.12.0.min.js')
-    %script(src='/bootstrap-v3.3.6-customize/js/bootstrap.min.js')
-    %link(rel='stylesheet' href='/css/style.css')
-    %link(rel='stylesheet' href='/u360/style.css')
-
-    %meta(name='apple-mobile-web-app-title' content='U360 INC')
-
-    -# http://lealog.hateblo.jp/entry/2015/04/20/234001
-    -# iOS Safari
-    %link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')
-    -# iOS Safari(旧) / Android標準ブラウザ(一部)
-    %link(rel='apple-touch-icon-precomposed' href='/apple-touch-icon.png')
-    -# Android標準ブラウザ(一部)
-    %link(rel='shortcut icon' href='/apple-touch-icon.png')
-    -# Android Chrome
-    %link(rel='icon' sizes='192x192' href='/apple-touch-icon.png')
-
-    %script(src='/js/lazyload-image.js' async)
-
-    -# OGP
-    %meta(property='og:type' content='website')
-    %meta(property='og:title' content='株式会社U360')
-    %meta(itemprop='name' content='株式会社U360')
-    %meta(property='og:site_name' content='株式会社U360')
-    %meta(property='og:url' content='http://u360inc.com/')
-    %meta(property='og:image' content='/apple-touch-icon.png')
-
-    -# for Chrome on Android Lollipop
-    %meta(name='theme-color' content='#ADE9FD')
-
-    %link(rel='author' href='https://plus.google.com/105627584664955860899')
-
-    -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
-
-  %body
-
-    %nav.navbar.navbar-default.navbar-static-top
-      .container
-
-        .navbar-header
-          %button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar-collapse')
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.navbar-brand
-            %img(width='22' height='22' alt='株式会社U360' src='/apple-touch-icon.png')
-
-        #navbar-collapse.collapse.navbar-collapse
-          %ul.nav.navbar-nav
-            %li
-              %a(href='/#news') ニュース
-            %li
-              %a(href='/#about') U360について
-            %li
-              %a(href='/#business') 事業内容
-            %li
-              %a(href='/#member') メンバー紹介
-            %li
-              %a(href='/#company') 会社概要
-            %li
-              %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') 採用情報
-            %li
-              %a(href='/#inquiry') お問い合わせ
-          %form.navbar-form.navbar-right(role='search')
-            .form-group
-              %input.form-control(type='text' placeholder='キーワードを入力')
-            %button.btn.btn-default(type='submit') 検索
-
-    .container
-      %h1
-        U360ロゴ利用ガイドライン
-      %p U360ロゴ利用ガイドライン（以下「本ガイドライン」といいます）は、株式会社U360（以下「当社」といいます）が提供するU360ロゴ（下記1に定義します）の利用に関し、基本ルールを定めたものです。なお、U360ロゴの利用についてで、ダウンロードできるロゴ、アイソレーションの条件等を記載しておりますので、併せてご確認ください。
-      .page-header
-        .h2
-          1. 定義
-      %p 本ガイドラインで使用する以下の用語は、以下に定める意味を有します。
-      %p (1) 「U360ロゴ」とは、下記の2種類のロゴを個別に又は総称していいます。
-      %p &nbsp;
-      .row
-        .col-xs-6
-          %img(src='/assets/sample-u360-icon.png')
-          U360アイコン
-        .col-xs-6
-          %img(src='/assets/sample-u360-type.png')
-          U360ロゴタイプ
-      %p &nbsp;
-      %p (2) 「外部媒体」とは、当社以外の第三者が管理・運営するウェブサイト、アプリケーション、パッケージメディア、紙媒体、その他の媒体をいいます。
-      %p (3) 「掲載者」とは、外部媒体にU360ロゴを掲載する者をいいます。
-      .page-header
-        .h2
-          2. 本ガイドラインへの同意
-      %p 掲載者は、本ガイドラインに同意することを条件として、U360ロゴをダウンロードのうえ無償で利用できます。
-      .page-header
-        .h2
-          3. 権利帰属
-      %p U360ロゴに関連する一切の権利（著作権、商標権等の知的財産権を含みますが、これらに限りません）は、すべて当社に帰属します。
-      .page-header
-        .h2
-          4. 利用条件
-      %p
-        掲載者は以下の利用条件に従わなければなりません。
-      %p (1) U360ロゴの利用目的は、U360そのものの紹介に限ります。掲載者は、かかる目的以外の目的でU360ロゴを利用してはなりません。
-      %p (2) 掲載者は、U360ロゴの変形、加工、改変を行なってはなりません。また、掲載者は、U360ロゴを文章の一部に使ってはなりません。
-      %p (3) 掲載者は、U360ロゴを、アプリのアイコンやロゴの一部に利用してはなりません。
-      %p (4) 掲載者は、U360ロゴを、プロフィール画像や背景に利用してはなりません。
-      %p (5) 掲載者は、U360ロゴを、U360と関係のないサービスへリンクや転送等に利用してはなりません。
-      %p (6) 掲載者は、U360以外のサービス、製品又は媒体を示すものとして、U360ロゴを利用してはなりません。
-      %p (7) 掲載者は、U360以外のサービス、製品又は媒体がU360と混同・誤認されるおそれのある態様で、U360ロゴを利用してはなりません。
-      %p (8) 掲載者は、U360ロゴの周囲に、イメージを保持するための占有スペース（以下「アイソレーション」といいます）を確保しなければなりません。アイソレーションの範囲内には他の要素を配置することはできません。なお、アイソレーションを確保しても、ロゴの近くに大きさや見え方が強い文字や図形はできる限り表示しないでください。
-      %p (9) 掲載者は、以下に該当する外部媒体にU360ロゴを掲載してはなりません。
-      %p 　① 過度に暴力的な表現、露骨な性的表現、人種、国籍、信条、性別、社会的身分、門地等による差別につながる表現、自殺、自傷行為、薬物乱用を誘引又は助長する表現、その他、反社会的な表現を含む外部媒体。
-      %p 　② 面識のない異性との出会いや交際を目的とする外部媒体。
-      %p 　③ 個人情報又はプライバシー情報を不正に取得する外部媒体。
-      %p 　④ アフィリエイトのみで内容のないもの、特定のウェブサイトへの誘導を目的とするもの、ウェブスクレイピング、ワードサラダ、その他、一般にスパムとみなされる外部媒体。
-      %p 　⑤ 当社又は第三者の著作権、商標権、特許権等の知的財産権、名誉権、プライバシー権、その他法令上又は契約上の権利を侵害する外部媒体。
-      %p 　⑥ その他、当社が不適切と判断する外部媒体。
-      %p (10) 掲載者は、当社が外部媒体を公認又は支持しているとの誤解を招くおそれのある態様で、U360ロゴを利用してはなりません。
-      .page-header
-        .h2
-          5. 掲載者の責任
-      %p (1) 当社は、掲載者が本ガイドラインに違反してU360ロゴを利用していると認めた場合、当該掲載者に対して、U360ロゴの利用停止、その他、当社が必要かつ適切と判断する措置を講じることができるものとします。但し、当社は、かかる違反を防止又は是正する義務を負いません。
-      %p (2) 掲載者は、U360ロゴを利用したことに起因して（当社がかかる利用を原因とするクレームを第三者より受けた場合を含みます）、当社が直接的又は間接的に何らかの損害（弁護士費用の負担を含みます）を被った場合、当社の請求にしたがって直ちにこれを補償しなければなりません。
-      .page-header
-        .h2
-          6. 非保証・免責
-      %p (1) 当社は、U360ロゴに事実上又は法律上の瑕疵（安全性、信頼性、正確性、完全性、有効性、特定の目的への適合性、セキュリティなどに関する欠陥、エラーやバグ、権利侵害などを含みます）がないことを明示的にも黙示的にも保証しておりません。当社は、かかる瑕疵を除去してU360ロゴを提供する義務を負いません。
-      %p (2) 当社は、U360ロゴに起因して掲載者に生じたあらゆる損害について一切の責任を負いません。
-      .page-header
-        .h2
-          7. 本ガイドラインの変更
-      %p 当社は、当社が必要と判断する場合、あらかじめ通知することなく、いつでも、本ガイドラインを変更できます。変更後の本ガイドラインは、当社が運営するウェブサイト内の適宜の場所に掲示された時点からその効力を生じるものとし、掲載者は変更後もU360ロゴを利用し続けることにより、変更後の本ガイドラインに同意したものとみなされます。
-      .page-header
-        .h2
-          8. 準拠法・管轄
-      %p 本ガイドラインは日本語を正文とし、その準拠法は日本法とします。U360ロゴに起因又は関連して掲載者と当社との間に生じた紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。
-      .page-header
-        .h2
-          9. お問い合わせ
-      %p
-        本ガイドラインで許可された方法以外の方法でU360ロゴの利用を希望される場合は、
-        %a(href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform' target='_blank')> こちら
-        からお問い合わせください。
-      %dl.dl-horizontal
-        %dd.pull-right 2016年1月14日 制定
-
-    %footer
-      .container
-        %address.pull-left
-          %strong(style='margin-right:1em;') 株式会社U360
-          %br
-          〒141-0031
-          東京都品川区西五反田5-22-5
-          藤ハイムB1F
-        %p.pull-right.text-right
-          %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
-            %span.icon-facebook
-            Facebook
-          %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
-          %br
-          &copy;&nbsp;2014-
-          %span#this-year> 2016
-          &nbsp;U360 CO. LTD.
-
-    :javascript
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-12345678-1', 'auto');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
-    :javascript
-      document.getElementById('this-year').textContent = new Date().getFullYear();
+{% extends '_base.html' %}
+{% block title %}U360ロゴ利用ガイドライン{% endblock %}
+{% block content %}
+.container
+  %h1
+    U360ロゴ利用ガイドライン
+  %p U360ロゴ利用ガイドライン（以下「本ガイドライン」といいます）は、株式会社U360（以下「当社」といいます）が提供するU360ロゴ（下記1に定義します）の利用に関し、基本ルールを定めたものです。なお、U360ロゴの利用についてで、ダウンロードできるロゴ、アイソレーションの条件等を記載しておりますので、併せてご確認ください。
+  .page-header
+    .h2
+      1. 定義
+  %p 本ガイドラインで使用する以下の用語は、以下に定める意味を有します。
+  %p (1) 「U360ロゴ」とは、下記の2種類のロゴを個別に又は総称していいます。
+  %p &nbsp;
+  .row
+    .col-xs-6
+      %img(src='/assets/sample-u360-icon.png')
+      U360アイコン
+    .col-xs-6
+      %img(src='/assets/sample-u360-type.png')
+      U360ロゴタイプ
+  %p &nbsp;
+  %p (2) 「外部媒体」とは、当社以外の第三者が管理・運営するウェブサイト、アプリケーション、パッケージメディア、紙媒体、その他の媒体をいいます。
+  %p (3) 「掲載者」とは、外部媒体にU360ロゴを掲載する者をいいます。
+  .page-header
+    .h2
+      2. 本ガイドラインへの同意
+  %p 掲載者は、本ガイドラインに同意することを条件として、U360ロゴをダウンロードのうえ無償で利用できます。
+  .page-header
+    .h2
+      3. 権利帰属
+  %p U360ロゴに関連する一切の権利（著作権、商標権等の知的財産権を含みますが、これらに限りません）は、すべて当社に帰属します。
+  .page-header
+    .h2
+      4. 利用条件
+  %p
+    掲載者は以下の利用条件に従わなければなりません。
+  %p (1) U360ロゴの利用目的は、U360そのものの紹介に限ります。掲載者は、かかる目的以外の目的でU360ロゴを利用してはなりません。
+  %p (2) 掲載者は、U360ロゴの変形、加工、改変を行なってはなりません。また、掲載者は、U360ロゴを文章の一部に使ってはなりません。
+  %p (3) 掲載者は、U360ロゴを、アプリのアイコンやロゴの一部に利用してはなりません。
+  %p (4) 掲載者は、U360ロゴを、プロフィール画像や背景に利用してはなりません。
+  %p (5) 掲載者は、U360ロゴを、U360と関係のないサービスへリンクや転送等に利用してはなりません。
+  %p (6) 掲載者は、U360以外のサービス、製品又は媒体を示すものとして、U360ロゴを利用してはなりません。
+  %p (7) 掲載者は、U360以外のサービス、製品又は媒体がU360と混同・誤認されるおそれのある態様で、U360ロゴを利用してはなりません。
+  %p (8) 掲載者は、U360ロゴの周囲に、イメージを保持するための占有スペース（以下「アイソレーション」といいます）を確保しなければなりません。アイソレーションの範囲内には他の要素を配置することはできません。なお、アイソレーションを確保しても、ロゴの近くに大きさや見え方が強い文字や図形はできる限り表示しないでください。
+  %p (9) 掲載者は、以下に該当する外部媒体にU360ロゴを掲載してはなりません。
+  %p 　① 過度に暴力的な表現、露骨な性的表現、人種、国籍、信条、性別、社会的身分、門地等による差別につながる表現、自殺、自傷行為、薬物乱用を誘引又は助長する表現、その他、反社会的な表現を含む外部媒体。
+  %p 　② 面識のない異性との出会いや交際を目的とする外部媒体。
+  %p 　③ 個人情報又はプライバシー情報を不正に取得する外部媒体。
+  %p 　④ アフィリエイトのみで内容のないもの、特定のウェブサイトへの誘導を目的とするもの、ウェブスクレイピング、ワードサラダ、その他、一般にスパムとみなされる外部媒体。
+  %p 　⑤ 当社又は第三者の著作権、商標権、特許権等の知的財産権、名誉権、プライバシー権、その他法令上又は契約上の権利を侵害する外部媒体。
+  %p 　⑥ その他、当社が不適切と判断する外部媒体。
+  %p (10) 掲載者は、当社が外部媒体を公認又は支持しているとの誤解を招くおそれのある態様で、U360ロゴを利用してはなりません。
+  .page-header
+    .h2
+      5. 掲載者の責任
+  %p (1) 当社は、掲載者が本ガイドラインに違反してU360ロゴを利用していると認めた場合、当該掲載者に対して、U360ロゴの利用停止、その他、当社が必要かつ適切と判断する措置を講じることができるものとします。但し、当社は、かかる違反を防止又は是正する義務を負いません。
+  %p (2) 掲載者は、U360ロゴを利用したことに起因して（当社がかかる利用を原因とするクレームを第三者より受けた場合を含みます）、当社が直接的又は間接的に何らかの損害（弁護士費用の負担を含みます）を被った場合、当社の請求にしたがって直ちにこれを補償しなければなりません。
+  .page-header
+    .h2
+      6. 非保証・免責
+  %p (1) 当社は、U360ロゴに事実上又は法律上の瑕疵（安全性、信頼性、正確性、完全性、有効性、特定の目的への適合性、セキュリティなどに関する欠陥、エラーやバグ、権利侵害などを含みます）がないことを明示的にも黙示的にも保証しておりません。当社は、かかる瑕疵を除去してU360ロゴを提供する義務を負いません。
+  %p (2) 当社は、U360ロゴに起因して掲載者に生じたあらゆる損害について一切の責任を負いません。
+  .page-header
+    .h2
+      7. 本ガイドラインの変更
+  %p 当社は、当社が必要と判断する場合、あらかじめ通知することなく、いつでも、本ガイドラインを変更できます。変更後の本ガイドラインは、当社が運営するウェブサイト内の適宜の場所に掲示された時点からその効力を生じるものとし、掲載者は変更後もU360ロゴを利用し続けることにより、変更後の本ガイドラインに同意したものとみなされます。
+  .page-header
+    .h2
+      8. 準拠法・管轄
+  %p 本ガイドラインは日本語を正文とし、その準拠法は日本法とします。U360ロゴに起因又は関連して掲載者と当社との間に生じた紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。
+  .page-header
+    .h2
+      9. お問い合わせ
+  %p
+    本ガイドラインで許可された方法以外の方法でU360ロゴの利用を希望される場合は、
+    %a(href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform' target='_blank')> こちら
+    からお問い合わせください。
+  %dl.dl-horizontal
+    %dd.pull-right 2016年1月14日 制定
+{% endblock %}

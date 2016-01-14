@@ -1,336 +1,217 @@
-!!!
-%html(lang='ja')
-  %head(prefix='og: http://ogp.me/ns#')
-    %meta(charset='utf-8')
-    %title デザインの基本要素とガイドライン | 株式会社U360
-    %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
+{% extends '_base.html' %}
+{% block title %}デザインの基本要素とガイドライン{% endblock %}
+{% block content %}
+#design-assets.jumbotron.jumbotron-fluid
+  .container
+    .h1
+      デザインの基本要素と
+      %br
+      ガイドライン
+    %p.lead U360のブランド情報の使用方法についてご案内します。
 
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#ie-compatibility-modes
-    %meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    -# http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#internet-explorer-10-in-windows-phone-8
-    :javascript
-      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-        var msViewportStyle = document.createElement('style')
-        msViewportStyle.appendChild(
-          document.createTextNode(
-            '@-ms-viewport{width:auto!important}'
-          )
-        )
-        document.querySelector('head').appendChild(msViewportStyle)
-      }
+.container
 
-    -#%link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
-    %link(rel='stylesheet' href='/bootstrap-v3.3.6-customize/css/bootstrap.min.css')
-    %script(src='//code.jquery.com/jquery-1.12.0.min.js')
-    %script(src='/bootstrap-v3.3.6-customize/js/bootstrap.min.js')
-    %link(rel='stylesheet' href='/css/style.css')
-    %link(rel='stylesheet' href='/u360/style.css')
+  .page-header
+    %h1 U360ロゴ
+  %p
+    U360ロゴを使用することにより、使用者は
+    %a(href='/logo-guideline.html')> U360ロゴガイドライン
+    に同意したものと見なされます。
+    必ずご確認の上、ご利用ください。
 
-    %meta(name='apple-mobile-web-app-title' content='U360 INC')
+  %h2 ダウンロード
+  %p
+    ロゴファイルには、基本ロゴ、2色ロゴ、モノクロ印刷用ロゴが含まれています。
+    用途に応じてご利用ください。
+    %br
+    ※メディア、雑誌などの媒体でご利用になる場合は
+    %a(href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform' target='_blank')> こちら
+    よりご一報くださいますようお願いします。
 
-    -# http://lealog.hateblo.jp/entry/2015/04/20/234001
-    -# iOS Safari
-    %link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')
-    -# iOS Safari(旧) / Android標準ブラウザ(一部)
-    %link(rel='apple-touch-icon-precomposed' href='/apple-touch-icon.png')
-    -# Android標準ブラウザ(一部)
-    %link(rel='shortcut icon' href='/apple-touch-icon.png')
-    -# Android Chrome
-    %link(rel='icon' sizes='192x192' href='/apple-touch-icon.png')
+  .row.text-center
+    .col-xs-6
+      %img(src='/assets/sample-u360-icon.png')
+      .h4 U360アイコン
+      %samp PNG・SVG
+    .col-xs-6
+      %img(src='/assets/sample-u360-type.png')
+      .h4 U360ロゴタイプ
+      %samp PNG・SVG
 
-    %script(src='/js/lazyload-image.js' async)
+  .row.text-center
+    %a.btn.btn-default(href='/assets/u360-logo.zip')
+      %span.icon-download
+      ロゴをすべてダウンロード
 
-    -# OGP
-    %meta(property='og:type' content='website')
-    %meta(property='og:title' content='株式会社U360')
-    %meta(itemprop='name' content='株式会社U360')
-    %meta(property='og:site_name' content='株式会社U360')
-    %meta(property='og:url' content='http://u360inc.com/')
-    %meta(property='og:image' content='/apple-touch-icon.png')
+  %h2 アイソレーション
+  %p
+    ロゴマークは、利用者が自由にサイズを変更して利用できます。
+    視認性を保つために、ロゴの周りには白地による占有スペース（アイソレーション）が必要です。
+    上下左右に幅Aに対応するスペースを取り、この範囲内にはいかなる要素も配置できません。
+    なお、アイソレーションを確保していても、ロゴの印象を損ねるような目立つ要素の近くには、ロゴを配置できません。
 
-    -# for Chrome on Android Lollipop
-    %meta(name='theme-color' content='#ADE9FD')
+  %p &nbsp;
+  .row.text-center
+    .col-xs-12.col-sm-6.media
+      %img.media-middle(src='/assets/guideline-u360-icon.png')
+      .h4 U360アイコン
+    .col-xs-12.col-sm-6.media
+      %img.media-middle(src='/assets/guideline-u360-type.png')
+      .h4 U360ロゴタイプ
 
-    %link(rel='author' href='https://plus.google.com/105627584664955860899')
+  %h2 背景透過ロゴと背景の組合せ
+  %p
+    背景透過タイプのロゴについては、視認性を保った範囲にて背景に自由な色や画像を設定できます。
 
-    -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
+  %h2 すべきこと
+  %ul
+    %li ここで提供されている改変されていないロゴを使用する
+    %li ダウンロードしたファイル内の規定の色で使用する。
 
-  %body
+  %h2 禁止事項
+  %ul
+    %li ロゴを変形・加工すること。
+    %li ロゴを文章の一部として扱うこと。
+    %li ロゴをアプリのアイコンやロゴの一部に使用すること。
+    %li ロゴをプロフィール画像や背景に使用すること。
+    %li ロゴを用いてU360と関係のないサービスへリンクや転送などを行うこと。
+    %li ロゴをU360の別サービスと混同させるように使用すること。
+    %li ロゴを自身の運営するサイト、サービスのロゴよりも大きく表示すること。
 
-    %nav.navbar.navbar-default.navbar-static-top
-      .container
+  %h3 変形・加工の禁止
+  %p
+    次のような、形状の変更や加工は、禁止しています。
+  %ul
+    %li 長体をかける
+    %li 平体をかける
+    %li パースをかける
+    %li 回転させる
+    %li 複数同時に使用する
+    %li 立体化する
+    %li 色を変える
+    %li 文章の一部に使う
+  %p
+    形状を変更したり、加工したりすることは、シンボルマークの印象を損ないます。
+    本ガイドラインを参考にして、間違った使い方をしないでください。
 
-        .navbar-header
-          %button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar-collapse')
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.navbar-brand
-            %img(width='22' height='22' alt='株式会社U360' src='/apple-touch-icon.png')
+  %p &nbsp;
 
-        #navbar-collapse.collapse.navbar-collapse
-          %ul.nav.navbar-nav
-            %li
-              %a(href='/#news') ニュース
-            %li
-              %a(href='/#about') U360について
-            %li
-              %a(href='/#business') 事業内容
-            %li
-              %a(href='/#member') メンバー紹介
-            %li
-              %a(href='/#company') 会社概要
-            %li
-              %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') 採用情報
-            %li
-              %a(href='/#inquiry') お問い合わせ
-          %form.navbar-form.navbar-right(role='search')
-            .form-group
-              %input.form-control(type='text' placeholder='キーワードを入力')
-            %button.btn.btn-default(type='submit') 検索
+  .page-header
+    .h1 公式カラー
+  %p
+    U360の公式カラーには、日本の伝統色である「水色」を採用しています。
+    U360は、新しい価値観を作る、クリエイティブな明るいパワー、人をつなぐ、親しみやすさと信頼感の表現するカラーパレットを使用しています。
+  %p
+    HEXコードをコピーしてご自由にお使いください。
 
-    #design-assets.jumbotron.jumbotron-fluid
-      .container
-        .h1
-          デザインの基本要素と
-          %br
-          ガイドライン
-        %p.lead U360のブランド情報の使用方法についてご案内します。
+  %p &nbsp;
+  .row
+  .col-xs-12.col-md-offset-4.col-md-4
+    .img-circle(style='background-color:#BCE2E8;height:150px;width:150px')
+    .h4 U360ブルー
+    %samp
+      HEX: #BCE2E8
+      %br
+      RGB: 188/226/232
+      %br
+      CMYK: 19/3/0/9
 
-    .container
+  .row
+  %p &nbsp;
 
-      .page-header
-        %h1 U360ロゴ
-      %p
-        U360ロゴを使用することにより、使用者は
-        %a(href='/logo-guideline.html')> U360ロゴガイドライン
-        に同意したものと見なされます。
-        必ずご確認の上、ご利用ください。
+  .page-header
+    .h1 フォントスタイル
 
-      %h2 ダウンロード
-      %p
-        ロゴファイルには、基本ロゴ、2色ロゴ、モノクロ印刷用ロゴが含まれています。
-        用途に応じてご利用ください。
-        %br
-        ※メディア、雑誌などの媒体でご利用になる場合は
-        %a(href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform' target='_blank')> こちら
-        よりご一報くださいますようお願いします。
+  %p
+    フォントにはHelvetica Neueを使い、黒からグレーの指定色を使用してください。
+    読みやすさを追求した最高の組み合わせです。
+    フォントと色のガイドをご覧ください。
 
-      .row.text-center
-        .col-xs-6
-          %img(src='/assets/sample-u360-icon.png')
-          .h4 U360アイコン
-          %samp PNG・SVG
-        .col-xs-6
-          %img(src='/assets/sample-u360-type.png')
-          .h4 U360ロゴタイプ
-          %samp PNG・SVG
+  %p &nbsp;
+  .row
+  .col-xs-12.col-md-3
+    .img-circle(style='background-color:#929292;height:150px;width:150px')
+    %samp
+      HEX: #929292
+      %br
+      RGB: 146/146/146
+      %br
+      BLACK: 43% 0.43
+      %br
+      CMYK: 45/37/38/2
+    %p &nbsp;
 
-      .row.text-center
-        %a.btn.btn-default(href='/assets/u360-logo.zip')
-          %span.icon-download
-          ロゴをすべてダウンロード
+  .col-xs-12.col-md-3
+    .img-circle(style='background-color:#777777;height:150px;width:150px')
+    %samp
+      HEX: #777777
+      %br
+      RGB: 119/119/119
+      %br
+      BLACK: 54% 0.54
+      %br
+      CMYK: 55/46/46/11
+    %p &nbsp;
 
-      %h2 アイソレーション
-      %p
-        ロゴマークは、利用者が自由にサイズを変更して利用できます。
-        視認性を保つために、ロゴの周りには白地による占有スペース（アイソレーション）が必要です。
-        上下左右に幅Aに対応するスペースを取り、この範囲内にはいかなる要素も配置できません。
-        なお、アイソレーションを確保していても、ロゴの印象を損ねるような目立つ要素の近くには、ロゴを配置できません。
+  .col-xs-12.col-md-3
+    .img-circle(style='background-color:#555555;height:150px;width:150px')
+    %samp
+      HEX: #555555
+      %br
+      RGB: 85/85/85
+      %br
+      BLACK: 67% 0.67
+      %br
+      CMYK: 64/56/55/31
+    %p &nbsp;
 
-      %p &nbsp;
-      .row.text-center
-        .col-xs-12.col-sm-6.media
-          %img.media-middle(src='/assets/guideline-u360-icon.png')
-          .h4 U360アイコン
-        .col-xs-12.col-sm-6.media
-          %img.media-middle(src='/assets/guideline-u360-type.png')
-          .h4 U360ロゴタイプ
+  .col-xs-12.col-md-3
+    .img-circle(style='background-color:#333333;height:150px;width:150px')
+    %samp
+      HEX: #333333
+      %br
+      RGB: 51/51/51
+      %br
+      BLACK: 87% 0.87
+      %br
+      CMYK: 69/63/62/56
+    %p &nbsp;
 
-      %h2 背景透過ロゴと背景の組合せ
-      %p
-        背景透過タイプのロゴについては、視認性を保った範囲にて背景に自由な色や画像を設定できます。
+  -#%p &nbsp;
 
-      %h2 すべきこと
-      %ul
-        %li ここで提供されている改変されていないロゴを使用する
-        %li ダウンロードしたファイル内の規定の色で使用する。
+  -#.page-header
+  -#  .h1 ページデザイン
+  -#%p
+  -#  U360inc.comやU360のページを紹介する際は、次のいずれかの画像を使用してください。
+  -#  すべての画像をまとめてダウンロードし、記事やブログ投稿などに掲載してください。
 
-      %h2 禁止事項
-      %ul
-        %li ロゴを変形・加工すること。
-        %li ロゴを文章の一部として扱うこと。
-        %li ロゴをアプリのアイコンやロゴの一部に使用すること。
-        %li ロゴをプロフィール画像や背景に使用すること。
-        %li ロゴを用いてU360と関係のないサービスへリンクや転送などを行うこと。
-        %li ロゴをU360の別サービスと混同させるように使用すること。
-        %li ロゴを自身の運営するサイト、サービスのロゴよりも大きく表示すること。
+  -#.row
+  -#.text-center
+  -#  %a.btn.btn-default.disabled()
+  -#    %span.icon-download
+  -#    プレス用画像をすべてダウンロード
 
-      %h3 変形・加工の禁止
-      %p
-        次のような、形状の変更や加工は、禁止しています。
-      %ul
-        %li 長体をかける
-        %li 平体をかける
-        %li パースをかける
-        %li 回転させる
-        %li 複数同時に使用する
-        %li 立体化する
-        %li 色を変える
-        %li 文章の一部に使う
-      %p
-        形状を変更したり、加工したりすることは、シンボルマークの印象を損ないます。
-        本ガイドラインを参考にして、間違った使い方をしないでください。
+  -#%p &nbsp;
 
-      %p &nbsp;
+  -#.page-header
+  -#  .h1 プレス用画像
+  -#%p
+  -#  U360のステキな写真をお探しですか？
+  -#  こちらをご覧ください！
+  -#  U360が選んだプレス用画像をダウンロードできます。
+  -#  画像の編集・加工は許可されていません。
 
-      .page-header
-        .h1 公式カラー
-      %p
-        U360の公式カラーには、日本の伝統色である「水色」を採用しています。
-        U360は、新しい価値観を作る、クリエイティブな明るいパワー、人をつなぐ、親しみやすさと信頼感の表現するカラーパレットを使用しています。
-      %p
-        HEXコードをコピーしてご自由にお使いください。
+  -#.row
+  -#.text-center
+  -#  %a.btn.btn-default.disabled()
+  -#    %span.icon-download
+  -#    すべての画像をダウンロード
 
-      %p &nbsp;
-      .row
-      .col-xs-12.col-md-offset-4.col-md-4
-        .img-circle(style='background-color:#BCE2E8;height:150px;width:150px')
-        .h4 U360ブルー
-        %samp
-          HEX: #BCE2E8
-          %br
-          RGB: 188/226/232
-          %br
-          CMYK: 19/3/0/9
+  %p &nbsp;
 
-      .row
-      %p &nbsp;
-
-      .page-header
-        .h1 フォントスタイル
-
-      %p
-        フォントにはHelvetica Neueを使い、黒からグレーの指定色を使用してください。
-        読みやすさを追求した最高の組み合わせです。
-        フォントと色のガイドをご覧ください。
-
-      %p &nbsp;
-      .row
-      .col-xs-12.col-md-3
-        .img-circle(style='background-color:#929292;height:150px;width:150px')
-        %samp
-          HEX: #929292
-          %br
-          RGB: 146/146/146
-          %br
-          BLACK: 43% 0.43
-          %br
-          CMYK: 45/37/38/2
-        %p &nbsp;
-
-      .col-xs-12.col-md-3
-        .img-circle(style='background-color:#777777;height:150px;width:150px')
-        %samp
-          HEX: #777777
-          %br
-          RGB: 119/119/119
-          %br
-          BLACK: 54% 0.54
-          %br
-          CMYK: 55/46/46/11
-        %p &nbsp;
-
-      .col-xs-12.col-md-3
-        .img-circle(style='background-color:#555555;height:150px;width:150px')
-        %samp
-          HEX: #555555
-          %br
-          RGB: 85/85/85
-          %br
-          BLACK: 67% 0.67
-          %br
-          CMYK: 64/56/55/31
-        %p &nbsp;
-
-      .col-xs-12.col-md-3
-        .img-circle(style='background-color:#333333;height:150px;width:150px')
-        %samp
-          HEX: #333333
-          %br
-          RGB: 51/51/51
-          %br
-          BLACK: 87% 0.87
-          %br
-          CMYK: 69/63/62/56
-        %p &nbsp;
-
-      -#%p &nbsp;
-
-      -#.page-header
-      -#  .h1 ページデザイン
-      -#%p
-      -#  U360inc.comやU360のページを紹介する際は、次のいずれかの画像を使用してください。
-      -#  すべての画像をまとめてダウンロードし、記事やブログ投稿などに掲載してください。
-
-      -#.row
-      -#.text-center
-      -#  %a.btn.btn-default.disabled()
-      -#    %span.icon-download
-      -#    プレス用画像をすべてダウンロード
-
-      -#%p &nbsp;
-
-      -#.page-header
-      -#  .h1 プレス用画像
-      -#%p
-      -#  U360のステキな写真をお探しですか？
-      -#  こちらをご覧ください！
-      -#  U360が選んだプレス用画像をダウンロードできます。
-      -#  画像の編集・加工は許可されていません。
-
-      -#.row
-      -#.text-center
-      -#  %a.btn.btn-default.disabled()
-      -#    %span.icon-download
-      -#    すべての画像をダウンロード
-
-      %p &nbsp;
-
-      .page-header
-        .h1 法務部門より - 画像の所有権について
-      %p
-        画像の所有権はU360が保持しています。
-        U360の画像はすべて知的財産権の下に保護されていますので、適切な方法でご利用ください。
-
-    %footer
-      .container
-        %address.pull-left
-          %strong(style='margin-right:1em;') 株式会社U360
-          %br
-          〒141-0031
-          東京都品川区西五反田5-22-5
-          藤ハイムB1F
-        %p.pull-right.text-right
-          %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
-            %span.icon-facebook
-            Facebook
-          %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
-          %br
-          &copy;&nbsp;2014-
-          %span#this-year> 2016
-          &nbsp;U360 CO. LTD.
-
-    :javascript
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-12345678-1', 'auto');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
-    :javascript
-      document.getElementById('this-year').textContent = new Date().getFullYear();
+  .page-header
+    .h1 法務部門より - 画像の所有権について
+  %p
+    画像の所有権はU360が保持しています。
+    U360の画像はすべて知的財産権の下に保護されていますので、適切な方法でご利用ください。
+{% endblock %}
