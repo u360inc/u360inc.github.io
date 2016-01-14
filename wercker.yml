@@ -4,6 +4,7 @@ build:
     - bundle-install:
         binstubs: true
         jobs: 4
+    - pip-install
     - script:
         name: build
         code: |-

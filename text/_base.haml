@@ -1,0 +1,111 @@
+!!!
+%html(lang='ja')
+  %head(prefix='og: http://ogp.me/ns#')
+    %meta(charset='utf-8')
+    %title {% block title %}{% endblock %} | 株式会社U360
+
+    %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
+
+    -#%link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    %link(rel='stylesheet' href='/bootstrap-v3.3.6-customize/css/bootstrap.min.css')
+    %script(src='//code.jquery.com/jquery-1.12.0.min.js')
+    %script(src='/bootstrap-v3.3.6-customize/js/bootstrap.min.js')
+    %link(rel='stylesheet' href='/css/style.css')
+    %link(rel='stylesheet' href='/u360/style.css')
+
+    %meta(name='apple-mobile-web-app-title' content='U360 INC')
+
+    -# http://lealog.hateblo.jp/entry/2015/04/20/234001
+    -# iOS Safari
+    %link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')
+    -# iOS Safari(旧) / Android標準ブラウザ(一部)
+    %link(rel='apple-touch-icon-precomposed' href='/apple-touch-icon.png')
+    -# Android標準ブラウザ(一部)
+    %link(rel='shortcut icon' href='/apple-touch-icon.png')
+    -# Android Chrome
+    %link(rel='icon' sizes='192x192' href='/apple-touch-icon.png')
+
+    %script(src='/js/lazyload-image.js' async)
+
+    -# OGP
+    %meta(property='og:type' content='website')
+    %meta(property='og:title' content='株式会社U360')
+    %meta(itemprop='name' content='株式会社U360')
+    %meta(property='og:site_name' content='株式会社U360')
+    %meta(property='og:url' content='http://u360inc.com/')
+    %meta(property='og:image' content='/apple-touch-icon.png')
+
+    -# for Chrome on Android Lollipop
+    %meta(name='theme-color' content='#ADE9FD')
+
+    %link(rel='author' href='https://plus.google.com/105627584664955860899')
+
+    -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
+
+  %body
+
+    %nav.navbar.navbar-default.navbar-static-top
+      .container
+
+        .navbar-header
+          %button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar-collapse')
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand
+            %img(width='22' height='22' alt='株式会社U360' src='/apple-touch-icon.png')
+
+        #navbar-collapse.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a(href='/#news') ニュース
+            %li
+              %a(href='/#about') U360について
+            %li
+              %a(href='/#business') 事業内容
+            %li
+              %a(href='/#member') メンバー紹介
+            %li
+              %a(href='/#company') 会社概要
+            %li
+              %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') 採用情報
+            %li
+              %a(href='/#inquiry') お問い合わせ
+          %form.navbar-form.navbar-right(role='search')
+            .form-group
+              %input.form-control(type='text' placeholder='キーワードを入力')
+            %button.btn.btn-default(type='submit') 検索
+
+    {% block content %}{% endblock %}
+
+    %footer
+      .container
+        %address.pull-left
+          %strong(style='margin-right:1em;') 株式会社U360
+          %br
+          〒141-0031
+          東京都品川区西五反田5-22-5
+          藤ハイムB1F
+        %p.pull-right.text-right
+          %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
+            %span.icon-facebook
+            Facebook
+          %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
+          %br
+          &copy;&nbsp;2014-
+          %span#this-year> 2016
+          &nbsp;U360 CO. LTD.
+
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+
+    :javascript
+      document.getElementById('this-year').textContent = new Date().getFullYear();

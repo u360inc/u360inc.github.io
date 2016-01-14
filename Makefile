@@ -11,7 +11,7 @@ CSS_DIR=css
 .SUFFIXES: .haml .html
 .haml.html:
 	bundle exec haml -f html5 -t ugly $< $@
-HAML = $(shell find . -name "*.haml")
+HAML = $(shell find text -name "*.haml")
 HTML = $(HAML:.haml=.html)
 
 .SUFFIXES: .coffee .js
@@ -36,6 +36,7 @@ CSS = $(SASS:.sass=.css)
 MINCSS = $(SASS:.sass=.min.css)
 
 html: $(HTML)
+	staticjinja build --srcpath=text
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
