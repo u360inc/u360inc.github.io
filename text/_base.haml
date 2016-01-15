@@ -1,4 +1,5 @@
 !!!
+{% import '_variable.html' as var with context %}
 %html(lang='ja')
   %head(prefix='og: http://ogp.me/ns#')
     %meta(charset='utf-8')
@@ -42,6 +43,18 @@
 
     -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
 
+    :coffee
+      window._loadScript = ((d, id, src) ->
+        if d.getElementById(id) isnt null
+          return
+        e = d.createElement('script')
+        e.id = id
+        e.src = src
+        e.async = true
+        (d.getElementsByTagName('head')[0] or d.getElementsByTagName('body')[0]).appendChild(e)
+        return
+      ).bind(null, document)
+
   %body
 
     %nav.navbar.navbar-default.navbar-static-top
@@ -72,13 +85,48 @@
               %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') 採用情報
             %li
               %a(href='/#inquiry') お問い合わせ
-          %form.navbar-form.navbar-right(role='search')
+
+          {% if var.gcse_cx %}
+          %form#cse-search-box.navbar-form.navbar-right(name='cse' role='search' action='//cse.google.com/cse/home' target='_blank' accept-charset='utf-8')
             .form-group
-              %input.form-control(type='text' placeholder='キーワードを入力')
-            %button.btn.btn-default(type='submit') 検索
+              %input#q.form-control(name='q' type='text' placeholder='キーワードを入力' autocomplete='off' x-webkit-speech='' spellcheck='false' required onfocus='_loadCse()')
+            %button#search-button.btn.btn-default(name='sa' type='submit' onClick='return _cse()') 検索
+            %input(name='cx' type='hidden' value='{{gcse_cx}}')
+          :coffee
+            _loadCse = window._loadCse or = ->
+              _loadScript('_loadCse', '//cse.google.com/cse.js?cx={{var.gcse_cx}}')
+              return
+            setTimeout(_loadCse, 10000)
+            _cse = window._cse or = ->
+              cse.q.blur()
+              gsc = document.getElementById('gsc-i-id1')
+              if gsc is null
+                return true
+              gsc.value = cse.q.value
+              document.querySelector('input.gsc-search-button').click()
+              cse.reset()
+              return false
+          -# http://www.am22tech.com/google-custom-search-input-box-conflicting-bootstrap-css/
+          :sass
+            input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
+              box-sizing: content-box
+              line-height: normal
+          :sass
+            .gsc-selected-option
+              white-space: nowrap
+            @media (max-width: 767px) //{}
+              .gsc-results-wrapper-overlay
+                left: 3%
+                top: 2%
+                width: 94%
+                height: 96%
+                padding: 30px 15px 15px
+          {% endif %}
 
     {% block content %}{% endblock %}
 
+    -# Google Custom Search
+    %gcse:search
     %footer
       .container
         %address.pull-left
