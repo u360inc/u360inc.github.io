@@ -29,12 +29,10 @@
     %script(src='/js/lazyload-image.js' async)
 
     -# OGP
-    %meta(property='og:type' content='website')
-    %meta(property='og:title' content='株式会社U360')
+    %meta(property='og:type' content='{%if index%}website{%else%}article{%endif%}')
+    %meta(property='og:title' content='{{title}}')
     %meta(itemprop='name' content='株式会社U360')
     %meta(property='og:site_name' content='株式会社U360')
-    %meta(property='og:url' content='http://u360inc.com/')
-    %meta(property='og:image' content='/apple-touch-icon.png')
 
     -# for Chrome on Android Lollipop
     %meta(name='theme-color' content='#ADE9FD')
