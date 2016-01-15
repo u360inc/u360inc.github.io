@@ -4,6 +4,11 @@
 [`text`ディレクトリ](https://github.com/u360inc/u360inc.github.io/tree/modifies/text)以下のテキストファイルを編集します。
 ファイルは[`haml`形式](http://haml.info/)で記述して、`text`ディレクトリ以下に配置します。
 
+変数を編集する
+---
+
+[`text/_variable.haml`](https://github.com/u360inc/u360inc.github.io/blob/modifies/text/_variable.haml)に定義されている変数の値を編集します。
+
 ビルド・ステータス
 ---
 
