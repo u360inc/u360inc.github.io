@@ -20,8 +20,8 @@
    viewBox="0 0 100 99.999996"
    sodipodi:docname="u360-master.svg"
    inkscape:export-filename="/Users/endoh/Downloads/sample-u360-logo.png"
-   inkscape:export-xdpi="562.5"
-   inkscape:export-ydpi="562.5"
+   inkscape:export-xdpi="49.5"
+   inkscape:export-ydpi="49.5"
    enable-background="new"><metadata
      id="metadata3396"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -128,12 +128,12 @@
      id="namedview3392"
      showgrid="false"
      inkscape:zoom="10"
-     inkscape:cx="45.168051"
+     inkscape:cx="28.918051"
      inkscape:cy="50.955819"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4301"
+     inkscape:current-layer="svg3390"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -180,7 +180,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="--check--"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true" /><g
      style="display:none"
      inkscape:label="box white"
@@ -233,7 +233,7 @@
      inkscape:label="u icon shadow"
      inkscape:groupmode="layer"
      id="g4295"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"><g
        transform="translate(28,27.860813)"
        id="g4297"
