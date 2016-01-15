@@ -29,7 +29,7 @@
     %script(src='/js/lazyload-image.js' async)
 
     -# OGP
-    %meta(property='og:type' content='website')
+    %meta(property='og:type' content='{%if index%}website{%else%}article{%endif%}')
     %meta(property='og:title' content='株式会社U360')
     %meta(itemprop='name' content='株式会社U360')
     %meta(property='og:site_name' content='株式会社U360')
