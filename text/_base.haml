@@ -96,7 +96,7 @@
             _loadCse = window._loadCse or = ->
               _loadScript('_loadCse', '//cse.google.com/cse.js?cx={{var.gcse_cx}}')
               return
-            setTimeout(_loadCse, 10000)
+            setTimeout(_loadCse, 6000)
             _cse = window._cse or = ->
               cse.q.blur()
               gsc = document.getElementById('gsc-i-id1')
