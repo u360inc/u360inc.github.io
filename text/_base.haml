@@ -39,7 +39,9 @@
     -# for Chrome on Android Lollipop
     %meta(name='theme-color' content='#ADE9FD')
 
-    %link(rel='author' href='https://plus.google.com/105627584664955860899')
+    {%if var.author%}
+    %link(rel='author' href='{{var.author}}')
+    {%endif%}
 
     -#%link{:href => "//fonts.googleapis.com/css?family=Bitter:400,400italic", :rel => "stylesheet", :type => "text/css"}/
 
