@@ -112,6 +112,13 @@
               box-sizing: content-box
               line-height: normal
           :sass
+            .gsc-control-cse
+              border-color: rgba(0,0,0,0)
+              background-color: rgba(0,0,0,0)
+            .gsc-input-box
+              color: rgba(0,0,0,0.67)
+            .gsib_b
+              padding-top: 4px
             .gsc-selected-option
               white-space: nowrap
             @media (max-width: 767px) //{}
@@ -125,8 +132,6 @@
 
     {% block content %}{% endblock %}
 
-    -# Google Custom Search
-    %gcse:search
     %footer
       .container
         %address.pull-left
@@ -135,6 +140,9 @@
           〒141-0031
           東京都品川区西五反田5-22-5
           藤ハイムB1F
+        -# Google Custom Search
+        .col-xs-12.col-sm-5.pull-right(style='padding-right:0')
+          %gcse:search
         %p.pull-right.text-right
           %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
             %span.icon-facebook
