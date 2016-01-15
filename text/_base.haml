@@ -3,7 +3,7 @@
 %html(lang='ja')
   %head(prefix='og: http://ogp.me/ns#')
     %meta(charset='utf-8')
-    %title {% block title %}{% endblock %} | 株式会社U360
+    %title {%if title%}{{title}} | {%endif%}株式会社U360
 
     %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
 
@@ -30,9 +30,11 @@
 
     -# OGP
     %meta(property='og:type' content='{%if index%}website{%else%}article{%endif%}')
-    %meta(property='og:title' content='{{title}}')
     %meta(itemprop='name' content='株式会社U360')
     %meta(property='og:site_name' content='株式会社U360')
+    {%if title%}
+    %meta(property='og:title' content='{{title}}')
+    {%endif%}
 
     -# for Chrome on Android Lollipop
     %meta(name='theme-color' content='#ADE9FD')
