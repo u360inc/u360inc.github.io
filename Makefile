@@ -1,6 +1,5 @@
 NODE_MODULES_BASE=node_modules
 BIN_COFFEE=$(NODE_MODULES_BASE)/.bin/coffee
-BIN_FLATC=flatc
 BIN_UGLIFYJS=$(NODE_MODULES_BASE)/.bin/uglifyjs
 
 JS_DIR=js
