@@ -17,6 +17,18 @@ GitHub上で更新を保存する前に`Preview changes`をクリックして、
 
 インデントの重要性については、haml形式のドキュメントを参照してください。
 
+## 例)メンバー欄を編集する
+
+- 画像pathの対応
+
+    %img.media-object.img-circle(width='72' height='72' src='/img/member/mn.jpg' alt='')
+    ↓
+    https://github.com/u360inc/u360inc.github.io/tree/modifies/img/member/mn.jpg
+
+- Image shapes
+
+円形抜きにするには、class属性に`.img-circle`を指定します。
+詳しくは[Bootstrap](http://getbootstrap.com/css/#images-shapes)を参照してください。
 
 # 変数を編集する
 
@@ -30,6 +42,10 @@ GitHub上で更新を保存する前に`Preview changes`をクリックして、
 
     $ bundle install
     $ pip install -r requirements.txt
+
+# CSSフレームワーク
+
+CSSフレームワークは[Bootstrap](http://getbootstrap.com/)です。
 
 # テンプレートシステム
 
