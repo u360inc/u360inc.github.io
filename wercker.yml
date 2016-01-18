@@ -27,6 +27,7 @@ deploy:
         name: copy .gitignore for gh-pages
         code: |-
           cp assets/.gitignore_gh-pages .gitignore
+          git status --ignored
     # https://github.com/lvivier/step-gh-pages
     - lukevivier/gh-pages:
       domain: u360inc.com

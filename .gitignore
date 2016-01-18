@@ -4,7 +4,5 @@
 /node_modules
 /vendor
 
-*.html
-*.zip
 /css/**/*.css
 /js/**/*.js
