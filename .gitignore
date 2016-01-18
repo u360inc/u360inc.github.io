@@ -6,6 +6,5 @@
 
 *.html
 *.zip
-/*.haml
 /css/**/*.css
 /js/**/*.js
