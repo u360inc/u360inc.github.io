@@ -10,7 +10,7 @@ LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -or -name "*.svg")
 .SUFFIXES: .haml .html
 .haml.html:
 	bundle exec haml -f html5 -t ugly $< $@
-HAML = $(shell find ./text -name "*.haml")
+HAML = $(shell find . -name "*.haml")
 HTML = $(HAML:.haml=.html)
 
 .SUFFIXES: .coffee .js
@@ -46,7 +46,7 @@ $(ZIP): $(LOGO)
 	cd ./assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
 
 clean:
-	find . -name "*.html" -delete
+	find . -depth 1 -name "*.h?ml" -delete
 	rm -f $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS) $(ZIP)
 
 .PHONY: html css js
