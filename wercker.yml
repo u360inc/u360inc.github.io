@@ -10,6 +10,10 @@ build:
         code: |-
           make
     - script:
+        name: check index.html
+        code: |-
+          test -e index.html
+    - script:
         name: copy output
         code: |-
           rsync -avz --copy-unsafe-links $WERCKER_SOURCE_DIR/ $WERCKER_OUTPUT_DIR
