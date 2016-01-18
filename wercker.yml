@@ -1,6 +1,10 @@
 box: michilu/deploy-gh-pages
 build:
   steps:
+    - script:
+        name: make clean
+        code: |-
+          make clean
     - bundle-install:
         binstubs: true
         jobs: 4

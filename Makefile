@@ -46,6 +46,7 @@ $(ZIP): $(LOGO)
 	cd ./assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
 
 clean:
+	find . -name "*.html" -delete
 	rm -f $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS) $(ZIP)
 
 .PHONY: html css js
