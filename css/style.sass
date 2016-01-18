@@ -24,6 +24,7 @@ $twitter:   #68aade
 $pocket:    #ff004c
 
 $brand-primary: #BCE2E8
+$link-color: darken($brand-primary, 30%)
 $betu: rgb(252,122,119)
 $seki: rgb(0,173,231)
 
@@ -259,9 +260,14 @@ body > footer
     @include render(filter, saturate(1.5))
   .dummy
     opacity: 0.3
-#news
+.news
   img
     @include render(filter, grayscale(1))
+  p
+    font-size: inherit
+    text-shadow: none
+  a
+    color: $link-color
 
 .betu
   color: lighten($betu, 6%)

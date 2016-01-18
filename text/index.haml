@@ -78,7 +78,9 @@
 
       .media.col-xs-12.col-sm-4
         .media-left
-          %img.media-object(width='72' height='0' alt='')
+          %svg(xmlns='http://www.w3.org/2000/svg' height='72' width='72' style='text-anchor:middle')
+            %rect(height='84%' width='84%' y='8%' x='8%' fill='#202020')
+            %text(font-size='50px' y='75%' x='50%' fill='#fefefe') C
         .media-body.media-middle
           .h4.media-heading
             %a(href='https://peraichi.com/landing_pages/view/crossroad' target='_blank')>CrossRoad
@@ -186,27 +188,36 @@
     .page-header
       %h1 サポーター事業
 
-    .row.text-center.alliance-business
-      .col-sm-4
-        %figure.figure.m-a
-          %a(href='http://mushashugyo.jp/' title='海外ビジネス武者修行プログラム' target='_blank')
-            %img.img-rounded(width='130' height='130' src='/img/business/mushashugyo.png' alt='武者修行')
-            %figcaption.figure-caption 海外ビジネス武者修行プログラム
-      .col-sm-4
-        %figure.figure.m-a
-          %a(href='http://www.pj-firms.com/' title='Firms' target='_blank')
-            %img.img-rounded(width='130' height='130' src='/img/business/firms.png' alt='Firms')
-            %figcaption.figure-caption Firms
-      .col-sm-4
-        %figure.figure.m-a
-          %a(href='http://www.maedajuku.com/' title='前田塾' target='_blank')
-            %img.img-rounded(width='130' height='130' src='/img/business/maedajuku.png' alt='前田塾')
-            %figcaption.figure-caption 前田塾
-      .col-sm-4
-        %figure.figure.m-a
-          %a(href='http://emotif.jp/' title='Emotif' target='_blank')
-            %img.img-rounded(width='130' height='130' src='/img/business/emotif.png' alt='Emotif')
-            %figcaption.figure-caption Emotif
+    .text-center.alliance-business
+
+      .row
+        .col-sm-4
+          %figure.figure.m-a
+            %a(href='http://mushashugyo.jp/' title='海外ビジネス武者修行プログラム' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/mushashugyo.png' alt='武者修行')
+              %figcaption.figure-caption 海外ビジネス武者修行プログラム
+        .col-sm-4
+          %figure.figure.m-a
+            %a(href='http://www.pj-firms.com/' title='Firms' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/firms.png' alt='Firms')
+              %figcaption.figure-caption Firms
+        .col-sm-4
+          %figure.figure.m-a
+            %a(href='http://www.maedajuku.com/' title='前田塾' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/maedajuku.png' alt='前田塾')
+              %figcaption.figure-caption 前田塾
+
+      .row
+        .col-sm-4
+          %figure.figure.m-a
+            %a(href='http://willfu.jp/' title='WILLFU' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/willfu.jpg' alt='WILLFU')
+              %figcaption.figure-caption WILLFU
+        .col-sm-4
+          %figure.figure.m-a
+            %a(href='http://emotif.jp/' title='Emotif' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/emotif.png' alt='Emotif')
+              %figcaption.figure-caption Emotif
 
   .blockquote
     %footer.h6
@@ -266,10 +277,43 @@
     %dd きずな綜合会計事務所　池本 健太郎
 
 #inquiry.jumbotron.jumbotron-fluid
-  .container
+  .container.news
 
     .page-header
       %h1 お問い合わせ
+
+    .row
+
+      .col-sm-4
+        .thumbnail
+          .caption
+            %p
+              表参道COMMUNE246の
+              %a(href='http://freedom-univ.com/freeuni/2014_12_24_3951.html' target='_blank')>自由大学新校舎設立プロジェクト
+              のクラウドファンディング支援者として掲載されました。
+            %p
+              %small.text-muted
+                2014年12月24日
+
+      .col-sm-4
+        .thumbnail
+          .caption
+            %p
+              %a(href='http://willfu.jp/startup_village/' target='_blank')> 学生起業家シェアハウス「WILLFU Startup Village」
+              に起業メンターとして紹介されました。
+            %p
+              %small.text-muted
+                2014年10月28日
+
+      .col-sm-4
+        .thumbnail
+          .caption
+            %p
+              事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。
+            %p
+              %small.text-muted
+                2014年10月14日
+
     採用情報については、
     %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank')> Wantedly
     よりお問い合わせください。
@@ -286,10 +330,45 @@
       %a(target='_blank' href='https://creativecommons.org/licenses/by-sa/2.0/')CC BY-SA
       \/ Modified
 
-#news.container
+#news.news.container
 
   .page-header
     %h1 ニュース
+
+  .row
+
+    .col-sm-4
+      .thumbnail
+        %img(src='/img/news/city-1026227_640.jpg')
+        .caption
+          %p
+            表参道COMMUNE246の
+            %a(href='http://freedom-univ.com/freeuni/2014_12_24_3951.html' target='_blank')>自由大学新校舎設立プロジェクト
+            のクラウドファンディング支援者として掲載されました。
+          %p
+            %small.text-muted
+              2015年12月24日
+
+    .col-sm-4
+      .thumbnail
+        %img(src='/img/news/model-1007193_640.jpg')
+        .caption
+          %p
+            %a(href='http://willfu.jp/startup_village/' target='_blank')> 学生起業家シェアハウス「WILLFU Startup Village」
+            に起業メンターとして紹介されました。
+          %p
+            %small.text-muted
+              2015年10月28日
+
+    .col-sm-4
+      .thumbnail
+        %img(src='/img/news/milky-way-1023340_640.jpg')
+        .caption
+          %p
+            事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。
+          %p
+            %small.text-muted
+              2015年10月14日
 
   .row
 
@@ -325,4 +404,15 @@
           %p
             %small.text-muted
               2014年10月14日
+
+  .row
+    .col-xs-12.col-sm-6
+      %a.m-collection(href='https://medium.com/差積化-させきか-ブログ' data-width='100%' data-collapsed='true')
+        差積化-させきか-ブログ
+    .col-xs-12.col-sm-6
+      %a.m-profile(href='https://medium.com/差積化-させきか-ブログ' data-width='100%')
+        差積化-させきか-ブログ
+    -# https://medium.com/@Medium/embed-medium-anywhere-3eaed64aed8a
+    %script(async src='//static.medium.com/embed.js')
+
 {% endblock %}
