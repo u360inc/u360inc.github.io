@@ -1,5 +1,3 @@
-all: html css js assets/u360-logo.zip
-
 NODE_MODULES_BASE=node_modules
 BIN_COFFEE=$(NODE_MODULES_BASE)/.bin/coffee
 BIN_FLATC=flatc
@@ -7,6 +5,8 @@ BIN_UGLIFYJS=$(NODE_MODULES_BASE)/.bin/uglifyjs
 
 JS_DIR=js
 CSS_DIR=css
+ZIP=./assets/u360-logo.zip
+LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -or -name "*.svg")
 
 .SUFFIXES: .haml .html
 .haml.html:
@@ -35,14 +35,18 @@ SASS = $(wildcard $(CSS_DIR)/*.sass)
 CSS = $(SASS:.sass=.css)
 MINCSS = $(SASS:.sass=.min.css)
 
+
+all: html css js $(ZIP)
+
 html: $(HTML)
 	staticjinja build --srcpath=text
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
-LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -or -name "*.svg")
-assets/u360-logo.zip: $(LOGO)
-	cd assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
+$(ZIP): $(LOGO)
+	cd ./assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
 
 clean:
-	rm $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS)
+	rm -f $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS) $(ZIP)
+
+.PHONY: html css js
