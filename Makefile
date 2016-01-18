@@ -11,7 +11,7 @@ CSS_DIR=css
 .SUFFIXES: .haml .html
 .haml.html:
 	bundle exec haml -f html5 -t ugly $< $@
-HAML = $(shell find text -name "*.haml")
+HAML = $(shell find ./text -name "*.haml")
 HTML = $(HAML:.haml=.html)
 
 .SUFFIXES: .coffee .js
@@ -40,9 +40,9 @@ html: $(HTML)
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
-LOGO=$(shell find assets/u360-logo -type f -name "*.png" -or -name "*.svg")
+LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -or -name "*.svg")
 assets/u360-logo.zip: $(LOGO)
-	cd assets && zip -9DJor u360-logo.zip $(subst assets/,,$(LOGO))
+	cd assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
 
 clean:
 	rm $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS)
