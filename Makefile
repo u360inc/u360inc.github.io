@@ -4,13 +4,14 @@ BIN_UGLIFYJS=$(NODE_MODULES_BASE)/.bin/uglifyjs
 
 JS_DIR=js
 CSS_DIR=css
+TEXT_DIR=text
 ZIP=./assets/u360-logo.zip
-LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -or -name "*.svg")
+LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -print -or -type f -name "*.svg" -print)
 
 .SUFFIXES: .haml .html
 .haml.html:
 	bundle exec haml -f html5 -t ugly $< $@
-HAML = $(shell find . -name "*.haml")
+HAML = $(shell find $(TEXT_DIR) -name "*.haml" -print)
 HTML = $(HAML:.haml=.html)
 
 .SUFFIXES: .coffee .js
@@ -38,7 +39,7 @@ MINCSS = $(SASS:.sass=.min.css)
 all: html css js $(ZIP)
 
 html: $(HTML)
-	staticjinja build --srcpath="./text"
+	staticjinja build --srcpath=$(TEXT_DIR)
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
