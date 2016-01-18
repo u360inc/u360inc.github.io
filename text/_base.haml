@@ -141,18 +141,19 @@
           %br
           〒151-0073
           東京都渋谷区笹塚1-5-6
-        -# Google Custom Search
-        .col-xs-12.col-sm-5.pull-right(style='padding-right:0')
-          %gcse:search
-        %p.pull-right.text-right
-          %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
-            %span.icon-facebook
-            Facebook
-          %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
-          %br
-          &copy;&nbsp;2014-
-          %span#this-year> {{var.year}}
-          &nbsp;U360 CO. LTD.
+        .col-xs-12.col-sm-5.pull-right
+          -# Google Custom Search
+          %p(style='margin-right:-10px')
+            %gcse:search
+          %p.text-right
+            %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
+              %span.icon-facebook
+              Facebook
+            %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
+            %br
+            &copy;&nbsp;2014-
+            %span#this-year> {{var.year}}
+            &nbsp;U360 CO. LTD.
 
     :javascript
       document.getElementById('this-year').textContent = new Date().getFullYear();
