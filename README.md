@@ -1,3 +1,7 @@
+# ビルド・ステータス
+
+[![wercker status](https://app.wercker.com/status/00ffe257f8c2394ab05e38070a7cf502/m/modifies "wercker status")](https://app.wercker.com/project/bykey/00ffe257f8c2394ab05e38070a7cf502)
+
 # 記事を編集する
 
 [`text`ディレクトリ](https://github.com/u360inc/u360inc.github.io/tree/modifies/text)以下のテキストファイルを編集します。
@@ -17,26 +21,35 @@ GitHub上で更新を保存する前に`Preview changes`をクリックして、
 
 インデントの重要性については、haml形式のドキュメントを参照してください。
 
-## 例)メンバー欄を編集する
+## 編集例
 
-- 画像pathの対応
+### 例）記事タイトルを編集する
+
+記事ファイル内で、テンプレートシステムの`title`変数を定義します。
+
+    {% set title = 'U360について' %}
+
+### 例)メンバー欄を編集する
+
+画像pathの対応は次の通りです。外部サイトへアップロードした画像URLでも可です。
 
     %img.media-object.img-circle(width='72' height='72' src='/img/member/mn.jpg' alt='')
     ↓
     https://github.com/u360inc/u360inc.github.io/tree/modifies/img/member/mn.jpg
 
-- Image shapes
-
 円形抜きにするには、class属性に`.img-circle`を指定します。
-詳しくは[Bootstrap](http://getbootstrap.com/css/#images-shapes)を参照してください。
+詳しくは[BootstrapのImage shapesの項](http://getbootstrap.com/css/#images-shapes)を参照してください。
 
-# 変数を編集する
+## 表示をカスタマイズするには
+
+試すべき順
+
+1. [BootstrapのInline text elementsの項](http://getbootstrap.com/css/#type-inline-text)を参照して、適用できるHTMLマークアップがあるか確認します。
+2. Bootstrapの機能に適用できるマークアップが見つからない場合は、一度お問い合わせください。
+
+## 変数を編集する
 
 [`text/_variable.haml`](https://github.com/u360inc/u360inc.github.io/blob/modifies/text/_variable.haml)に定義されている変数の値を編集します。
-
-# ビルド・ステータス
-
-[![wercker status](https://app.wercker.com/status/00ffe257f8c2394ab05e38070a7cf502/m/modifies "wercker status")](https://app.wercker.com/project/bykey/00ffe257f8c2394ab05e38070a7cf502)
 
 # build環境をセットアップする
 
