@@ -42,7 +42,7 @@ $experimental-support-for-svg: true
 
 @mixin gradient-darken($color: $black3, $lighten: 12.5%)
   background-color: $color
-  @include filter-gradient(lighten($color, $lighten), $color, vertical)
+  @include filter-gradient(lighten($color, $lighten), $color, vertical) // IE6-9
   @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 100%))
   //@include render(linear-gradient)
 
