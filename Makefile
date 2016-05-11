@@ -46,6 +46,9 @@ css: $(MINCSS) $(CSS)
 $(ZIP): $(LOGO)
 	cd ./assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
 
+server:
+	python -m SimpleHTTPServer
+
 clean:
 	find . -maxdepth 1 -name "*.h?ml" -delete
 	rm -f $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS) $(ZIP)
