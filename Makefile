@@ -1,6 +1,11 @@
 NODE_MODULES_BASE=node_modules
 BIN_COFFEE=$(NODE_MODULES_BASE)/.bin/coffee
 BIN_UGLIFYJS=$(NODE_MODULES_BASE)/.bin/uglifyjs
+BIN_BABEL=$(shell which pybabel)
+BIN_STATICJINJA=assets/bin/build_staticjinja.py
+
+LOCALEDIR=locale
+LOCALES=en
 
 JS_DIR=js
 CSS_DIR=css
@@ -35,11 +40,37 @@ SASS = $(wildcard $(CSS_DIR)/*.sass)
 CSS = $(SASS:.sass=.css)
 MINCSS = $(SASS:.sass=.min.css)
 
+.SUFFIXES: .mapping .pot
+.mapping.pot:
+	$(BIN_BABEL) extract -k GetText --omit-header --no-location --sort-output -o $@ -F $< $(TEXT_DIR)
+	@for locale in $(LOCALES); do\
+		subcommand=init;\
+		if [ -e $(dir $@)$$locale/LC_MESSAGES/$(notdir $(basename $@)).po ]; then\
+			subcommand="update --previous";\
+		fi;\
+		cmd="$(BIN_BABEL) $$subcommand -D $(notdir $*) -i $@ -d $(LOCALEDIR) -l $$locale";\
+		echo $$cmd;\
+		$$cmd;\
+	done
+MAPPING=$(wildcard $(LOCALEDIR)/*.mapping)
+POT=$(MAPPING:.mapping=.pot)
+$(POT): $(MAPPING) $(HTML)
+
+.SUFFIXES: .po .mo
+.po.mo:
+	$(BIN_BABEL) compile -d $(LOCALEDIR) -D $(notdir $*)
+PO=$(foreach locale,$(LOCALES),$(foreach po,$(POT:.pot=.po),$(subst $(LOCALEDIR),$(LOCALEDIR)/$(locale)/LC_MESSAGES,$(po))))
+MO=$(PO:.po=.mo)
+$(PO): $(POT)
+$(MO): $(POT)
+$(LOCALE): $(MO)
 
 all: html css js $(ZIP)
 
-html: $(HTML)
-	staticjinja build --srcpath=$(TEXT_DIR)
+html: $(HTML) $(MAPPING) $(POT) $(MO)
+	$(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR)
+	$(foreach locale,$(LOCALES),mkdir -p $(locale) && LANG=$(locale) $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR) --outpath=$(locale))
+	$(foreach locale,$(LOCALES),find $(locale) -name "design-assets.*" -delete -or -name "logo-guideline.*" -delete)
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 

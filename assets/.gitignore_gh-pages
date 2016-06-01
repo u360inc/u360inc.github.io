@@ -7,8 +7,10 @@
 /Gemfile*
 /Makefile
 /README*
+/assets/bin
 /assets/works
-/bin
+/locale
 /node_modules
 /requirements.txt
+/text
 /vendor

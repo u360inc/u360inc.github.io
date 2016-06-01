@@ -1,9 +1,9 @@
 !!!
 {% import '_variable.html' as var with context %}
-%html(lang='ja')
+%html(lang='{{_("ja")}}')
   %head(prefix='og: http://ogp.me/ns#')
     %meta(charset='utf-8')
-    %title {%if title%}{{title}} | {%endif%}株式会社U360
+    %title {%if title%}{{title}} | {%endif%}{{_("株式会社U360")}}
 
     %meta(name='viewport' content='width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no')
 
@@ -28,8 +28,8 @@
     %script(src='/js/lazyload-image.js' async)
 
     -# OGP
-    %meta(itemprop='name' content='株式会社U360')
-    %meta(property='og:site_name' content='株式会社U360')
+    %meta(itemprop='name' content='{{_("株式会社U360")}}')
+    %meta(property='og:site_name' content='{{_("株式会社U360")}}')
     %meta(property='og:type' content='{%if index%}website{%else%}article{%endif%}')
     {%if title%}
     %meta(property='og:title' content='{{title}}')
@@ -69,30 +69,30 @@
             %span.icon-bar
             %span.icon-bar
           %a.navbar-brand(href='/')
-            %img(width='22' height='22' alt='株式会社U360' src='/img/logo-icon-22x22.png')
+            %img(width='22' height='22' alt='{{_("株式会社U360")}}' src='/img/logo-icon-22x22.png')
 
         #navbar-collapse.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
-              %a(href='/#news') ニュース
+              %a(href='/#news') {{_("ニュース")}}
             %li
-              %a(href='/#about') U360について
+              %a(href='/#about') {{_("U360について")}}
             %li
-              %a(href='/#business') 事業内容
+              %a(href='/#business') {{_("事業内容")}}
             %li
-              %a(href='/#member') メンバー紹介
+              %a(href='/#member') {{_("メンバー紹介")}}
             %li
-              %a(href='/#company') 会社概要
+              %a(href='/#company') {{_("会社概要")}}
             %li
-              %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') 採用情報
+              %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank') {{_("採用情報")}}
             %li
-              %a(href='/#inquiry') お問い合わせ
+              %a(href='/#inquiry') {{_("お問い合わせ")}}
 
           {% if var.gcse_cx %}
           %form#cse-search-box.navbar-form.navbar-right(name='cse' role='search' action='//cse.google.com/cse/home' target='_blank' accept-charset='utf-8')
             .form-group
-              %input#q.form-control(name='q' type='text' placeholder='キーワードを入力' autocomplete='off' x-webkit-speech='' spellcheck='false' required onfocus='_loadCse()')
-            %button#search-button.btn.btn-default(name='sa' type='submit' onClick='return _cse()') 検索
+              %input#q.form-control(name='q' type='text' placeholder='{{_("キーワードを入力")}}' autocomplete='off' x-webkit-speech='' spellcheck='false' required onfocus='_loadCse()')
+            %button#search-button.btn.btn-default(name='sa' type='submit' onClick='return _cse()') {{_("検索")}}
             %input(name='cx' type='hidden' value='{{gcse_cx}}')
           :coffee
             _loadCse = window._loadCse or = ->
@@ -137,10 +137,9 @@
     %footer
       .container
         %address.pull-left
-          %strong(style='margin-right:1em;') 株式会社U360
+          %strong(style='margin-right:1em;') {{_("株式会社U360")}}
           %br
-          〒151-0073
-          東京都渋谷区笹塚1-5-6
+          {{_("〒151-0073 東京都渋谷区笹塚1-5-6")}}
         .col-xs-12.col-sm-5.pull-right
           -# Google Custom Search
           %div(style='margin-right:-10px')
@@ -149,14 +148,14 @@
             %a.btn.btn-default.btn-sm(href='https://www.facebook.com/u360.company')
               %span.icon-facebook
               Facebook
-            %a.btn.btn-default.btn-sm(href='/design-assets.html') デザインガイドライン
+            %a.btn.btn-default.btn-sm(href='/design-assets.html') {{_("デザインガイドライン")}}
             %br
             %a.btn.btn-link.btn-sm(href='/') 日本語
             %a.btn.btn-link.btn-sm(href='/en/') English
             %br
             &copy;&nbsp;2014-
             %span#this-year> {{var.year}}
-            &nbsp;U360 CO. LTD.
+            &nbsp;U360 CO. LTD,
 
     :javascript
       document.getElementById('this-year').textContent = new Date().getFullYear();
