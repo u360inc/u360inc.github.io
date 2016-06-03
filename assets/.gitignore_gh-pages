@@ -2,12 +2,13 @@
 *.md
 *.rb
 *.sass
-*.yaml
+*.yml
 .*
 /Gemfile*
 /Makefile
-/README.txt
+/README*
 /assets/works
 /bin
 /node_modules
+/requirements.txt
 /vendor
