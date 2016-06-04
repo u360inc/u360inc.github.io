@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-03 06:52+0630\n"
+"POT-Creation-Date: 2016-06-05 06:04+0630\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,6 +18,191 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
 
+#: text/_base.html:3
+msgid "ja"
+msgstr "en"
+
+#: text/_base.html:6 text/_base.html:18 text/_base.html:19 text/_base.html:59
+#: text/_base.html:154
+msgid "株式会社U360"
+msgstr "U360 CO. LTD,"
+
+#: text/_base.html:65 text/index.html:391
+msgid "ニュース"
+msgstr "News"
+
+#: text/_base.html:68 text/index.html:3
+msgid "U360について"
+msgstr "Who We Are"
+
+#: text/_base.html:71 text/index.html:33
+msgid "事業内容"
+msgstr "What We Do"
+
+#: text/_base.html:74 text/index.html:120
+msgid "メンバー紹介"
+msgstr "Members"
+
+#: text/_base.html:77 text/index.html:297
+msgid "会社概要"
+msgstr "Company Profile"
+
+#: text/_base.html:80
+msgid "採用情報"
+msgstr "Careers"
+
+#: text/_base.html:83 text/index.html:367
+msgid "お問い合わせ"
+msgstr "Contact Us"
+
+#: text/_base.html:89
+msgid "キーワードを入力"
+msgstr "Type to Search"
+
+#: text/_base.html:91
+msgid "検索"
+msgstr "Search"
+
+#: text/_base.html:156
+msgid "〒151-0073 東京都渋谷区笹塚1-5-6"
+msgstr "1-5-6, Sasazuka, Shibuya, Tokyo, Japan 151-0073"
+
+#: text/_base.html:167
+msgid "デザインガイドライン"
+msgstr "Design Guidelines"
+
+#: text/concept.html:2
+msgid "コンセプト"
+msgstr "Concept"
+
+#: text/concept.html:8 text/concept.html:9
+msgid "事業創発集団"
+msgstr ""
+
+#: text/concept.html:13
+msgid "U360が標榜する「事業創発集団」とは、ユニークで持続可能な事業・人を作り出すという目的を持った組織であり、また自由な発想で生きるフリーランサー・企業家が集まるコミュニティでもあります。自立したプロフェッショナルが集まって協働・相互扶助することで1人ではできないことを行うー個の限界を、集の力で乗り越えるーことを目指しています。"
+msgstr ""
+
+#: text/concept.html:16
+msgid "各々が得意とする領域や手掛けるプロジェクトはさまざまです。事業内容に基づいて作られた組織にはない多様性があります。U360は多様な個人が信頼関係&#x2015;ヨコのつながり&#x2015;を築き、有機的なプロジェクトチームを結成して仕事を行います。多様な点（個性）を結んでユニークなかたちの線・面（事業）を作っている&#x2015;個人の副業を認めている会社組織の逆&#x2015;をイメージされると良いでしょう。"
+msgstr ""
+
+#: text/concept.html:19
+msgid "独立自主のビジネスチームとして新しいワークスタイルを体現することで、1人1人がユニークで持続可能な生き方の一助となれれば幸いです。"
+msgstr ""
+
+#: text/concept.html:23
+msgid "U360が重視する価値観"
+msgstr ""
+
+#: text/concept.html:26
+msgid "U360では最初から重視する価値観を掲げていたわけではありません。むしろ新しいワークスタイルを模索しているうちに、自然と3つの近しい価値観&#x2015;自由・個性・持続可能&#x2015;があることに気づきました。"
+msgstr ""
+
+#: text/concept.html:29
+msgid "自由"
+msgstr ""
+
+#: text/concept.html:31
+msgid "生計が成り立ち、表現の自由、他者に強制されない選択の自由を追求する。"
+msgstr ""
+
+#: text/concept.html:34
+msgid "個性"
+msgstr ""
+
+#: text/concept.html:36
+msgid "ユニークさを歓迎する、競合や前例がないことをどうやるか。"
+msgstr ""
+
+#: text/concept.html:39
+msgid "持続可能"
+msgstr ""
+
+#: text/concept.html:41
+msgid "いたずらな規模拡大、急成長を志向せず、自分たちが決めたペースで継続的に存在する。"
+msgstr ""
+
+#: text/concept.html:45
+msgid "差積化（させきか）"
+msgstr ""
+
+#: text/concept.html:48
+msgid "U360の価値観を体現するうえでキーとなる事業コンセプトが差積化（させきか）です。"
+msgstr ""
+
+#: text/concept.html:51
+msgid "差積化とは差別化と対となるビジネス概念で、差別化が「スタート時点」での違いを作ることだとすれば、差積化は事業が「進捗すればするほど」違いが広がっていく仕組みを持つことを意味します。"
+msgstr ""
+
+#: text/concept.html:54
+msgid "小さなリソースで事業立ち上げやマーケティングを検討する際は「売れること」以上に「売れ続けること」を考えるかことが大切です。上手くいったら誰かが真似してくる（近年の日本国内市場はこの傾向が特に強い）ため、消耗戦になると個人や小さな会社では不利に陥りかねないからです。"
+msgstr ""
+
+#: text/concept.html:57
+msgid "商品・サービスがユニークであるのみならず、業務プロセスや販売チャネル、消費者の関与といったビジネスダイナミクスを念頭に入れたビジネスモデル設計による、持続可能なビジネス創造が肝要になります。"
+msgstr ""
+
+#: text/concept.html:60
+msgid "U360では差積化についての事例、アプローチなどを探求し、情報発信を行っています。"
+msgstr ""
+
+#: text/concept.html:65 text/index.html:442 text/index.html:447
+msgid "差積化-させきか-ブログ"
+msgstr "Blog about the Accumulation"
+
+#: text/concept.html:72
+msgid "代表メッセージ"
+msgstr ""
+
+#: text/concept.html:75
+msgid "いつも知的好奇心に素直になり、興味を持ったこと、真実を追いかける。"
+msgstr ""
+
+#: text/concept.html:77
+msgid "個々が「自己実現」&#x2015;人生のミッションと日々の営みが繋がる&#x2015;できる。"
+msgstr ""
+
+#: text/concept.html:79
+msgid "強い人間を正しいとする資本主義社会で「急成長」よりも「持続可能」を大切にする。"
+msgstr ""
+
+#: text/concept.html:82
+msgid "大切にしたい価値観を前面に打ち出し、働けるようになったのは自身の努力以上に周囲の人たちに恵まれ、先人たちからのバトンを受け取ったからだ、と思っています。そして、受け取ったバトンを次の人達に渡したい&#x2015;自由なワークスタイルを目指す個人に1人でも2人でも、手を差し伸べたい&#x2015;と考えるようになりました。"
+msgstr ""
+
+#: text/concept.html:85
+msgid ""
+"社会問題の解決やより良い世界のためのインフラを作ろうと日々精進する企業家に敬意を評します。アップルが作ったMacBook Air"
+"が、ソフトバンクが敷いたWi-"
+"Fiネットワークが、コーヒー1杯の値段で作業場所を提供してくれるスターバックスがあるから、ノマドワーカーは仕事をすることができます。"
+msgstr ""
+
+#: text/concept.html:88
+msgid "私は、世の中へのインパクトはとても小さいかもしれないですが、自分の目に映る人を助ける、ということを続けたいと考えています。初めから大きなことをやろうとするのではなく、マザーテレサが目の前の人を助けることを続けたように、一人ひとりが自分の目に映る人を幸せにする、という小さなことを積み重ねていきたい。そうした考えを、個人個人が実践するような輪が広がっていけば、より生きやすい世界ができると確信しています。"
+msgstr ""
+
+#: text/concept.html:91
+msgid "2016年1月　ファウンダー　三木健吾"
+msgstr ""
+
+#: text/index.html:9
+msgid ""
+"<span>差<span class='betu'>別</span>化から</span><span>差<span "
+"class='seki'>積</span>化へ</span>"
+msgstr ""
+"From <span class='betu'>D</span>ifferentiation To <span "
+"class='seki'>A</span>ccumulation"
+
+#: text/index.html:12
+msgid "<span>ユニークで持続可能な</span><span>ビジネスを創造する</span>"
+msgstr "We create unique and sustainable business"
+
+#: text/index.html:19
+msgid "U360について "
+msgstr "About U360"
+
+#: text/index.html:22
 msgid ""
 "\n"
 "U360（ユーサンロクマル）は、持続可能な成長に価値を置き、自身が事業を立ち上げること、人が新しい事業を作るのを支援することを通じて、自分らしい生き方を充実させる人たちの集まり&#x2015;<a"
@@ -27,17 +212,219 @@ msgstr ""
 "business and supporting other businesses by focusing on sustainable "
 "growth."
 
+#: text/index.html:27
+msgid "/concept.html"
+msgstr "/en/concept.html"
+
+#: text/index.html:27
+msgid "詳しくはこちら"
+msgstr "Read More"
+
+#: text/index.html:36
+msgid "U360は事業開発をめぐる問題解決・実行支援を主な事業領域としています。"
+msgstr ""
+"Our main expertise is problem solving and execution support in business "
+"development."
+
+#: text/index.html:45
+msgid "コンサルティング"
+msgstr "Consulting"
+
+#: text/index.html:48
+msgid "法人の新規事業・商品企画部門などに向けて新事業・商品・サービスの企画検討や事業計画の策定、プロジェクト管理、事業推進人材の募集・育成等に関する計画・実行ならびにファシリテーションなどを行います。"
+msgstr ""
+"We offer consulting service to help clients create business strategies "
+"for new business, products, and services, and execute the strategies with"
+" project management and talent management expertise. "
+
+#: text/index.html:51
+msgid "人材育成"
+msgstr "Talent Development"
+
+#: text/index.html:53
+msgid "[ 研修・ワークショップ・OJT ]"
+msgstr "[ Seminars, Workshops, OJT ]"
+
+#: text/index.html:55
+msgid "「情報収集」や「問題解決」、「マーケティング」等のビジネススキル研修を始め、事業計画の磨き込みや「リーンスタートアップ」に則った顧客開発インタビュー、新商品・サービスのロンチ戦略PRの計画と実行を通じたアクションラーニングなど、事業開発に必要なスキルを学習・習得していくワークショップ・OJTを提供します。"
+msgstr ""
+"We offer a range of learning opportunities through seminars, workshops "
+"and OJT programs for<ul><li>Business skills such as intelligence "
+"gathering, problem solving and marketing</li><li>Customer interview based"
+" on Lean Startup</li><li>Action learning through planning and execution "
+"of new product/service launch and PR strategy</li></ul>"
+
+#: text/index.html:57
+msgid "[ 社内トレーニング制度構築支援 ]"
+msgstr "[ Internal Training Program Development ]"
+
+#: text/index.html:59
+msgid "育成すべき人材像の検討、必要なスキル習得に向けた研修コンテンツ・業務マニュアルの整備など、自社内でのトレーニング制度の確立を支援します。"
+msgstr ""
+"We help clients define core competencies, shape internal training "
+"programs, including content creation for training programs and tuning up "
+"operation manuals."
+
+#: text/index.html:62
+msgid "採用活動支援"
+msgstr "Recruiting Support"
+
+#: text/index.html:65
+msgid "事業開発部門、ビジネスコンサルティング、保険会社、広報・PR、アジアビジネス向けを中心に転職人材紹介を行います。"
+msgstr ""
+"We provide hiring supports with unparalleled reach mainly to talents in "
+"business development, business consulting, consulting, marketing and PR, "
+"experts of business in Asia."
+
+#: text/index.html:68
+msgid "広報・PR活動支援"
+msgstr "Marketing and PR Support"
+
+#: text/index.html:71
+msgid "新商品・サービスのロンチのPR活動の企画検討や自社広報部門の立ち上げなど広報・PR機能の強化に取り組みます。"
+msgstr ""
+"We provide support to enforce marketing and PR functionalities through "
+"creating PR strategy for new product launch and building internal PR "
+"department."
+
+#: text/index.html:77
+msgid "U360の新規事業"
+msgstr "Recent Projects"
+
+#: text/index.html:85
+msgid "日本ビリヤニ協会"
+msgstr "Nihon Biriyani Association"
+
+#: text/index.html:97
+msgid "（転職支援）"
+msgstr "(search firm)"
+
+#: text/index.html:106
+msgid "（バリ事業）"
+msgstr "Business in Bali (BnB)"
+
+#: text/index.html:113
+msgid "U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業に取り組んでいます。"
+msgstr "Our mission is to create unique and sustainable business and talents."
+
+#: text/index.html:130
+msgid "事業開発コンサルタント"
+msgstr "Business Development Consultant"
+
+#: text/index.html:141
+msgid "プロジェクトマネージャー"
+msgstr "Project Manager"
+
+#: text/index.html:163
+msgid "コンサルタント"
+msgstr "Consultant"
+
+#: text/index.html:174
+msgid "PRディレクター"
+msgstr "Public Relations Director"
+
+#: text/index.html:185 text/index.html:222
+msgid "エスニック料理人"
+msgstr "Ethnic Cook"
+
+#: text/index.html:190
+msgid "パートナー"
+msgstr "Partners"
+
+#: text/index.html:200
+msgid "コミュニティマネージャー"
+msgstr "Ommunity Manager"
+
+#: text/index.html:211
+msgid "ソーシャルプロデューサー"
+msgstr "Social Producer"
+
+#: text/index.html:230
+msgid "サポーター事業"
+msgstr "Clients"
+
+#: text/index.html:236
+msgid "海外ビジネス武者修行プログラム"
+msgstr "Overseas Business Musha-Shugyō Program"
+
+#: text/index.html:237
+msgid "武者修行"
+msgstr "Musha Shugyō"
+
+#: text/index.html:238
+msgid "海外インターンシップ"
+msgstr "Overseas Internship"
+
+#: text/index.html:246
+msgid "コンサルタントコミュニティ"
+msgstr "Consultant Community"
+
+#: text/index.html:252 text/index.html:253
+msgid "前田塾"
+msgstr "Maeda-Juku"
+
+#: text/index.html:254
+msgid "若手向けビジネス塾"
+msgstr "Young for Business School"
+
+#: text/index.html:264
+msgid "学生起業スクール"
+msgstr "Student Entrepreneurs School"
+
+#: text/index.html:272
+msgid "フォトスタジオ"
+msgstr "Photo Studio"
+
+#: text/index.html:278 text/index.html:279 text/index.html:280
+msgid "世界遺産探検家"
+msgstr "World Heritage Hunter"
+
+#: text/index.html:300
+msgid "会社名"
+msgstr "Company Profile"
+
+#: text/index.html:302
 msgid ""
 "\n"
-"■法人向け\n"
+"株式会社U360\n"
 "<br>\n"
-"事業開発支援、人材育成支援、採用活動支援、コンサルタント紹介、広報・PR活動支援\n"
+"カブシキガイシャ ユーサンロクマル\n"
 "<br>\n"
-"■個人向け\n"
-"<br>\n"
-"転職先紹介、コンサルティング案件紹介、ネット通販、シェアオフィス・民泊（air BnB）運営、独立・起業支援\n"
 msgstr " "
 
+#: text/index.html:310
+msgid "所在地"
+msgstr "Office"
+
+#: text/index.html:312
+msgid "(笹塚オフィス)"
+msgstr "Sasazuka office"
+
+#: text/index.html:314
+msgid ""
+"\n"
+"〒151-0073\n"
+"<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>\n"
+"東京都渋谷区笹塚1-5-6\n"
+"</a>\n"
+msgstr ""
+"<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>5-22-5, "
+"Nishigotanda, B1 Floor, Shinagawa, Tokyo 141-0031</a>"
+
+#: text/index.html:321
+msgid ""
+"\n"
+"京王線/京王新線 笹塚駅より徒歩4分\n"
+"<br>\n"
+"小田急線 東北沢駅より徒歩10分\n"
+"<br>\n"
+msgstr " "
+
+#: text/index.html:328
+msgid "(五反田オフィス／本店所在地)"
+msgstr "Gotanda office"
+
+#: text/index.html:330
 msgid ""
 "\n"
 "〒141-0031\n"
@@ -49,16 +436,65 @@ msgstr ""
 "<a href='https://goo.gl/maps/89dGSLCmc9A2' target='_blank'>1-5-6, "
 "Sasazuka, Shibuya, Tokyo, Japan 151-0073</a>"
 
+#: text/index.html:338
 msgid ""
 "\n"
-"〒151-0073\n"
-"<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>\n"
-"東京都渋谷区笹塚1-5-6\n"
-"</a>\n"
-msgstr ""
-"<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>5-22-5, "
-"Nishigotanda, B1 Floor, Shinagawa, Tokyo 141-0031</a>"
+"東急目黒線 不動前駅より徒歩3分\n"
+"<br>\n"
+"JR山手線/都営浅草線/東急池上線 五反田駅より徒歩10分\n"
+msgstr " "
 
+#: text/index.html:344
+msgid "代表者"
+msgstr "Founder"
+
+#: text/index.html:345
+msgid "代表取締役　三木 健吾"
+msgstr "Kengo Miki (LinkedIn profile Link)"
+
+#: text/index.html:346
+msgid "設立日"
+msgstr " "
+
+#: text/index.html:347
+msgid "2014年10月14日 "
+msgstr " "
+
+#: text/index.html:348
+msgid "事業内容 "
+msgstr " "
+
+#: text/index.html:350
+msgid ""
+"\n"
+"■法人向け\n"
+"<br>\n"
+"事業開発支援、人材育成支援、採用活動支援、コンサルタント紹介、広報・PR活動支援\n"
+"<br>\n"
+"■個人向け\n"
+"<br>\n"
+"転職先紹介、コンサルティング案件紹介、ネット通販、シェアオフィス・民泊（air BnB）運営、独立・起業支援\n"
+msgstr " "
+
+#: text/index.html:360
+msgid "顧問税理士"
+msgstr " "
+
+#: text/index.html:361
+msgid "きずな綜合会計事務所　池本 健太郎"
+msgstr " "
+
+#: text/index.html:370
+msgid ""
+"\n"
+"採用情報については、<a href='https://jp.wantedly.com/companies/marketingoffice' "
+"target='_blank'>Wantedly</a>よりお問い合わせください。\n"
+msgstr ""
+"Apply at \n"
+"<a href='https://jp.wantedly.com/companies/marketingoffice' "
+"target='_blank'>Wantedly</a>.\n"
+
+#: text/index.html:375
 msgid ""
 "\n"
 "その他の内容につきましては、<a "
@@ -70,349 +506,19 @@ msgstr ""
 "href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform'"
 " target='_blank'>Contact us</a> for other inquiries.\n"
 
-msgid ""
-"\n"
-"京王線/京王新線 笹塚駅より徒歩4分\n"
-"<br>\n"
-"小田急線 東北沢駅より徒歩10分\n"
-"<br>\n"
-msgstr " "
-
-msgid ""
-"\n"
-"採用情報については、<a href='https://jp.wantedly.com/companies/marketingoffice' "
-"target='_blank'>Wantedly</a>よりお問い合わせください。\n"
-msgstr ""
-"Apply at \n"
-"<a href='https://jp.wantedly.com/companies/marketingoffice' "
-"target='_blank'>Wantedly</a>.\n"
-
-msgid ""
-"\n"
-"東急目黒線 不動前駅より徒歩3分\n"
-"<br>\n"
-"JR山手線/都営浅草線/東急池上線 五反田駅より徒歩10分\n"
-msgstr " "
-
-msgid ""
-"\n"
-"株式会社U360\n"
-"<br>\n"
-"カブシキガイシャ ユーサンロクマル\n"
-"<br>\n"
-msgstr " "
-
-msgid "(五反田オフィス／本店所在地)"
-msgstr "Gotanda office"
-
-msgid "(笹塚オフィス)"
-msgstr "Sasazuka office"
-
-msgid "/concept.html"
-msgstr "/en/concept.html"
-
-msgid "2014年10月14日"
-msgstr "October 14, 2014"
-
-msgid "2014年10月14日 "
-msgstr " "
-
-msgid "2014年10月28日"
-msgstr "October 28, 2014"
-
+#: text/index.html:403
 msgid "2014年12月24日"
 msgstr "December 24, 2014"
 
-msgid "2016年1月　ファウンダー　三木健吾"
-msgstr ""
+#: text/index.html:417
+msgid "2014年10月28日"
+msgstr "October 28, 2014"
 
-msgid "<span>ユニークで持続可能な</span><span>ビジネスを創造する</span>"
-msgstr "We create unique and sustainable business"
-
-msgid ""
-"<span>差<span class='betu'>別</span>化から</span><span>差<span "
-"class='seki'>積</span>化へ</span>"
-msgstr ""
-"From <span class='betu'>D</span>ifferentiation To <span "
-"class='seki'>A</span>ccumulation"
-
-msgid "PRディレクター"
-msgstr "Public Relations Director"
-
-msgid "U360が標榜する「事業創発集団」とは、ユニークで持続可能な事業・人を作り出すという目的を持った組織であり、また自由な発想で生きるフリーランサー・企業家が集まるコミュニティでもあります。自立したプロフェッショナルが集まって協働・相互扶助することで1人ではできないことを行うー個の限界を、集の力で乗り越えるーことを目指しています。"
-msgstr ""
-
-msgid "U360が重視する価値観"
-msgstr ""
-
-msgid "U360では差積化についての事例、アプローチなどを探求し、情報発信を行っています。"
-msgstr ""
-
-msgid "U360では最初から重視する価値観を掲げていたわけではありません。むしろ新しいワークスタイルを模索しているうちに、自然と3つの近しい価値観&#x2015;自由・個性・持続可能&#x2015;があることに気づきました。"
-msgstr ""
-
-msgid "U360について"
-msgstr "Who We Are"
-
-msgid "U360について "
-msgstr "About U360"
-
-msgid "U360の価値観を体現するうえでキーとなる事業コンセプトが差積化（させきか）です。"
-msgstr ""
-
-msgid "U360の新規事業"
-msgstr "Recent Projects"
-
-msgid "U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業に取り組んでいます。"
-msgstr "Our mission is to create unique and sustainable business and talents."
-
-msgid "U360は事業開発をめぐる問題解決・実行支援を主な事業領域としています。"
-msgstr ""
-"Our main expertise is problem solving and execution support in business "
-"development."
-
-msgid "[ 研修・ワークショップ・OJT ]"
-msgstr "[ Seminars, Workshops, OJT ]"
-
-msgid "[ 社内トレーニング制度構築支援 ]"
-msgstr "[ Internal Training Program Development ]"
-
-msgid "ja"
-msgstr "en"
-
-msgid "「情報収集」や「問題解決」、「マーケティング」等のビジネススキル研修を始め、事業計画の磨き込みや「リーンスタートアップ」に則った顧客開発インタビュー、新商品・サービスのロンチ戦略PRの計画と実行を通じたアクションラーニングなど、事業開発に必要なスキルを学習・習得していくワークショップ・OJTを提供します。"
-msgstr ""
-"We offer a range of learning opportunities through seminars, workshops "
-"and OJT programs for<ul><li>Business skills such as intelligence "
-"gathering, problem solving and marketing</li><li>Customer interview based"
-" on Lean Startup</li><li>Action learning through planning and execution "
-"of new product/service launch and PR strategy</li></ul>"
-
-msgid "〒151-0073 東京都渋谷区笹塚1-5-6"
-msgstr "1-5-6, Sasazuka, Shibuya, Tokyo, Japan 151-0073"
-
-msgid "いたずらな規模拡大、急成長を志向せず、自分たちが決めたペースで継続的に存在する。"
-msgstr ""
-
-msgid "いつも知的好奇心に素直になり、興味を持ったこと、真実を追いかける。"
-msgstr ""
-
-msgid "お問い合わせ"
-msgstr "Contact Us"
-
-msgid "きずな綜合会計事務所　池本 健太郎"
-msgstr " "
-
-msgid "エスニック料理人"
-msgstr "Ethnic Cook"
-
-msgid "キーワードを入力"
-msgstr "Type to Search"
-
-msgid "コミュニティマネージャー"
-msgstr "Ommunity Manager"
-
-msgid "コンサルタント"
-msgstr "Consultant"
-
-msgid "コンサルタントコミュニティ"
-msgstr "Consultant Community"
-
-msgid "コンサルティング"
-msgstr "Consulting"
-
-msgid "コンセプト"
-msgstr "Concept"
-
-msgid "サポーター事業"
-msgstr "Clients"
-
-msgid "ソーシャルプロデューサー"
-msgstr "Social Producer"
-
-msgid "デザインガイドライン"
-msgstr "Design Guidelines"
-
-msgid "ニュース"
-msgstr "News"
-
-msgid "パートナー"
-msgstr "Partners"
-
-msgid "フォトスタジオ"
-msgstr "Photo Studio"
-
-msgid "プロジェクトマネージャー"
-msgstr "Project Manager"
-
-msgid "メンバー紹介"
-msgstr "Members"
-
-msgid "ユニークさを歓迎する、競合や前例がないことをどうやるか。"
-msgstr ""
-
-msgid "世界遺産探検家"
-msgstr "World Heritage Hunter"
-
-msgid "事業内容"
-msgstr "What We Do"
-
-msgid "事業内容 "
-msgstr " "
-
-msgid "事業創発集団"
-msgstr ""
-
+#: text/index.html:428
 msgid "事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。"
 msgstr ""
 
-msgid "事業開発コンサルタント"
-msgstr "Business Development Consultant"
-
-msgid "事業開発部門、ビジネスコンサルティング、保険会社、広報・PR、アジアビジネス向けを中心に転職人材紹介を行います。"
-msgstr ""
-"We provide hiring supports with unparalleled reach mainly to talents in "
-"business development, business consulting, consulting, marketing and PR, "
-"experts of business in Asia."
-
-msgid "人材育成"
-msgstr "Talent Development"
-
-msgid "代表メッセージ"
-msgstr ""
-
-msgid "代表取締役　三木 健吾"
-msgstr "Kengo Miki (LinkedIn profile Link)"
-
-msgid "代表者"
-msgstr "Founder"
-
-msgid "会社名"
-msgstr "Company Profile"
-
-msgid "会社概要"
-msgstr "Company Profile"
-
-msgid "個々が「自己実現」&#x2015;人生のミッションと日々の営みが繋がる&#x2015;できる。"
-msgstr ""
-
-msgid "個性"
-msgstr ""
-
-msgid "前田塾"
-msgstr "Maeda-Juku"
-
-msgid "各々が得意とする領域や手掛けるプロジェクトはさまざまです。事業内容に基づいて作られた組織にはない多様性があります。U360は多様な個人が信頼関係&#x2015;ヨコのつながり&#x2015;を築き、有機的なプロジェクトチームを結成して仕事を行います。多様な点（個性）を結んでユニークなかたちの線・面（事業）を作っている&#x2015;個人の副業を認めている会社組織の逆&#x2015;をイメージされると良いでしょう。"
-msgstr ""
-
-msgid "商品・サービスがユニークであるのみならず、業務プロセスや販売チャネル、消費者の関与といったビジネスダイナミクスを念頭に入れたビジネスモデル設計による、持続可能なビジネス創造が肝要になります。"
-msgstr ""
-
-msgid "大切にしたい価値観を前面に打ち出し、働けるようになったのは自身の努力以上に周囲の人たちに恵まれ、先人たちからのバトンを受け取ったからだ、と思っています。そして、受け取ったバトンを次の人達に渡したい&#x2015;自由なワークスタイルを目指す個人に1人でも2人でも、手を差し伸べたい&#x2015;と考えるようになりました。"
-msgstr ""
-
-msgid "学生起業スクール"
-msgstr "Student Entrepreneurs School"
-
-msgid "小さなリソースで事業立ち上げやマーケティングを検討する際は「売れること」以上に「売れ続けること」を考えるかことが大切です。上手くいったら誰かが真似してくる（近年の日本国内市場はこの傾向が特に強い）ため、消耗戦になると個人や小さな会社では不利に陥りかねないからです。"
-msgstr ""
-
-msgid "差積化-させきか-ブログ"
-msgstr "Blog about the Accumulation"
-
-msgid "差積化とは差別化と対となるビジネス概念で、差別化が「スタート時点」での違いを作ることだとすれば、差積化は事業が「進捗すればするほど」違いが広がっていく仕組みを持つことを意味します。"
-msgstr ""
-
-msgid "差積化（させきか）"
-msgstr ""
-
-msgid "広報・PR活動支援"
-msgstr "Marketing and PR Support"
-
-msgid "強い人間を正しいとする資本主義社会で「急成長」よりも「持続可能」を大切にする。"
-msgstr ""
-
-msgid "所在地"
-msgstr "Office"
-
-msgid "持続可能"
-msgstr ""
-
-msgid "採用情報"
-msgstr "Careers"
-
-msgid "採用活動支援"
-msgstr "Recruiting Support"
-
-msgid "新商品・サービスのロンチのPR活動の企画検討や自社広報部門の立ち上げなど広報・PR機能の強化に取り組みます。"
-msgstr ""
-"We provide support to enforce marketing and PR functionalities through "
-"creating PR strategy for new product launch and building internal PR "
-"department."
-
-msgid "日本ビリヤニ協会"
-msgstr "Nihon Biriyani Association"
-
-msgid "株式会社U360"
-msgstr "U360 CO. LTD,"
-
-msgid "検索"
-msgstr "Search"
-
-msgid "武者修行"
-msgstr "Musha Shugyō"
-
-msgid "法人の新規事業・商品企画部門などに向けて新事業・商品・サービスの企画検討や事業計画の策定、プロジェクト管理、事業推進人材の募集・育成等に関する計画・実行ならびにファシリテーションなどを行います。"
-msgstr ""
-"We offer consulting service to help clients create business strategies "
-"for new business, products, and services, and execute the strategies with"
-" project management and talent management expertise. "
-
-msgid "海外インターンシップ"
-msgstr "Overseas Internship"
-
-msgid "海外ビジネス武者修行プログラム"
-msgstr "Overseas Business Musha-Shugyō Program"
-
-msgid "独立自主のビジネスチームとして新しいワークスタイルを体現することで、1人1人がユニークで持続可能な生き方の一助となれれば幸いです。"
-msgstr ""
-
-msgid "生計が成り立ち、表現の自由、他者に強制されない選択の自由を追求する。"
-msgstr ""
-
-msgid ""
-"社会問題の解決やより良い世界のためのインフラを作ろうと日々精進する企業家に敬意を評します。アップルが作ったMacBook Air"
-"が、ソフトバンクが敷いたWi-"
-"Fiネットワークが、コーヒー1杯の値段で作業場所を提供してくれるスターバックスがあるから、ノマドワーカーは仕事をすることができます。"
-msgstr ""
-
-msgid "私は、世の中へのインパクトはとても小さいかもしれないですが、自分の目に映る人を助ける、ということを続けたいと考えています。初めから大きなことをやろうとするのではなく、マザーテレサが目の前の人を助けることを続けたように、一人ひとりが自分の目に映る人を幸せにする、という小さなことを積み重ねていきたい。そうした考えを、個人個人が実践するような輪が広がっていけば、より生きやすい世界ができると確信しています。"
-msgstr ""
-
-msgid "育成すべき人材像の検討、必要なスキル習得に向けた研修コンテンツ・業務マニュアルの整備など、自社内でのトレーニング制度の確立を支援します。"
-msgstr ""
-"We help clients define core competencies, shape internal training "
-"programs, including content creation for training programs and tuning up "
-"operation manuals."
-
-msgid "自由"
-msgstr ""
-
-msgid "若手向けビジネス塾"
-msgstr "Young for Business School"
-
-msgid "設立日"
-msgstr " "
-
-msgid "詳しくはこちら"
-msgstr "Read More"
-
-msgid "顧問税理士"
-msgstr " "
-
-msgid "（バリ事業）"
-msgstr "Business in Bali (BnB)"
-
-msgid "（転職支援）"
-msgstr "(search firm)"
+#: text/index.html:432
+msgid "2014年10月14日"
+msgstr "October 14, 2014"
 

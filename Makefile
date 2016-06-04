@@ -44,11 +44,11 @@ MINCSS = $(SASS:.sass=.min.css)
 
 .SUFFIXES: .mapping .pot
 .mapping.pot:
-	$(BIN_BABEL) extract -k GetText --omit-header --no-location --sort-output -o $@ -F $< $(TEXT_DIR)
+	$(BIN_BABEL) extract -k GetText --omit-header -o $@ -F $< $(TEXT_DIR)
 	@for locale in $(LOCALES); do\
 		subcommand=init;\
 		if [ -e $(dir $@)$$locale/LC_MESSAGES/$(notdir $(basename $@)).po ]; then\
-			subcommand="update --previous";\
+			subcommand="update";\
 		fi;\
 		cmd="$(BIN_BABEL) $$subcommand -D $(notdir $*) -i $@ -d $(LOCALEDIR) -l $$locale";\
 		echo $$cmd;\
