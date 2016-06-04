@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-05 06:04+0630\n"
+"POT-Creation-Date: 2016-06-05 06:12+0630\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -226,7 +226,7 @@ msgstr ""
 "Our main expertise is problem solving and execution support in business "
 "development."
 
-#: text/index.html:45
+#: text/index.html:45 text/include/u360-business.svg:9
 msgid "コンサルティング"
 msgstr "Consulting"
 
@@ -237,7 +237,7 @@ msgstr ""
 "for new business, products, and services, and execute the strategies with"
 " project management and talent management expertise. "
 
-#: text/index.html:51
+#: text/index.html:51 text/include/u360-business.svg:11
 msgid "人材育成"
 msgstr "Talent Development"
 
@@ -521,4 +521,16 @@ msgstr ""
 #: text/index.html:432
 msgid "2014年10月14日"
 msgstr "October 14, 2014"
+
+#: text/include/u360-business.svg:10
+msgid "広報・ＰＲ"
+msgstr "Marketing and PR"
+
+#: text/include/u360-business.svg:12
+msgid "採用支援"
+msgstr "Recruiting Support"
+
+#: text/include/u360-business.svg:13
+msgid "事業開発"
+msgstr "Business Development"
 

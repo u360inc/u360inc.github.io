@@ -56,7 +56,8 @@ MINCSS = $(SASS:.sass=.min.css)
 	done
 MAPPING=$(wildcard $(LOCALEDIR)/*.mapping)
 POT=$(MAPPING:.mapping=.pot)
-$(POT): $(MAPPING) $(HTML)
+SVG:=$(shell find $(TEXT_DIR) -type f -name "*.svg" -print)
+$(POT): $(MAPPING) $(HTML) $(SVG)
 
 .SUFFIXES: .po .mo
 .po.mo:

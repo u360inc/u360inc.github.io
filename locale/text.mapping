@@ -1,3 +1,6 @@
 [jinja2: **/*.html]
 encoding = utf-8
 jinja2 = jinja2.ext:babel_extract
+[jinja2: **/*.svg]
+encoding = utf-8
+jinja2 = jinja2.ext:babel_extract
