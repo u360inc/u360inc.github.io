@@ -6,7 +6,7 @@ BIN_STATICJINJA=assets/bin/build_staticjinja.py
 
 LOCALEDIR=locale
 LOCALES=en
-TRANSRATE_KEYWORD="_("
+TRANSRATE_KEYWORD="_([^)]*)"
 TRANSRATE=$(patsubst $(TEXT_DIR)/%,%,$(patsubst %.haml,%.html,$(shell grep $(TRANSRATE_KEYWORD) $(HAML)|awk -F: '{print $$1}'|sort -u)))
 
 JS_DIR=js
