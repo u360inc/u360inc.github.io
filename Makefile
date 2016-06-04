@@ -6,6 +6,7 @@ BIN_STATICJINJA=assets/bin/build_staticjinja.py
 
 LOCALEDIR=locale
 LOCALES=en
+TRANSRATE=index.html concept.html
 
 JS_DIR=js
 CSS_DIR=css
@@ -70,7 +71,7 @@ all: html css js $(ZIP)
 html: $(HTML) $(MAPPING) $(POT) $(MO)
 	$(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR)
 	$(foreach locale,$(LOCALES),mkdir -p $(locale) && LANG=$(locale) $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR) --outpath=$(locale))
-	$(foreach locale,$(LOCALES),find $(locale) -name "design-assets.*" -delete -or -name "logo-guideline.*" -delete)
+	rm -f $(foreach locale,$(LOCALES),$(addprefix $(locale)/,$(filter-out $(TRANSRATE),$(patsubst $(TEXT_DIR)/%,%,$(HTML) $(HAML)))))
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
