@@ -84,7 +84,9 @@ server:
 	python -m SimpleHTTPServer
 
 clean:
+	find . -name .DS_Store -delete
 	find . -maxdepth 1 -name "*.h?ml" -delete
-	rm -f $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS) $(ZIP)
+	rm -f $(HTML) $(MINJS) $(JS) $(MINCSS) $(CSS) $(ZIP) $(MO) $(POT)
+	rm -rf $(LOCALES) svg
 
 .PHONY: html css js
