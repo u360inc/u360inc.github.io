@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-05 06:12+0630\n"
+"POT-Creation-Date: 2016-06-05 06:39+0630\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -27,7 +27,7 @@ msgstr "en"
 msgid "株式会社U360"
 msgstr "U360 CO. LTD,"
 
-#: text/_base.html:65 text/index.html:391
+#: text/_base.html:65 text/index.html:392
 msgid "ニュース"
 msgstr "News"
 
@@ -43,7 +43,7 @@ msgstr "What We Do"
 msgid "メンバー紹介"
 msgstr "Members"
 
-#: text/_base.html:77 text/index.html:297
+#: text/_base.html:77 text/index.html:298
 msgid "会社概要"
 msgstr "Company Profile"
 
@@ -51,7 +51,7 @@ msgstr "Company Profile"
 msgid "採用情報"
 msgstr "Careers"
 
-#: text/_base.html:83 text/index.html:367
+#: text/_base.html:83 text/index.html:368
 msgid "お問い合わせ"
 msgstr "Contact Us"
 
@@ -147,7 +147,7 @@ msgstr ""
 msgid "U360では差積化についての事例、アプローチなどを探求し、情報発信を行っています。"
 msgstr ""
 
-#: text/concept.html:65 text/index.html:442 text/index.html:447
+#: text/concept.html:65 text/index.html:443 text/index.html:448
 msgid "差積化-させきか-ブログ"
 msgstr "Blog about the Accumulation"
 
@@ -315,75 +315,75 @@ msgstr "Business Development Consultant"
 msgid "プロジェクトマネージャー"
 msgstr "Project Manager"
 
-#: text/index.html:163
+#: text/index.html:164
 msgid "コンサルタント"
 msgstr "Consultant"
 
-#: text/index.html:174
+#: text/index.html:175
 msgid "PRディレクター"
 msgstr "Public Relations Director"
 
-#: text/index.html:185 text/index.html:222
+#: text/index.html:186 text/index.html:223
 msgid "エスニック料理人"
 msgstr "Ethnic Cook"
 
-#: text/index.html:190
+#: text/index.html:191
 msgid "パートナー"
 msgstr "Partners"
 
-#: text/index.html:200
+#: text/index.html:201
 msgid "コミュニティマネージャー"
 msgstr "Ommunity Manager"
 
-#: text/index.html:211
+#: text/index.html:212
 msgid "ソーシャルプロデューサー"
 msgstr "Social Producer"
 
-#: text/index.html:230
+#: text/index.html:231
 msgid "サポーター事業"
 msgstr "Clients"
 
-#: text/index.html:236
+#: text/index.html:237
 msgid "海外ビジネス武者修行プログラム"
 msgstr "Overseas Business Musha-Shugyō Program"
 
-#: text/index.html:237
+#: text/index.html:238
 msgid "武者修行"
 msgstr "Musha Shugyō"
 
-#: text/index.html:238
+#: text/index.html:239
 msgid "海外インターンシップ"
 msgstr "Overseas Internship"
 
-#: text/index.html:246
+#: text/index.html:247
 msgid "コンサルタントコミュニティ"
 msgstr "Consultant Community"
 
-#: text/index.html:252 text/index.html:253
+#: text/index.html:253 text/index.html:254
 msgid "前田塾"
 msgstr "Maeda-Juku"
 
-#: text/index.html:254
+#: text/index.html:255
 msgid "若手向けビジネス塾"
 msgstr "Young for Business School"
 
-#: text/index.html:264
+#: text/index.html:265
 msgid "学生起業スクール"
 msgstr "Student Entrepreneurs School"
 
-#: text/index.html:272
+#: text/index.html:273
 msgid "フォトスタジオ"
 msgstr "Photo Studio"
 
-#: text/index.html:278 text/index.html:279 text/index.html:280
+#: text/index.html:279 text/index.html:280 text/index.html:281
 msgid "世界遺産探検家"
 msgstr "World Heritage Hunter"
 
-#: text/index.html:300
+#: text/index.html:301
 msgid "会社名"
 msgstr "Company Profile"
 
-#: text/index.html:302
+#: text/index.html:303
 msgid ""
 "\n"
 "株式会社U360\n"
@@ -392,15 +392,15 @@ msgid ""
 "<br>\n"
 msgstr " "
 
-#: text/index.html:310
+#: text/index.html:311
 msgid "所在地"
 msgstr "Office"
 
-#: text/index.html:312
+#: text/index.html:313
 msgid "(笹塚オフィス)"
 msgstr "Sasazuka office"
 
-#: text/index.html:314
+#: text/index.html:315
 msgid ""
 "\n"
 "〒151-0073\n"
@@ -411,7 +411,7 @@ msgstr ""
 "<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>5-22-5, "
 "Nishigotanda, B1 Floor, Shinagawa, Tokyo, Japan 141-0031</a>"
 
-#: text/index.html:321
+#: text/index.html:322
 msgid ""
 "\n"
 "京王線/京王新線 笹塚駅より徒歩4分\n"
@@ -420,11 +420,11 @@ msgid ""
 "<br>\n"
 msgstr " "
 
-#: text/index.html:328
+#: text/index.html:329
 msgid "(五反田オフィス／本店所在地)"
 msgstr "Gotanda office"
 
-#: text/index.html:330
+#: text/index.html:331
 msgid ""
 "\n"
 "〒141-0031\n"
@@ -436,7 +436,7 @@ msgstr ""
 "<a href='https://goo.gl/maps/89dGSLCmc9A2' target='_blank'>1-5-6, "
 "Sasazuka, Shibuya, Tokyo, Japan 151-0073</a>"
 
-#: text/index.html:338
+#: text/index.html:339
 msgid ""
 "\n"
 "東急目黒線 不動前駅より徒歩3分\n"
@@ -444,27 +444,27 @@ msgid ""
 "JR山手線/都営浅草線/東急池上線 五反田駅より徒歩10分\n"
 msgstr " "
 
-#: text/index.html:344
+#: text/index.html:345
 msgid "代表者"
 msgstr "Founder"
 
-#: text/index.html:345
+#: text/index.html:346
 msgid "代表取締役　三木 健吾"
 msgstr "Kengo Miki (LinkedIn profile Link)"
 
-#: text/index.html:346
+#: text/index.html:347
 msgid "設立日"
 msgstr " "
 
-#: text/index.html:347
+#: text/index.html:348
 msgid "2014年10月14日 "
 msgstr " "
 
-#: text/index.html:348
+#: text/index.html:349
 msgid "事業内容 "
 msgstr " "
 
-#: text/index.html:350
+#: text/index.html:351
 msgid ""
 "\n"
 "■法人向け\n"
@@ -476,15 +476,15 @@ msgid ""
 "転職先紹介、コンサルティング案件紹介、ネット通販、シェアオフィス・民泊（air BnB）運営、独立・起業支援\n"
 msgstr " "
 
-#: text/index.html:360
+#: text/index.html:361
 msgid "顧問税理士"
 msgstr " "
 
-#: text/index.html:361
+#: text/index.html:362
 msgid "きずな綜合会計事務所　池本 健太郎"
 msgstr " "
 
-#: text/index.html:370
+#: text/index.html:371
 msgid ""
 "\n"
 "採用情報については、<a href='https://jp.wantedly.com/companies/marketingoffice' "
@@ -494,7 +494,7 @@ msgstr ""
 "<a href='https://jp.wantedly.com/companies/marketingoffice' "
 "target='_blank'>Wantedly</a>.\n"
 
-#: text/index.html:375
+#: text/index.html:376
 msgid ""
 "\n"
 "その他の内容につきましては、<a "
@@ -506,19 +506,19 @@ msgstr ""
 "href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform'"
 " target='_blank'>Contact us</a> for other inquiries.\n"
 
-#: text/index.html:403
+#: text/index.html:404
 msgid "2014年12月24日"
 msgstr "December 24, 2014"
 
-#: text/index.html:417
+#: text/index.html:418
 msgid "2014年10月28日"
 msgstr "October 28, 2014"
 
-#: text/index.html:428
+#: text/index.html:429
 msgid "事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。"
 msgstr ""
 
-#: text/index.html:432
+#: text/index.html:433
 msgid "2014年10月14日"
 msgstr "October 14, 2014"
 
