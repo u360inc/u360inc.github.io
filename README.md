@@ -69,6 +69,12 @@ CSSフレームワークは[Bootstrap](http://getbootstrap.com/)です。
 国際化に対応しており、コンテンツを多言語表示できます。
 コンテンツの基本言語は「日本語」(ja)です。
 
+## 翻訳対象のテキストをマークする
+
+[`text`ディレクトリ](https://github.com/u360inc/u360inc.github.io/tree/modifies/text)以下のテキストファイル内で、翻訳したいテキスト部分を`{{_("`と`")}}`で括ってマーキングします。
+
+    %a(href='/#inquiry') {{_("お問い合わせ")}}
+
 ## 対応言語を設定する
 
 [`Makefile`ファイル](https://github.com/u360inc/u360inc.github.io/tree/modifies/Makefile)の`LOCALES`値を編集します。
