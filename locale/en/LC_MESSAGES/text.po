@@ -409,7 +409,7 @@ msgid ""
 "</a>\n"
 msgstr ""
 "<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>5-22-5, "
-"Nishigotanda, B1 Floor, Shinagawa, Tokyo 141-0031</a>"
+"Nishigotanda, B1 Floor, Shinagawa, Tokyo, Japan 141-0031</a>"
 
 #: text/index.html:321
 msgid ""
