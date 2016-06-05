@@ -8,7 +8,6 @@
 
 /css/**/*.css
 /js/**/*.js
-
-/include
+/svg
 
 /en
