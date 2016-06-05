@@ -1,13 +1,15 @@
+LOCALES=en
+
+
+LOCALEDIR=locale
+TRANSRATE_KEYWORD="_([^)]*)"
+TRANSRATE=$(patsubst $(TEXT_DIR)/%,%,$(patsubst %.haml,%.html,$(shell grep $(TRANSRATE_KEYWORD) $(HAML)|awk -F: '{print $$1}'|sort -u)))
+
 NODE_MODULES_BASE=node_modules
 BIN_COFFEE=$(NODE_MODULES_BASE)/.bin/coffee
 BIN_UGLIFYJS=$(NODE_MODULES_BASE)/.bin/uglifyjs
 BIN_BABEL=$(shell which pybabel)
 BIN_STATICJINJA=assets/bin/build_staticjinja.py
-
-LOCALEDIR=locale
-LOCALES=en
-TRANSRATE_KEYWORD="_([^)]*)"
-TRANSRATE=$(patsubst $(TEXT_DIR)/%,%,$(patsubst %.haml,%.html,$(shell grep $(TRANSRATE_KEYWORD) $(HAML)|awk -F: '{print $$1}'|sort -u)))
 
 JS_DIR=js
 CSS_DIR=css
