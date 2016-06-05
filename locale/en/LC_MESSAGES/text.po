@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-05 07:18+0630\n"
+"POT-Creation-Date: 2016-06-06 04:45+0630\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -16,62 +16,66 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: text/_base.html:3
+msgid "Y年M月d日"
+msgstr "MMMM d, Y"
+
+#: text/_base.html:4
 msgid "ja"
 msgstr "en"
 
-#: text/_base.html:6 text/_base.html:18 text/_base.html:19 text/_base.html:59
-#: text/_base.html:154
+#: text/_base.html:7 text/_base.html:19 text/_base.html:20 text/_base.html:60
+#: text/_base.html:155
 msgid "株式会社U360"
 msgstr "U360 CO. LTD,"
 
-#: text/_base.html:53
+#: text/_base.html:54
 msgid "メニューを切り替える"
 msgstr "Toggle navigation"
 
-#: text/_base.html:65 text/index.html:392
+#: text/_base.html:66 text/index.html:392
 msgid "ニュース"
 msgstr "News"
 
-#: text/_base.html:68 text/index.html:3
+#: text/_base.html:69 text/index.html:3
 msgid "U360について"
 msgstr "Who We Are"
 
-#: text/_base.html:71 text/index.html:33
+#: text/_base.html:72 text/index.html:33
 msgid "事業内容"
 msgstr "What We Do"
 
-#: text/_base.html:74 text/index.html:120
+#: text/_base.html:75 text/index.html:120
 msgid "メンバー紹介"
 msgstr "Members"
 
-#: text/_base.html:77 text/index.html:298
+#: text/_base.html:78 text/index.html:298
 msgid "会社概要"
 msgstr "Company Profile"
 
-#: text/_base.html:80
+#: text/_base.html:81
 msgid "採用情報"
 msgstr "Careers"
 
-#: text/_base.html:83 text/index.html:368
+#: text/_base.html:84 text/index.html:368
 msgid "お問い合わせ"
 msgstr "Contact Us"
 
-#: text/_base.html:89
+#: text/_base.html:90
 msgid "キーワードを入力"
 msgstr "Type to Search"
 
-#: text/_base.html:91
+#: text/_base.html:92
 msgid "検索"
 msgstr "Search"
 
-#: text/_base.html:156
+#: text/_base.html:157
 msgid "〒151-0073 東京都渋谷区笹塚1-5-6"
 msgstr "1-5-6, Sasazuka, Shibuya, Tokyo, Japan 151-0073"
 
-#: text/_base.html:167
+#: text/_base.html:168
 msgid "デザインガイドライン"
 msgstr "Design Guidelines"
 
@@ -465,7 +469,7 @@ msgid "設立日"
 msgstr " "
 
 #: text/index.html:348
-msgid "2014年10月14日 "
+msgid "2014年10月14日"
 msgstr " "
 
 #: text/index.html:349
@@ -514,21 +518,9 @@ msgstr ""
 "href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform'"
 " target='_blank'>Contact us</a> for other inquiries.\n"
 
-#: text/index.html:404
-msgid "2014年12月24日"
-msgstr "December 24, 2014"
-
-#: text/index.html:418
-msgid "2014年10月28日"
-msgstr "October 28, 2014"
-
 #: text/index.html:429
 msgid "事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。"
 msgstr ""
-
-#: text/index.html:433
-msgid "2014年10月14日"
-msgstr "October 14, 2014"
 
 #: text/svg/u360-business.svg:10
 msgid "広報・ＰＲ"

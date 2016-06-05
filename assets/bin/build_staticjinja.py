@@ -19,6 +19,9 @@ import os
 import staticjinja
 import sys
 
+import babel.dates
+import dateparser
+
 def get_translation(domain, fallback):
     try:
         translation = gettext.translation(domain, 'locale', fallback=fallback, codeset='utf-8')
@@ -80,6 +83,11 @@ def render(args):
                 sys.exit(1)
 
     site = staticjinja.make_site(
+        filters={
+          # http://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns
+          # http://babel.pocoo.org/en/latest/dates.html
+          'dt': lambda s, f: babel.dates.format_datetime(dateparser.parse(s), f),
+        },
         searchpath=srcpath,
         outpath=outpath,
         extensions=['jinja2.ext.i18n'],
