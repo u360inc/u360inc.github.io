@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg id="svg2" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" xml:space="preserve" height="326.64" width="439.26" stroke-miterlimit="1.4142" clip-rule="evenodd" viewBox="0 0 329.44501 435.51501">
+<svg id="svg2" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" xml:space="preserve" height="326.64" width="459.83" stroke-miterlimit="1.4142" clip-rule="evenodd" viewBox="0 0 329.44501 446.08501">
 
 <g id="layer1" font-family="&apos;Helvetica Neue&apos;, Helvetica, Arial, &apos;游ゴシック体&apos;, &apos;Yu Gothic&apos;, YuGothic, &apos;Hiragino Kaku Gothic ProN&apos;, Meiryo, sans-serif" transform="translate(-135.28 -157.24)">
 
 <ellipse id="ellipse6" stroke-linejoin="round" fill-rule="evenodd" rx="86" ry="54.025" cy="211.27" cx="188.07" stroke-miterlimit="1.4142" clip-rule="evenodd" fill="#bce2e8"/><ellipse id="ellipse8" stroke-linejoin="round" fill-rule="evenodd" rx="113" ry="86" cy="435.76" cx="120.16" stroke-miterlimit="1.4142" clip-rule="evenodd" fill="#bce2e8"/><ellipse id="ellipse10" stroke-linejoin="round" fill-rule="evenodd" rx="99.5" ry="61.299" cy="245.05" cx="463.57" stroke-miterlimit="1.4142" clip-rule="evenodd" fill="#bce2e8"/><ellipse id="ellipse12" stroke-linejoin="round" fill-rule="evenodd" rx="151.78" ry="109.5" cy="483.26" cx="441.06" stroke-miterlimit="1.4142" clip-rule="evenodd" fill="#bce2e8"/><g id="g14" stroke-linejoin="round" fill-rule="evenodd" transform="translate(7.6294e-6,80)" clip-rule="evenodd" stroke-miterlimit="1.4142"><path id="path16" fill="#bce2e8" d="m197.86 201.3c-27.228 37.469-18.273 74.617 12.52 101.53 54.636 36.764 137.33 32.957 174.65-16.291 17.965-26.03 14.004-64.582-4.065-85.523-52.718-47.279-138.26-44.617-183.11 0.282zm202.17-11.414c43.393 41.213 42.51 96.694 4.145 135.45-69.146 57.896-180.44 50.776-230.63-14.296-28.829-51.241-11.851-98.393 29.151-130.22 60.606-39.617 148.52-34.689 197.34 9.071z"/></g>
 
-<text id="text4154" xml:space="preserve" font-size="30px" line-height="125%" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center;text-shadow:0 0 8px #4ab1c1" fill="#ffffff">
+<text id="text4154" xml:space="preserve" font-size="30px" line-height="125%" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center;text-shadow:0 0 5px #4ab1c1" fill="#ffffff">
 <tspan id="tspan4156" y="495.0773"  x="440.73041">{{_('コンサルティング')}}</tspan>
 <tspan id="tspan4175" y="221.81065" x="190.81097">{{_('広報・ＰＲ')}}</tspan>
 <tspan id="tspan4179" y="445.67001" x="120.07481">{{_('人材育成')}}</tspan>
