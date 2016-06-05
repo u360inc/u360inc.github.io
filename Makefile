@@ -1,6 +1,8 @@
 LOCALES=en
 
 
+all: html css js $(ZIP)
+
 LOCALEDIR=locale
 TRANSRATE_KEYWORD="_([^)]*)"
 TRANSRATE=$(patsubst $(TEXT_DIR)/%,%,$(patsubst %.haml,%.html,$(shell grep $(TRANSRATE_KEYWORD) $(HAML)|awk -F: '{print $$1}'|sort -u)))
@@ -69,8 +71,6 @@ MO=$(PO:.po=.mo)
 $(PO): $(POT)
 $(MO): $(POT)
 $(LOCALE): $(MO)
-
-all: html css js $(ZIP)
 
 html: $(HTML) $(MAPPING) $(POT) $(MO)
 	LANG=ja $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR)
