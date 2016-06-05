@@ -365,15 +365,15 @@ msgstr "Maeda-Juku"
 
 #: text/index.html:255
 msgid "若手向けビジネス塾"
-msgstr "Young for Business School"
+msgstr "Business School for Young"
 
 #: text/index.html:265
 msgid "学生起業スクール"
-msgstr "Student Entrepreneurs School"
+msgstr "School for Student Entrepreneurs"
 
 #: text/index.html:273
 msgid "フォトスタジオ"
-msgstr "Photo Studio"
+msgstr "Photographic Studio"
 
 #: text/index.html:279 text/index.html:280 text/index.html:281
 msgid "世界遺産探検家"
