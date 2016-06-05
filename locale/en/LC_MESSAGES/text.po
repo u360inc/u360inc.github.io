@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-05 07:11+0630\n"
+"POT-Creation-Date: 2016-06-05 07:18+0630\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -26,6 +26,10 @@ msgstr "en"
 #: text/_base.html:154
 msgid "株式会社U360"
 msgstr "U360 CO. LTD,"
+
+#: text/_base.html:53
+msgid "メニューを切り替える"
+msgstr "Toggle navigation"
 
 #: text/_base.html:65 text/index.html:392
 msgid "ニュース"
