@@ -79,7 +79,7 @@ CSSフレームワークは[Bootstrap](http://getbootstrap.com/)です。
 
 [`Makefile`ファイル](https://github.com/u360inc/u360inc.github.io/tree/modifies/Makefile)の`LOCALES`値を編集します。
 
-    LOCALES=en fr es ch
+    LOCALES=en fr es zh_CN
 
 
 ## コンテンツを対訳する
