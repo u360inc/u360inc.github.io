@@ -61,7 +61,7 @@ MINCSS = $(SASS:.sass=.min.css)
 MAPPING=$(wildcard $(LOCALEDIR)/*.mapping)
 POT=$(MAPPING:.mapping=.pot)
 SVG:=$(shell find $(TEXT_DIR) -type f -name "*.svg" -print)
-$(POT): $(MAPPING) $(HTML) $(SVG)
+$(POT): Makefile $(MAPPING) $(HTML) $(SVG)
 
 .SUFFIXES: .po .mo
 .po.mo:
@@ -74,7 +74,7 @@ $(LOCALE): $(MO)
 
 html: $(HTML) $(MAPPING) $(POT) $(MO)
 	LANGUAGE=ja $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR)
-	$(foreach locale,$(LOCALES),mkdir -p $(locale) && LANGUAGE=$(locale) $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR) --outpath=$(locale))
+	$(foreach locale,$(LOCALES),mkdir -p $(locale) && LANGUAGE=$(locale) $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR) --outpath=$(locale);)
 	rm -f $(foreach locale,$(LOCALES),$(addprefix $(locale)/,$(filter-out $(TRANSRATE),$(patsubst $(TEXT_DIR)/%,%,$(HTML) $(HAML)))))
 	rm -f $(patsubst $(TEXT_DIR)/%,%,$(HAML))
 js: $(MINJS) $(JS)
