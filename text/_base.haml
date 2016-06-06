@@ -154,6 +154,10 @@
             %br
             %a.btn.btn-link.btn-sm(href='/') 日本語
             %a.btn.btn-link.btn-sm(href='/en/') English
+            {%if lang != 'ja'%}{%if lang != 'en'%}
+            %a.btn.btn-link.btn-sm(href='/si/') සිංහල
+            %a.btn.btn-link.btn-sm(href='/ta/') தமிழ்
+            {%endif%}{%endif%}
             %br
             &copy;&nbsp;2014-
             %span#this-year> {{var.year}}
