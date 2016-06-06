@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-06 17:53+0700\n"
+"POT-Creation-Date: 2016-06-06 21:30+0700\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -78,6 +78,10 @@ msgstr "1-5-6, Sasazuka, Shibuya, Tokyo, Japan 151-0073"
 #: text/_base.html:168
 msgid "デザインガイドライン"
 msgstr "Design Guidelines"
+
+#: text/_variable.html:3
+msgid "008442789637795532658:a63p7tftydo"
+msgstr "008442789637795532658:w3c4fihht7o"
 
 #: text/concept.html:2
 msgid "コンセプト"
