@@ -520,7 +520,7 @@ msgstr "Founder"
 
 #: text/index.html:346
 msgid "代表取締役　三木 健吾"
-msgstr "Kengo Miki (LinkedIn profile Link)"
+msgstr "Kengo Miki (<a href='https://www.linkedin.com/in/kengomiki'>LinkedIn profile</a>)"
 
 #: text/index.html:347
 msgid "設立日"
