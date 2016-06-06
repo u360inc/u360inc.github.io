@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-06 04:45+0630\n"
+"POT-Creation-Date: 2016-06-06 17:53+0700\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -85,75 +85,111 @@ msgstr "Concept"
 
 #: text/concept.html:8 text/concept.html:9
 msgid "事業創発集団"
-msgstr ""
+msgstr "Business Development Group"
 
 #: text/concept.html:13
 msgid "U360が標榜する「事業創発集団」とは、ユニークで持続可能な事業・人を作り出すという目的を持った組織であり、また自由な発想で生きるフリーランサー・企業家が集まるコミュニティでもあります。自立したプロフェッショナルが集まって協働・相互扶助することで1人ではできないことを行うー個の限界を、集の力で乗り越えるーことを目指しています。"
 msgstr ""
+"U360’s motto is business development group: an organization to create "
+"unique and sustainable business and talents, and a community where "
+"freelancers and entrepreneurs with creative minds get together. We "
+"believe in the collective power of independent professionals. By "
+"cooperating and helping each other, we aim to overcome business obstacles"
+" we cannot tackle with individual’s experience and expertise."
 
 #: text/concept.html:16
 msgid "各々が得意とする領域や手掛けるプロジェクトはさまざまです。事業内容に基づいて作られた組織にはない多様性があります。U360は多様な個人が信頼関係&#x2015;ヨコのつながり&#x2015;を築き、有機的なプロジェクトチームを結成して仕事を行います。多様な点（個性）を結んでユニークなかたちの線・面（事業）を作っている&#x2015;個人の副業を認めている会社組織の逆&#x2015;をイメージされると良いでしょう。"
 msgstr ""
+"Each member has each expertise and thus supports different projects. We "
+"have diversity we wouldn’t witness within an organization based on "
+"content of business. From within U360, diverse individuals build, not "
+"hierarchical, but lateral relationships, and organically establish "
+"project teams. Connecting dots and creating lines and surfaces, the "
+"opposite of organizations that allows employees work on side projects, is"
+" what we are aiming for."
 
 #: text/concept.html:19
 msgid "独立自主のビジネスチームとして新しいワークスタイルを体現することで、1人1人がユニークで持続可能な生き方の一助となれれば幸いです。"
 msgstr ""
+"We exemplify new lifestyles as an independent business team and support "
+"individual’s unique and sustainable lifestyle."
 
 #: text/concept.html:23
 msgid "U360が重視する価値観"
-msgstr ""
+msgstr "Values at U360"
 
 #: text/concept.html:26
 msgid "U360では最初から重視する価値観を掲げていたわけではありません。むしろ新しいワークスタイルを模索しているうちに、自然と3つの近しい価値観&#x2015;自由・個性・持続可能&#x2015;があることに気づきました。"
 msgstr ""
+"We did not set the values from the beginning. Through the course of "
+"action to look for new lifestyles, we identified three common values "
+"among our members."
 
 #: text/concept.html:29
 msgid "自由"
-msgstr ""
+msgstr "Freedom"
 
 #: text/concept.html:31
 msgid "生計が成り立ち、表現の自由、他者に強制されない選択の自由を追求する。"
-msgstr ""
+msgstr "Pursue freedom of speech and freedom of choice while establishing life"
 
 #: text/concept.html:34
 msgid "個性"
-msgstr ""
+msgstr "Individuality"
 
 #: text/concept.html:36
 msgid "ユニークさを歓迎する、競合や前例がないことをどうやるか。"
-msgstr ""
+msgstr "Welcome diversity and think out of box"
 
 #: text/concept.html:39
 msgid "持続可能"
-msgstr ""
+msgstr "Sustainable"
 
 #: text/concept.html:41
 msgid "いたずらな規模拡大、急成長を志向せず、自分たちが決めたペースで継続的に存在する。"
 msgstr ""
+"Sustain with our own pace and avoid pointless focus on business expansion"
+" or drastic growth"
 
 #: text/concept.html:45
 msgid "差積化（させきか）"
-msgstr ""
+msgstr "Accumulation"
 
 #: text/concept.html:48
 msgid "U360の価値観を体現するうえでキーとなる事業コンセプトが差積化（させきか）です。"
-msgstr ""
+msgstr "The key concept to exemplify U360’s value is ACCUMULATION."
 
 #: text/concept.html:51
 msgid "差積化とは差別化と対となるビジネス概念で、差別化が「スタート時点」での違いを作ることだとすれば、差積化は事業が「進捗すればするほど」違いが広がっていく仕組みを持つことを意味します。"
 msgstr ""
+"Accumulation is opposite of differentiation. Differentiation is a concept"
+" in which a company creates a difference from the beginning, while "
+"accumulation is a mechanism where a company gains more differences as its"
+" business progresses."
 
 #: text/concept.html:54
 msgid "小さなリソースで事業立ち上げやマーケティングを検討する際は「売れること」以上に「売れ続けること」を考えるかことが大切です。上手くいったら誰かが真似してくる（近年の日本国内市場はこの傾向が特に強い）ため、消耗戦になると個人や小さな会社では不利に陥りかねないからです。"
 msgstr ""
+"It is critical to consider how to continuously sell products and services"
+" when planning product launch and marketing strategies with few "
+"resources. Once the business model has succeeded, other companies enter "
+"the market and the fierce competition starts. In the competitive market "
+"that often leads a war of attrition, individuals and small businesses "
+"will face disadvantage with few resources."
 
 #: text/concept.html:57
 msgid "商品・サービスがユニークであるのみならず、業務プロセスや販売チャネル、消費者の関与といったビジネスダイナミクスを念頭に入れたビジネスモデル設計による、持続可能なビジネス創造が肝要になります。"
 msgstr ""
+"Unique products and services are not sufficient to survive in this "
+"competitive world. It is vital to create a sustainable business model "
+"taking business dynamics into consideration such as business processes, "
+"sales channels, and customers’ participation."
 
 #: text/concept.html:60
 msgid "U360では差積化についての事例、アプローチなどを探求し、情報発信を行っています。"
 msgstr ""
+"U360 offers learning opportunities for approaches and best practices of "
+"accumulation."
 
 #: text/concept.html:65 text/index.html:443 text/index.html:448
 msgid "差積化-させきか-ブログ"
@@ -161,23 +197,30 @@ msgstr "Blog about the Accumulation"
 
 #: text/concept.html:72
 msgid "代表メッセージ"
-msgstr ""
+msgstr "A Message from Founder"
 
 #: text/concept.html:75
 msgid "いつも知的好奇心に素直になり、興味を持ったこと、真実を追いかける。"
-msgstr ""
+msgstr "Always be honest with curiosity and pursue interesting topics."
 
 #: text/concept.html:77
 msgid "個々が「自己実現」&#x2015;人生のミッションと日々の営みが繋がる&#x2015;できる。"
-msgstr ""
+msgstr "Be able to connect the meaning of life and day-to-day work."
 
 #: text/concept.html:79
 msgid "強い人間を正しいとする資本主義社会で「急成長」よりも「持続可能」を大切にする。"
 msgstr ""
+"Value sustainability over growth in the capitalist market where the "
+"stronger is the better."
 
 #: text/concept.html:82
 msgid "大切にしたい価値観を前面に打ち出し、働けるようになったのは自身の努力以上に周囲の人たちに恵まれ、先人たちからのバトンを受け取ったからだ、と思っています。そして、受け取ったバトンを次の人達に渡したい&#x2015;自由なワークスタイルを目指す個人に1人でも2人でも、手を差し伸べたい&#x2015;と考えるようになりました。"
 msgstr ""
+"I have come to be able to live and work with my values thanks to the "
+"support from everyone around me and pioneers who helped me to learn and "
+"grow. Now, I’d like to pass the baton to the next generation, and I’d "
+"love to extend my help to more individuals who pursue the lifestyle free "
+"from social norms."
 
 #: text/concept.html:85
 msgid ""
@@ -185,14 +228,25 @@ msgid ""
 "が、ソフトバンクが敷いたWi-"
 "Fiネットワークが、コーヒー1杯の値段で作業場所を提供してくれるスターバックスがあるから、ノマドワーカーは仕事をすることができます。"
 msgstr ""
+"I sincerely respect entrepreneurs who attempts to solve problems in our "
+"society and build btter infrastructure for the better world. For example,"
+" we, nomad workers, can work on their projects thanks to MacBook Air by "
+"Mac, Wi-fi network by Softbank, and a small work space by Starbucks only "
+"in return of purchase of a few dollars of coffee."
 
 #: text/concept.html:88
 msgid "私は、世の中へのインパクトはとても小さいかもしれないですが、自分の目に映る人を助ける、ということを続けたいと考えています。初めから大きなことをやろうとするのではなく、マザーテレサが目の前の人を助けることを続けたように、一人ひとりが自分の目に映る人を幸せにする、という小さなことを積み重ねていきたい。そうした考えを、個人個人が実践するような輪が広がっていけば、より生きやすい世界ができると確信しています。"
 msgstr ""
+"I am passionate in helping people in front of me. The impact I could make"
+" would be very small. However, instead of aiming a big goal from the "
+"beginning, I’d like to accumulate small supports for those around me, "
+"like Mother Teresa, who helped a person in front her throughout her life."
+" I’m confident that this world will be a better place as each individual "
+"practices this idea."
 
 #: text/concept.html:91
 msgid "2016年1月　ファウンダー　三木健吾"
-msgstr ""
+msgstr "Kengo Miki, Founder of U360, January 2016"
 
 #: text/index.html:9
 msgid ""
