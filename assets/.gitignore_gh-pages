@@ -9,6 +9,7 @@
 /README*
 /assets/bin
 /assets/works
+/bin
 /locale
 /node_modules
 /requirements.txt
