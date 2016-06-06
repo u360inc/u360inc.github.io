@@ -76,6 +76,7 @@ html: $(HTML) $(MAPPING) $(POT) $(MO)
 	LANGUAGE=ja $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR)
 	$(foreach locale,$(LOCALES),mkdir -p $(locale) && LANGUAGE=$(locale) $(BIN_STATICJINJA) build --srcpath=$(TEXT_DIR) --outpath=$(locale))
 	rm -f $(foreach locale,$(LOCALES),$(addprefix $(locale)/,$(filter-out $(TRANSRATE),$(patsubst $(TEXT_DIR)/%,%,$(HTML) $(HAML)))))
+	rm -f $(patsubst $(TEXT_DIR)/%,%,$(HAML))
 js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
