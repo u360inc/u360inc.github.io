@@ -1,11 +1,12 @@
 {% extends '_base.html' %}
 {% set index = true %}
-{% set title = 'U360について' %}
+{% set title = _('U360について') %}
 {% block content %}
 .jumbotron.jumbotron-fluid
   .container.text-center
     .media-middle
       .h1
+        {{_("
         %span><
           差
           %span.betu>< 別
@@ -14,68 +15,73 @@
           差
           %span.seki>< 積
           化へ
+        ")}}
       %p
+        {{_("
         %span><
           ユニークで持続可能な
         %span><
           ビジネスを創造する
+        ")}}
 
 #about.container
 
   .page-header
-    %h1 U360について
+    %h1 {{_("U360について ")}}
   %p
+    {{_("
     U360（ユーサンロクマル）は、持続可能な成長に価値を置き、自身が事業を立ち上げること、人が新しい事業を作るのを支援することを通じて、自分らしい生き方を充実させる人たちの集まり&#x2015;
     %a(href='/concept.html#事業創発集団')>< 事業創発集団
     &#x2015;です。
+    ")}}
 
   .row
-    %a.btn.btn-default.btn-lg.col-xs-offset-2.col-xs-8(href='/concept.html') 詳しくはこちら
+    %a.btn.btn-default.btn-lg.col-xs-offset-2.col-xs-8(href='{{_("/concept.html")}}') {{_("詳しくはこちら")}}
 
 #business.jumbotron.jumbotron-fluid
   .container
 
     .page-header
-      %h1 事業内容
+      %h1 {{_("事業内容")}}
     %p
-      U360は事業開発をめぐる問題解決・実行支援を主な事業領域としています。
+      {{_("U360は事業開発をめぐる問題解決・実行支援を主な事業領域としています。")}}
 
 .container
 
   .text-center
-    %img(src='/img/figure/u360-business.svg')
+    %img(src='{{_("/svg/u360-business.svg")}}')
 
   .page-header
-    .h2 コンサルティング
+    .h2 {{_("コンサルティング")}}
   %p
-    法人の新規事業・商品企画部門などに向けて新事業・商品・サービスの企画検討や事業計画の策定、プロジェクト管理、事業推進人材の募集・育成等に関する計画・実行ならびにファシリテーションなどを行います。
+    {{_("法人の新規事業・商品企画部門などに向けて新事業・商品・サービスの企画検討や事業計画の策定、プロジェクト管理、事業推進人材の募集・育成等に関する計画・実行ならびにファシリテーションなどを行います。")}}
 
   .page-header
-    .h2 人材育成
+    .h2 {{_("人材育成")}}
 
-  .h4 [ 研修・ワークショップ・OJT ]
+  .h4 {{_("[ 研修・ワークショップ・OJT ]")}}
   %p
-    「情報収集」や「問題解決」、「マーケティング」等のビジネススキル研修を始め、事業計画の磨き込みや「リーンスタートアップ」に則った顧客開発インタビュー、新商品・サービスのロンチ戦略PRの計画と実行を通じたアクションラーニングなど、事業開発に必要なスキルを学習・習得していくワークショップ・OJTを提供します。
+    {{_("「情報収集」や「問題解決」、「マーケティング」等のビジネススキル研修を始め、事業計画の磨き込みや「リーンスタートアップ」に則った顧客開発インタビュー、新商品・サービスのロンチ戦略PRの計画と実行を通じたアクションラーニングなど、事業開発に必要なスキルを学習・習得していくワークショップ・OJTを提供します。")}}
 
-  .h4 [ 社内トレーニング制度構築支援 ]
+  .h4 {{_("[ 社内トレーニング制度構築支援 ]")}}
   %p
-    育成すべき人材像の検討、必要なスキル習得に向けた研修コンテンツ・業務マニュアルの整備など、自社内でのトレーニング制度の確立を支援します。
-
-  .page-header
-    .h2 採用活動支援
-  %p
-    事業開発部門、ビジネスコンサルティング、保険会社、広報・PR、アジアビジネス向けを中心に転職人材紹介を行います。
+    {{_("育成すべき人材像の検討、必要なスキル習得に向けた研修コンテンツ・業務マニュアルの整備など、自社内でのトレーニング制度の確立を支援します。")}}
 
   .page-header
-    .h2 広報・PR活動支援
+    .h2 {{_("採用活動支援")}}
   %p
-    新商品・サービスのロンチのPR活動の企画検討や自社広報部門の立ち上げなど広報・PR機能の強化に取り組みます。
+    {{_("事業開発部門、ビジネスコンサルティング、保険会社、広報・PR、アジアビジネス向けを中心に転職人材紹介を行います。")}}
+
+  .page-header
+    .h2 {{_("広報・PR活動支援")}}
+  %p
+    {{_("新商品・サービスのロンチのPR活動の企画検討や自社広報部門の立ち上げなど広報・PR機能の強化に取り組みます。")}}
 
 #alliance.jumbotron.jumbotron-fluid
   .container.alliance
 
     .page-header
-      %h1 U360の新規事業
+      %h1 {{_("U360の新規事業")}}
 
     .row.container
 
@@ -84,7 +90,7 @@
           %img.media-object(width='72' src='/img/alliance/biriyani.png' alt='')
         .media-body.media-middle
           .h4.media-heading
-            %a(href='http://www.biriyani.info/' target='_blank')>日本ビリヤニ協会
+            %a(href='http://www.biriyani.info/' target='_blank')>{{_("日本ビリヤニ協会")}}
 
       .media.col-xs-12.col-sm-4
         .media-left
@@ -94,25 +100,25 @@
         .media-body.media-middle
           .h4.media-heading
             %a(href='https://peraichi.com/landing_pages/view/crossroad' target='_blank')>CrossRoad
-          （転職支援）
+          {{_("（転職支援）")}}
 
       .media.col-xs-12.col-sm-4
         .media-left
           %img.media-object(width='72' src='/img/alliance/bali.svg' alt='')
         .media-body.media-middle
           .h4.media-heading
-          （バリ事業）
+          {{_("（バリ事業）")}}
 
     .row.container
 
       %p &nbsp;
       %p
-        U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業に取り組んでいます。
+        {{_("U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業に取り組んでいます。")}}
 
 #member.container
 
   .page-header
-    %h1 メンバー紹介
+    %h1 {{_("メンバー紹介")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -120,7 +126,7 @@
     .media-body.media-middle
       .h4.media-heading
         K.M
-      事業開発コンサルタント
+      {{_("事業開発コンサルタント")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -128,7 +134,7 @@
     .media-body.media-middle
       .h4.media-heading
         M.Y
-      プロジェクトマネージャー
+      {{_("プロジェクトマネージャー")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -138,13 +144,15 @@
         T.E
       CTO
 
+  .row
+
   .media.col-xs-12.col-sm-4
     .media-left
       %img.media-object.img-circle(width='72' height='72' src='/img/member/ss.jpg' alt='')
     .media-body.media-middle
       .h4.media-heading
         S.S
-      コンサルタント
+      {{_("コンサルタント")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -152,7 +160,7 @@
     .media-body.media-middle
       .h4.media-heading
         Y.S
-      PRディレクター
+      {{_("PRディレクター")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -160,12 +168,12 @@
     .media-body.media-middle
       .h4.media-heading
         T.K
-      エスニック料理人
+      {{_("エスニック料理人")}}
 
   %p &nbsp;
 
   .page-header
-    .h1 パートナー
+    .h1 {{_("パートナー")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -173,7 +181,7 @@
     .media-body.media-middle
       .h4.media-heading
         M.N
-      コミュニティマネージャー
+      {{_("コミュニティマネージャー")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -181,7 +189,7 @@
     .media-body.media-middle
       .h4.media-heading
         A.S
-      ソーシャルプロデューサー
+      {{_("ソーシャルプロデューサー")}}
 
   .media.col-xs-12.col-sm-4
     .media-left
@@ -189,7 +197,7 @@
     .media-body.media-middle
       .h4.media-heading
         Y.T
-      エスニック料理人
+      {{_("エスニック料理人")}}
 
   %p &nbsp;
 
@@ -197,43 +205,43 @@
   .container
 
     .page-header
-      %h1 サポーター事業
+      %h1 {{_("サポーター事業")}}
 
     .text-center.alliance-business
 
       .row
         .col-sm-4
           %figure.figure.m-a
-            %a(href='http://mushashugyo.jp/' title='海外ビジネス武者修行プログラム' target='_blank')
-              %img.img-rounded(width='130' height='130' src='/img/business/mushashugyo.png' alt='武者修行')
-              %figcaption.figure-caption 海外インターンシップ
+            %a(href='http://mushashugyo.jp/' title='{{_("海外ビジネス武者修行プログラム")}}' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/mushashugyo.png' alt='{{_("武者修行")}}')
+              %figcaption.figure-caption {{_("海外インターンシップ")}}
         .col-sm-4
           %figure.figure.m-a
             %a(href='http://www.pj-firms.com/' title='Firms' target='_blank')
               %img.img-rounded(width='130' height='130' src='/img/business/firms.png' alt='Firms')
-              %figcaption.figure-caption コンサルタントコミュニティ
+              %figcaption.figure-caption {{_("コンサルタントコミュニティ")}}
         .col-sm-4
           %figure.figure.m-a
-            %a(href='http://www.maedajuku.com/' title='前田塾' target='_blank')
-              %img.img-rounded(width='130' height='130' src='/img/business/maedajuku.png' alt='前田塾')
-              %figcaption.figure-caption 若手向けビジネス塾
+            %a(href='http://www.maedajuku.com/' title='{{_("前田塾")}}' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/maedajuku.png' alt='{{_("前田塾")}}')
+              %figcaption.figure-caption {{_("若手向けビジネス塾")}}
 
       .row
         .col-sm-4
           %figure.figure.m-a
             %a(href='http://willfu.jp/' title='WILLFU' target='_blank')
               %img.img-rounded(width='130' height='130' src='/img/business/willfu.jpg' alt='WILLFU')
-              %figcaption.figure-caption 学生起業スクール
+              %figcaption.figure-caption {{_("学生起業スクール")}}
         .col-sm-4
           %figure.figure.m-a
             %a(href='http://emotif.jp/' title='Emotif' target='_blank')
               %img.img-rounded(width='130' height='130' src='/img/business/emotif.png' alt='Emotif')
-              %figcaption.figure-caption フォトスタジオ
+              %figcaption.figure-caption {{_("フォトスタジオ")}}
         .col-sm-4
           %figure.figure.m-a
-            %a(href='http://guide.travel.co.jp/navigtr/416/' title='世界遺産探検家' target='_blank')
-              %img.img-rounded(width='130' height='130' src='/img/business/whh.jpg' alt='世界遺産探検家')
-              %figcaption.figure-caption 世界遺産探検家
+            %a(href='http://guide.travel.co.jp/navigtr/416/' title='{{_("世界遺産探検家")}}' target='_blank')
+              %img.img-rounded(width='130' height='130' src='/img/business/whh.jpg' alt='{{_("世界遺産探検家")}}')
+              %figcaption.figure-caption {{_("世界遺産探検家")}}
 
   .blockquote
     %footer.h6
@@ -244,46 +252,57 @@
 #company.container
 
   .page-header
-    %h1 会社概要
+    %h1 {{_("会社概要")}}
 
   %dl.dl-horizontal
-    %dt 会社名
+    %dt {{_("会社名")}}
     %dd
+      {{_("
       株式会社U360
       %br
       カブシキガイシャ ユーサンロクマル
       %br
-      U360 CO. LTD.
-    %dt 所在地
+      ")}}
+      U360 CO. LTD,
+    %dt {{_("所在地")}}
     %dd
-      (笹塚オフィス)
+      {{_("(笹塚オフィス)")}}
       %br
+      {{_("
       〒151-0073
       %a(href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank')
         東京都渋谷区笹塚1-5-6
+      ")}}
       %br
+      {{_("
       京王線/京王新線 笹塚駅より徒歩4分
       %br
       小田急線 東北沢駅より徒歩10分
       %br
+      ")}}
 
       %br
-      (五反田オフィス／本店所在地)
+      {{_("(五反田オフィス／本店所在地)")}}
       %br
+      {{_("
       〒141-0031
       %a(href='https://goo.gl/maps/89dGSLCmc9A2' target='_blank')
         東京都品川区西五反田5-22-5
       藤ハイムB1F
+      ")}}
       %br
+      {{_("
       東急目黒線 不動前駅より徒歩3分
       %br
       JR山手線/都営浅草線/東急池上線 五反田駅より徒歩10分
-    %dt 代表者
-    %dd 代表取締役　三木 健吾
-    %dt 設立日
-    %dd 2014年10月14日
-    %dt 事業内容
+      ")}}
+    %dt {{_("代表者")}}
+    %dd {{_("代表取締役　三木 健吾")}}
+    %dt {{_("設立日")}}
+    %dd {{_("2014年10月14日")}}
+    %dt {{_("事業内容 ")}}
     %dd
+      {{_("
       ■法人向け
       %br
       事業開発支援、人材育成支援、採用活動支援、コンサルタント紹介、広報・PR活動支援
@@ -291,55 +310,28 @@
       ■個人向け
       %br
       転職先紹介、コンサルティング案件紹介、ネット通販、シェアオフィス・民泊（air BnB）運営、独立・起業支援
-    %dt 顧問税理士
-    %dd きずな綜合会計事務所　池本 健太郎
+      ")}}
+    %dt {{_("顧問税理士")}}
+    %dd {{_("きずな綜合会計事務所　池本 健太郎")}}
 
 #inquiry.jumbotron.jumbotron-fluid
   .container.news
 
     .page-header
-      %h1 お問い合わせ
-
-    .row
-
-      .col-sm-4
-        .thumbnail
-          .caption
-            %p
-              表参道COMMUNE246の
-              %a(href='http://freedom-univ.com/freeuni/2014_12_24_3951.html' target='_blank')>自由大学新校舎設立プロジェクト
-              のクラウドファンディング支援者として掲載されました。
-            %p
-              %small.text-muted
-                2014年12月24日
-
-      .col-sm-4
-        .thumbnail
-          .caption
-            %p
-              %a(href='http://willfu.jp/startup_village/' target='_blank')> 学生起業家シェアハウス「WILLFU Startup Village」
-              に起業メンターとして紹介されました。
-            %p
-              %small.text-muted
-                2014年10月28日
-
-      .col-sm-4
-        .thumbnail
-          .caption
-            %p
-              事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。
-            %p
-              %small.text-muted
-                2014年10月14日
+      %h1 {{_("お問い合わせ")}}
 
     %p
+      {{_("
       採用情報については、
       %a(href='https://jp.wantedly.com/companies/marketingoffice' target='_blank')> Wantedly
       よりお問い合わせください。
+      ")}}
     %p
+      {{_("
       その他の内容につきましては、
       %a(href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform' target='_blank')> お問い合せフォーム
       よりお問い合わせください。
+      ")}}
 
   .blockquote
     %footer.h6
@@ -351,7 +343,7 @@
 #news.news.container
 
   .page-header
-    %h1 ニュース
+    %h1 {{_("ニュース")}}
 
   .row
 
@@ -365,7 +357,7 @@
             のクラウドファンディング支援者として掲載されました。
           %p
             %small.text-muted
-              2015年12月24日
+              {{date('2014年12月24日')}}
 
     .col-sm-4
       .thumbnail
@@ -376,60 +368,25 @@
             に起業メンターとして紹介されました。
           %p
             %small.text-muted
-              2015年10月28日
+              {{date('2014年10月28日')}}
 
     .col-sm-4
       .thumbnail
         %img(src='/img/news/milky-way-1023340_640.jpg')
         .caption
           %p
-            事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。
+            {{_("事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。")}}
           %p
             %small.text-muted
-              2015年10月14日
-
-  .row
-
-    .col-sm-4
-      .thumbnail
-        %img(src='/img/news/city-1026227_640.jpg')
-        .caption
-          %p
-            表参道COMMUNE246の
-            %a(href='http://freedom-univ.com/freeuni/2014_12_24_3951.html' target='_blank')>自由大学新校舎設立プロジェクト
-            のクラウドファンディング支援者として掲載されました。
-          %p
-            %small.text-muted
-              2014年12月24日
-
-    .col-sm-4
-      .thumbnail
-        %img(src='/img/news/model-1007193_640.jpg')
-        .caption
-          %p
-            %a(href='http://willfu.jp/startup_village/' target='_blank')> 学生起業家シェアハウス「WILLFU Startup Village」
-            に起業メンターとして紹介されました。
-          %p
-            %small.text-muted
-              2014年10月28日
-
-    .col-sm-4
-      .thumbnail
-        %img(src='/img/news/milky-way-1023340_640.jpg')
-        .caption
-          %p
-            事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。
-          %p
-            %small.text-muted
-              2014年10月14日
+              {{date('2014年10月14日')}}
 
   .row
     .col-xs-12.col-sm-6
       %a.m-collection(href='https://medium.com/差積化-させきか-ブログ' data-width='100%' data-collapsed='true')
-        差積化-させきか-ブログ
+        {{_("差積化-させきか-ブログ")}}
     .col-xs-12.col-sm-6
       %a.m-profile(href='https://medium.com/差積化-させきか-ブログ' data-width='100%')
-        差積化-させきか-ブログ
+        {{_("差積化-させきか-ブログ")}}
     -# https://medium.com/@Medium/embed-medium-anywhere-3eaed64aed8a
     %script(async src='//static.medium.com/embed.js')
 

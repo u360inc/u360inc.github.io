@@ -64,3 +64,27 @@ CSSフレームワークは[Bootstrap](http://getbootstrap.com/)です。
 
 テンプレートシステムは[jinja2](http://jinja.pocoo.org/)です。
 
+# 国際化
+
+国際化に対応しており、コンテンツを多言語表示できます。
+コンテンツの基本言語は「日本語」(ja)です。
+
+## 翻訳対象のテキストをマークする
+
+[`text`ディレクトリ](https://github.com/u360inc/u360inc.github.io/tree/modifies/text)以下のテキストファイル内で、翻訳したいテキスト部分を`{{_("`と`")}}`で括ってマーキングします。
+
+    %a(href='/#inquiry') {{_("お問い合わせ")}}
+
+## 対応言語を設定する
+
+[`Makefile`ファイル](https://github.com/u360inc/u360inc.github.io/tree/modifies/Makefile)の`LOCALES`値を編集します。
+
+    LOCALES=en fr es zh_CN
+
+
+## コンテンツを対訳する
+
+[`locale`ディレクトリ](https://github.com/u360inc/u360inc.github.io/tree/modifies/locale)以下の`PO`ファイル（例:`locale/en/LC_MESSAGES/text.po`）を編集します。
+
+    msgid "お問い合わせ"
+    msgstr "Contact Us"
