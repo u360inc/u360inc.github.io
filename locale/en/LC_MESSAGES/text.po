@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-07 07:24+0700\n"
+"POT-Creation-Date: 2016-06-07 18:50+0700\n"
 "PO-Revision-Date: 2016-06-02 16:24+0630\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -31,51 +31,51 @@ msgstr "MMMM d, Y"
 msgid "株式会社U360"
 msgstr "U360 CO. LTD,"
 
-#: text/_base.html:54
+#: text/_base.html:55
 msgid "メニューを切り替える"
 msgstr "Toggle navigation"
 
-#: text/_base.html:66 text/index.html:392
+#: text/_base.html:67 text/index.html:392
 msgid "ニュース"
 msgstr "News"
 
-#: text/_base.html:69 text/index.html:3
+#: text/_base.html:70 text/index.html:3
 msgid "U360について"
 msgstr "Who We Are"
 
-#: text/_base.html:72 text/index.html:33
+#: text/_base.html:73 text/index.html:33
 msgid "事業内容"
 msgstr "What We Do"
 
-#: text/_base.html:75 text/index.html:120
+#: text/_base.html:76 text/index.html:120
 msgid "メンバー紹介"
 msgstr "Members"
 
-#: text/_base.html:78 text/index.html:298
+#: text/_base.html:79 text/index.html:298
 msgid "会社概要"
 msgstr "Company Profile"
 
-#: text/_base.html:81
+#: text/_base.html:82
 msgid "採用情報"
 msgstr "Careers"
 
-#: text/_base.html:84 text/index.html:368
+#: text/_base.html:85 text/index.html:368
 msgid "お問い合わせ"
 msgstr "Contact Us"
 
-#: text/_base.html:90
+#: text/_base.html:91
 msgid "キーワードを入力"
 msgstr "Type to Search"
 
-#: text/_base.html:92
+#: text/_base.html:93
 msgid "検索"
 msgstr "Search"
 
-#: text/_base.html:157
+#: text/_base.html:158
 msgid "〒151-0073 東京都渋谷区笹塚1-5-6"
 msgstr "1-5-6, Sasazuka, Shibuya, Tokyo, Japan 151-0073"
 
-#: text/_base.html:168
+#: text/_base.html:169
 msgid "デザインガイドライン"
 msgstr "Design Guidelines"
 
