@@ -36,7 +36,7 @@
     ")}}
 
   .row
-    %a.btn.btn-default.btn-lg.col-xs-offset-2.col-xs-8(href='{{_("/concept.html")}}') {{_("詳しくはこちら")}}
+    %a.btn.btn-default.btn-lg.col-xs-offset-2.col-xs-8(href='{%if lang != "ja"%}/{{lang}}{%endif%}/concept.html') {{_("詳しくはこちら")}}
 
 #business.jumbotron.jumbotron-fluid
   .container
@@ -49,7 +49,7 @@
 .container
 
   .text-center
-    %img(src='{{_("/svg/u360-business.svg")}}')
+    %img(src='{%if lang != "ja"%}/{{lang}}{%endif%}/svg/u360-business.svg')
 
   .page-header
     .h2 {{_("コンサルティング")}}

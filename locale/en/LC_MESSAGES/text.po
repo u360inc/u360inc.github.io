@@ -18,16 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: text/_base.html:3
-msgid "Y年M月d日"
-msgstr "MMMM d, Y"
-
-#: text/_base.html:4
+#: text/_base.html:2
 msgid "ja"
 msgstr "en"
 
-#: text/_base.html:7 text/_base.html:19 text/_base.html:20 text/_base.html:60
-#: text/_base.html:155
+#: text/_base.html:4
+msgid "Y年M月d日"
+msgstr "MMMM d, Y"
+
+#: text/_base.html:8 text/_base.html:20 text/_base.html:21 text/_base.html:61
+#: text/_base.html:156
 msgid "株式会社U360"
 msgstr "U360 CO. LTD,"
 
@@ -279,10 +279,6 @@ msgstr ""
 "growth."
 
 #: text/index.html:27
-msgid "/concept.html"
-msgstr "/en/concept.html"
-
-#: text/index.html:27
 msgid "詳しくはこちら"
 msgstr "Read More"
 
@@ -291,10 +287,6 @@ msgid "U360は事業開発をめぐる問題解決・実行支援を主な事業
 msgstr ""
 "Our main expertise is problem solving and execution support in business "
 "development."
-
-#: text/index.html:42
-msgid "/svg/u360-business.svg"
-msgstr "/en/svg/u360-business.svg"
 
 #: text/index.html:45 text/svg/u360-business.svg:9
 msgid "コンサルティング"
