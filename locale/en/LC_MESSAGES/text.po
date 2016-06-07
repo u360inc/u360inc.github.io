@@ -403,7 +403,7 @@ msgstr "Partners"
 
 #: text/index.html:201
 msgid "コミュニティマネージャー"
-msgstr "Ommunity Manager"
+msgstr "Community Manager"
 
 #: text/index.html:212
 msgid "ソーシャルプロデューサー"
