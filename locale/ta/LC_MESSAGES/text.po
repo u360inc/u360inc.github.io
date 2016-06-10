@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-07 18:55+0700\n"
+"POT-Creation-Date: 2016-06-07 18:59+0700\n"
 "PO-Revision-Date: 2016-06-06 22:01+0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ta\n"
@@ -81,7 +81,7 @@ msgstr "வடிவமைப்பு வழிகாட்டுதல்க�
 
 #: text/_variable.html:3
 msgid "008442789637795532658:a63p7tftydo"
-msgstr ""
+msgstr "008442789637795532658:w_bzjwxfiby"
 
 #: text/concept.html:2
 msgid "コンセプト"
