@@ -20,168 +20,216 @@ msgstr ""
 
 #: text/_base.html:2
 msgid "ja"
-msgstr ""
+msgstr "id"
 
 #: text/_base.html:4
 msgid "Y年M月d日"
-msgstr ""
+msgstr "d MMMM Y"
 
 #: text/_base.html:8 text/_base.html:20 text/_base.html:21 text/_base.html:61
 #: text/_base.html:156
 msgid "株式会社U360"
-msgstr ""
+msgstr "U360 CO. LTD,"
 
 #: text/_base.html:55
 msgid "メニューを切り替える"
-msgstr ""
+msgstr "navigasi beralih"
 
 #: text/_base.html:67 text/index.html:392
 msgid "ニュース"
-msgstr ""
+msgstr "berita"
 
 #: text/_base.html:70 text/index.html:3
 msgid "U360について"
-msgstr ""
+msgstr "siapa kita"
 
 #: text/_base.html:73 text/index.html:33
 msgid "事業内容"
-msgstr ""
+msgstr "apa yang kita lakukan"
 
 #: text/_base.html:76 text/index.html:120
 msgid "メンバー紹介"
-msgstr ""
+msgstr "anggota"
 
 #: text/_base.html:79 text/index.html:298
 msgid "会社概要"
-msgstr ""
+msgstr "profil perusahaan"
 
 #: text/_base.html:82
 msgid "採用情報"
-msgstr ""
+msgstr "karir"
 
 #: text/_base.html:85 text/index.html:368
 msgid "お問い合わせ"
-msgstr ""
+msgstr "hubungi kami"
 
 #: text/_base.html:91
 msgid "キーワードを入力"
-msgstr ""
+msgstr "ketik untuk cari"
 
 #: text/_base.html:93
 msgid "検索"
-msgstr ""
+msgstr "pencarian"
 
 #: text/_base.html:158
 msgid "〒151-0073 東京都渋谷区笹塚1-5-6"
-msgstr ""
+msgstr "1-5-6, Sasazuka, Shibuya, Tokyo, Japan 151-0073"
 
 #: text/_base.html:169
 msgid "デザインガイドライン"
-msgstr ""
+msgstr "pedoman desain"
 
 #: text/_variable.html:3
 msgid "008442789637795532658:a63p7tftydo"
-msgstr ""
+msgstr "008442789637795532658:vlbcpddtgpo"
 
 #: text/concept.html:2
 msgid "コンセプト"
-msgstr ""
+msgstr "konsep"
 
 #: text/concept.html:8 text/concept.html:9
 msgid "事業創発集団"
-msgstr ""
+msgstr "bisnis development group"
 
 #: text/concept.html:13
 msgid "U360が標榜する「事業創発集団」とは、ユニークで持続可能な事業・人を作り出すという目的を持った組織であり、また自由な発想で生きるフリーランサー・企業家が集まるコミュニティでもあります。自立したプロフェッショナルが集まって協働・相互扶助することで1人ではできないことを行うー個の限界を、集の力で乗り越えるーことを目指しています。"
 msgstr ""
+"moto U360 adalah pengembangan bisnis grup: sebuah organisasi untuk "
+"membuat perusahaan yang unik dan berkelanjutan dan bakat, dan komunitas "
+"di mana freelancer dan pengusaha dengan pikiran kreatif berkumpul. Kami "
+"percaya pada kekuatan kolektif profesional independen. Dengan bekerja "
+"sama dan saling membantu, kami bertujuan untuk mengatasi hambatan bisnis "
+"kita tidak bisa mengatasi dengan pengalaman dan keahlian individu."
 
 #: text/concept.html:16
 msgid "各々が得意とする領域や手掛けるプロジェクトはさまざまです。事業内容に基づいて作られた組織にはない多様性があります。U360は多様な個人が信頼関係&#x2015;ヨコのつながり&#x2015;を築き、有機的なプロジェクトチームを結成して仕事を行います。多様な点（個性）を結んでユニークなかたちの線・面（事業）を作っている&#x2015;個人の副業を認めている会社組織の逆&#x2015;をイメージされると良いでしょう。"
 msgstr ""
+"Setiap anggota memiliki keahlian masing-masing dan dengan demikian "
+"mendukung proyek yang berbeda. Kami memiliki keragaman kita tidak akan "
+"menyaksikan dalam sebuah organisasi berdasarkan isi dari bisnis. Dari "
+"dalam U360, individu yang beragam membangun, tidak hierarkis, tapi "
+"hubungan lateral, dan organik membangun tim proyek. Menghubungkan titik-"
+"titik dan menciptakan garis dan permukaan, kebalikan dari organisasi yang"
+" memungkinkan karyawan bekerja pada proyek sisi, adalah apa yang kami "
+"bertujuan."
 
 #: text/concept.html:19
 msgid "独立自主のビジネスチームとして新しいワークスタイルを体現することで、1人1人がユニークで持続可能な生き方の一助となれれば幸いです。"
 msgstr ""
+"Kami mencontohkan gaya hidup baru sebagai gaya hidup yang unik dan "
+"berkelanjutan independen tim bisnis dan dukungan individu."
 
 #: text/concept.html:23
 msgid "U360が重視する価値観"
-msgstr ""
+msgstr "Nilai-nilai di U360"
 
 #: text/concept.html:26
 msgid "U360では最初から重視する価値観を掲げていたわけではありません。むしろ新しいワークスタイルを模索しているうちに、自然と3つの近しい価値観&#x2015;自由・個性・持続可能&#x2015;があることに気づきました。"
 msgstr ""
+"Kami tidak menetapkan nilai-nilai dari awal. Melalui tindakan untuk "
+"mencari gaya hidup baru, kami mengidentifikasi tiga nilai umum di antara "
+"anggota kami."
 
 #: text/concept.html:29
 msgid "自由"
-msgstr ""
+msgstr "kebebasan"
 
 #: text/concept.html:31
 msgid "生計が成り立ち、表現の自由、他者に強制されない選択の自由を追求する。"
 msgstr ""
+"Mengejar kebebasan berbicara dan kebebasan memilih ketika membangun "
+"kehidupan."
 
 #: text/concept.html:34
 msgid "個性"
-msgstr ""
+msgstr "individualitas"
 
 #: text/concept.html:36
 msgid "ユニークさを歓迎する、競合や前例がないことをどうやるか。"
-msgstr ""
+msgstr "selamat keragaman dan berpikir di luar kotak."
 
 #: text/concept.html:39
 msgid "持続可能"
-msgstr ""
+msgstr "berkelanjutan"
 
 #: text/concept.html:41
 msgid "いたずらな規模拡大、急成長を志向せず、自分たちが決めたペースで継続的に存在する。"
 msgstr ""
+"mempertahankan kecepatan kita sendiri dan menghindari fokus sia-sia pada "
+"ekspansi bisnis atau pertumbuhan drastis."
 
 #: text/concept.html:45
 msgid "差積化（させきか）"
-msgstr ""
+msgstr "akumulasi"
 
 #: text/concept.html:48
 msgid "U360の価値観を体現するうえでキーとなる事業コンセプトが差積化（させきか）です。"
-msgstr ""
+msgstr "konsep utama untuk contoh nilai U360 adalah AKUMULASI."
 
 #: text/concept.html:51
 msgid "差積化とは差別化と対となるビジネス概念で、差別化が「スタート時点」での違いを作ることだとすれば、差積化は事業が「進捗すればするほど」違いが広がっていく仕組みを持つことを意味します。"
 msgstr ""
+"Akumulasi adalah kebalikan dari diferensiasi. Diferensiasi adalah sebuah "
+"konsep dimana perusahaan menciptakan perbedaan dari awal, sementara "
+"akumulasi adalah mekanisme di mana sebuah perusahaan memperoleh lebih "
+"banyak perbedaan sebagai bisnis berkembang."
 
 #: text/concept.html:54
 msgid "小さなリソースで事業立ち上げやマーケティングを検討する際は「売れること」以上に「売れ続けること」を考えるかことが大切です。上手くいったら誰かが真似してくる（近年の日本国内市場はこの傾向が特に強い）ため、消耗戦になると個人や小さな会社では不利に陥りかねないからです。"
 msgstr ""
+"Hal ini penting untuk mempertimbangkan bagaimana untuk menjual produk dan"
+" jasa terus menerus ketika merencanakan strategi peluncuran produk dan "
+"pemasaran dengan sedikit sumber daya. Setelah model bisnis telah "
+"berhasil, perusahaan lain memasuki pasar, dan persaingan sengit dimulai. "
+"Di pasar kompetitif yang sering menyebabkan perang bekas gesekan, "
+"individu dan usaha kecil akan menghadapi kelemahan dengan sedikit sumber "
+"daya."
 
 #: text/concept.html:57
 msgid "商品・サービスがユニークであるのみならず、業務プロセスや販売チャネル、消費者の関与といったビジネスダイナミクスを念頭に入れたビジネスモデル設計による、持続可能なビジネス創造が肝要になります。"
 msgstr ""
+"produk dan layanan yang unik tidak cukup untuk bertahan hidup di dunia "
+"yang kompetitif. Sangat penting untuk menciptakan sebuah model bisnis "
+"yang berkelanjutan mengambil dinamika bisnis menjadi pertimbangan seperti"
+" proses bisnis, saluran penjualan, dan partisipasi pelanggan."
 
 #: text/concept.html:60
 msgid "U360では差積化についての事例、アプローチなどを探求し、情報発信を行っています。"
 msgstr ""
+"U360 menawarkan kesempatan belajar bagi pendekatan dan praktik terbaik "
+"dari akumulasi."
 
 #: text/concept.html:65 text/index.html:443 text/index.html:448
 msgid "差積化-させきか-ブログ"
-msgstr ""
+msgstr "Blog tentang Akumulasi tersebut"
 
 #: text/concept.html:72
 msgid "代表メッセージ"
-msgstr ""
+msgstr "Pesan dari Pendiri"
 
 #: text/concept.html:75
 msgid "いつも知的好奇心に素直になり、興味を持ったこと、真実を追いかける。"
-msgstr ""
+msgstr "Selalu jujur ​​dengan rasa ingin tahu dan mengejar topik menarik."
 
 #: text/concept.html:77
 msgid "個々が「自己実現」&#x2015;人生のミッションと日々の営みが繋がる&#x2015;できる。"
-msgstr ""
+msgstr "Dapat terhubung makna hidup dan hari-hari kerja."
 
 #: text/concept.html:79
 msgid "強い人間を正しいとする資本主義社会で「急成長」よりも「持続可能」を大切にする。"
 msgstr ""
+"Nilai keberlanjutan atas pertumbuhan pasar kapitalis mana yang lebih kuat"
+" adalah, semakin baik."
 
 #: text/concept.html:82
 msgid "大切にしたい価値観を前面に打ち出し、働けるようになったのは自身の努力以上に周囲の人たちに恵まれ、先人たちからのバトンを受け取ったからだ、と思っています。そして、受け取ったバトンを次の人達に渡したい&#x2015;自由なワークスタイルを目指す個人に1人でも2人でも、手を差し伸べたい&#x2015;と考えるようになりました。"
 msgstr ""
+"Aku datang untuk dapat hidup dan bekerja dengan nilai-nilai saya berkat "
+"dukungan dari semua orang di sekitar saya dan pelopor yang membantu saya "
+"untuk belajar dan tumbuh. Sekarang, saya ingin lulus tongkat estafet "
+"kepada generasi berikutnya, dan saya akan senang untuk memperluas "
+"dukungan saya untuk lebih individu yang mengejar gaya hidup bebas dari "
+"norma-norma sosial."
 
 #: text/concept.html:85
 msgid ""
@@ -189,28 +237,42 @@ msgid ""
 "が、ソフトバンクが敷いたWi-"
 "Fiネットワークが、コーヒー1杯の値段で作業場所を提供してくれるスターバックスがあるから、ノマドワーカーは仕事をすることができます。"
 msgstr ""
+"Saya sungguh-sungguh menghormati pengusaha yang mencoba untuk memecahkan "
+"masalah dalam masyarakat kita dan membangun infrastruktur yang lebih baik"
+" untuk dunia yang lebih baik. Sebagai contoh, kita, pekerja pengembara, "
+"dapat bekerja pada proyek-proyek mereka berkat MacBook Air dengan Mac, "
+"Wi-fi jaringan dengan Softbank, dan ruang kerja kecil dengan Starbucks "
+"hanya sebagai imbalan untuk pembelian beberapa dolar kopi."
 
 #: text/concept.html:88
 msgid "私は、世の中へのインパクトはとても小さいかもしれないですが、自分の目に映る人を助ける、ということを続けたいと考えています。初めから大きなことをやろうとするのではなく、マザーテレサが目の前の人を助けることを続けたように、一人ひとりが自分の目に映る人を幸せにする、という小さなことを積み重ねていきたい。そうした考えを、個人個人が実践するような輪が広がっていけば、より生きやすい世界ができると確信しています。"
 msgstr ""
+"Saya bergairah tentang membantu orang di depan saya. Dampak saya bisa "
+"membuat akan menjadi kecil. Namun, alih-alih bertujuan tujuan besar dari "
+"awal, saya ingin mengumpulkan dukungan kecil untuk orang di sekitar saya,"
+" seperti Ibu Teresa, yang membantu orang di depan sepanjang hidupnya. "
+"Saya yakin bahwa dunia ini akan menjadi tempat yang lebih baik karena "
+"setiap praktek ide ini."
 
 #: text/concept.html:91
 msgid "2016年1月　ファウンダー　三木健吾"
-msgstr ""
+msgstr "Kengo Miki, Pendiri U360, Januari 2016"
 
 #: text/index.html:9
 msgid ""
 "<span>差<span class='betu'>別</span>化から</span><span>差<span "
 "class='seki'>積</span>化へ</span>"
 msgstr ""
+"Dari <span class='betu'>D</span>iferensiasi Untuk <span "
+"class='seki'>A</span>kumulasi"
 
 #: text/index.html:12
 msgid "<span>ユニークで持続可能な</span><span>ビジネスを創造する</span>"
-msgstr ""
+msgstr "Kami menciptakan bisnis yang unik dan berkelanjutan"
 
 #: text/index.html:19
 msgid "U360について "
-msgstr ""
+msgstr "tentang U360 "
 
 #: text/index.html:22
 msgid ""
@@ -218,154 +280,175 @@ msgid ""
 "U360（ユーサンロクマル）は、持続可能な成長に価値を置き、自身が事業を立ち上げること、人が新しい事業を作るのを支援することを通じて、自分らしい生き方を充実させる人たちの集まり&#x2015;<a"
 " href='/concept.html#事業創発集団'>事業創発集団</a>&#x2015;です。\n"
 msgstr ""
+"U360 adalah sebuah perusahaan dengan orang-orang yang bersemangat dalam "
+"menciptakan bisnis mereka sendiri dan mendukung bisnis lain dengan "
+"berfokus pada pertumbuhan yang berkelanjutan."
 
 #: text/index.html:27
 msgid "詳しくはこちら"
-msgstr ""
+msgstr "Baca lebih banyak"
 
 #: text/index.html:36
 msgid "U360は事業開発をめぐる問題解決・実行支援を主な事業領域としています。"
 msgstr ""
+"keahlian utama kami adalah pemecahan masalah dan dukungan pelaksanaan "
+"dalam pengembangan bisnis."
 
 #: text/index.html:45 text/svg/u360-business.svg:9
 msgid "コンサルティング"
-msgstr ""
+msgstr "consulting"
 
 #: text/index.html:48
 msgid "法人の新規事業・商品企画部門などに向けて新事業・商品・サービスの企画検討や事業計画の策定、プロジェクト管理、事業推進人材の募集・育成等に関する計画・実行ならびにファシリテーションなどを行います。"
 msgstr ""
+"Kami menawarkan layanan untuk membantu klien menciptakan strategi bisnis "
+"untuk bisnis baru, produk, dan jasa, dan melaksanakan strategi dengan "
+"manajemen proyek dan keahlian manajemen bakat konsultasi."
 
 #: text/index.html:51 text/svg/u360-business.svg:11
 msgid "人材育成"
-msgstr ""
+msgstr "Pengembangan bakat"
 
 #: text/index.html:53
 msgid "[ 研修・ワークショップ・OJT ]"
-msgstr ""
+msgstr "[ Seminar, Lokakarya, OJT ]"
 
 #: text/index.html:55
 msgid "「情報収集」や「問題解決」、「マーケティング」等のビジネススキル研修を始め、事業計画の磨き込みや「リーンスタートアップ」に則った顧客開発インタビュー、新商品・サービスのロンチ戦略PRの計画と実行を通じたアクションラーニングなど、事業開発に必要なスキルを学習・習得していくワークショップ・OJTを提供します。"
 msgstr ""
+"Kami menawarkan berbagai kesempatan belajar melalui seminar, workshop dan"
+" program OJT untu"
 
 #: text/index.html:57
 msgid "[ 社内トレーニング制度構築支援 ]"
-msgstr ""
+msgstr "[ Pelatihan internal Pengembangan Program ]"
 
 #: text/index.html:59
 msgid "育成すべき人材像の検討、必要なスキル習得に向けた研修コンテンツ・業務マニュアルの整備など、自社内でのトレーニング制度の確立を支援します。"
 msgstr ""
+"Kami membantu klien menentukan kompetensi inti, membentuk program "
+"pelatihan internal, termasuk pembuatan konten untuk program pelatihan dan"
+" tuning manual operasi."
 
 #: text/index.html:62
 msgid "採用活動支援"
-msgstr ""
+msgstr "merekrut Dukungan"
 
 #: text/index.html:65
 msgid "事業開発部門、ビジネスコンサルティング、保険会社、広報・PR、アジアビジネス向けを中心に転職人材紹介を行います。"
 msgstr ""
+"Kami menyediakan mempekerjakan dukungan dengan jangkauan yang tak "
+"tertandingi terutama untuk bakat dalam pengembangan bisnis, konsultasi "
+"bisnis, konsultasi, pemasaran dan PR, ahli bisnis di Asia."
 
 #: text/index.html:68
 msgid "広報・PR活動支援"
-msgstr ""
+msgstr "Pemasaran dan PR Dukungan"
 
 #: text/index.html:71
 msgid "新商品・サービスのロンチのPR活動の企画検討や自社広報部門の立ち上げなど広報・PR機能の強化に取り組みます。"
 msgstr ""
+"Kami menyediakan dukungan untuk menegakkan pemasaran dan PR "
+"fungsionalitas melalui penciptaan strategi PR untuk peluncuran produk "
+"baru dan membangun departemen PR internal."
 
 #: text/index.html:77
 msgid "U360の新規事業"
-msgstr ""
+msgstr "Proyek baru-baru ini"
 
 #: text/index.html:85
 msgid "日本ビリヤニ協会"
-msgstr ""
+msgstr "Asosiasi Biriyani nihon"
 
 #: text/index.html:97
 msgid "（転職支援）"
-msgstr ""
+msgstr "(perusahaan pencari)"
 
 #: text/index.html:106
 msgid "（バリ事業）"
-msgstr ""
+msgstr "Bisnis di Bali (BnB)"
 
 #: text/index.html:113
 msgid "U360は「ユニークで持続可能な事業、人をつくる」ことをミッションに自社事業に取り組んでいます。"
 msgstr ""
+"Misi kami adalah untuk menciptakan bisnis yang unik dan berkelanjutan dan"
+" bakat."
 
 #: text/index.html:130
 msgid "事業開発コンサルタント"
-msgstr ""
+msgstr "Pengembangan Bisnis Konsultan"
 
 #: text/index.html:141
 msgid "プロジェクトマネージャー"
-msgstr ""
+msgstr "manajer proyek"
 
 #: text/index.html:164
 msgid "コンサルタント"
-msgstr ""
+msgstr "konsultan"
 
 #: text/index.html:175
 msgid "PRディレクター"
-msgstr ""
+msgstr "Direktur Hubungan Masyarakat"
 
 #: text/index.html:186 text/index.html:223
 msgid "エスニック料理人"
-msgstr ""
+msgstr "etnis masak"
 
 #: text/index.html:191
 msgid "パートナー"
-msgstr ""
+msgstr "mitra"
 
 #: text/index.html:201
 msgid "コミュニティマネージャー"
-msgstr ""
+msgstr "Manajer komunitas"
 
 #: text/index.html:212
 msgid "ソーシャルプロデューサー"
-msgstr ""
+msgstr "produser sosial"
 
 #: text/index.html:231
 msgid "サポーター事業"
-msgstr ""
+msgstr "klien"
 
 #: text/index.html:237
 msgid "海外ビジネス武者修行プログラム"
-msgstr ""
+msgstr "Program Bisnis Luar Negeri Musha-Shugyō"
 
 #: text/index.html:238
 msgid "武者修行"
-msgstr ""
+msgstr "Musha-Shugyō"
 
 #: text/index.html:239
 msgid "海外インターンシップ"
-msgstr ""
+msgstr "Magang di luar negeri"
 
 #: text/index.html:247
 msgid "コンサルタントコミュニティ"
-msgstr ""
+msgstr "komunitas konsultan"
 
 #: text/index.html:253 text/index.html:254
 msgid "前田塾"
-msgstr ""
+msgstr "Maeda-Juku"
 
 #: text/index.html:255
 msgid "若手向けビジネス塾"
-msgstr ""
+msgstr "Business School untuk Young"
 
 #: text/index.html:265
 msgid "学生起業スクール"
-msgstr ""
+msgstr "Sekolah Pengusaha Mahasiswa"
 
 #: text/index.html:273
 msgid "フォトスタジオ"
-msgstr ""
+msgstr "fotografi Studio"
 
 #: text/index.html:279 text/index.html:280 text/index.html:281
 msgid "世界遺産探検家"
-msgstr ""
+msgstr "World Heritage Hunter"
 
 #: text/index.html:301
 msgid "会社名"
-msgstr ""
+msgstr "Profil Perusahaan"
 
 #: text/index.html:303
 msgid ""
@@ -374,15 +457,15 @@ msgid ""
 "<br>\n"
 "カブシキガイシャ ユーサンロクマル\n"
 "<br>\n"
-msgstr ""
+msgstr " "
 
 #: text/index.html:311
 msgid "所在地"
-msgstr ""
+msgstr "Kantor"
 
 #: text/index.html:313
 msgid "(笹塚オフィス)"
-msgstr ""
+msgstr "Kantor Sasazuka"
 
 #: text/index.html:315
 msgid ""
@@ -392,6 +475,8 @@ msgid ""
 "東京都渋谷区笹塚1-5-6\n"
 "</a>\n"
 msgstr ""
+"<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>1-5-6, "
+"Sasazuka, Shibuya, Tokyo, Japan 151-0073</a>"
 
 #: text/index.html:322
 msgid ""
@@ -400,11 +485,11 @@ msgid ""
 "<br>\n"
 "小田急線 東北沢駅より徒歩10分\n"
 "<br>\n"
-msgstr ""
+msgstr " "
 
 #: text/index.html:329
 msgid "(五反田オフィス／本店所在地)"
-msgstr ""
+msgstr "Kantor Gotanda"
 
 #: text/index.html:331
 msgid ""
@@ -415,6 +500,8 @@ msgid ""
 "</a>\n"
 "藤ハイムB1F\n"
 msgstr ""
+"<a href='https://goo.gl/maps/89dGSLCmc9A2' target='_blank'>5-22-5, "
+"Nishigotanda, B1 Floor, Shinagawa, Tokyo, Japan 141-0031</a>"
 
 #: text/index.html:339
 msgid ""
@@ -422,27 +509,27 @@ msgid ""
 "東急目黒線 不動前駅より徒歩3分\n"
 "<br>\n"
 "JR山手線/都営浅草線/東急池上線 五反田駅より徒歩10分\n"
-msgstr ""
+msgstr " "
 
 #: text/index.html:345
 msgid "代表者"
-msgstr ""
+msgstr "pendiri"
 
 #: text/index.html:346
 msgid "代表取締役　三木 健吾"
-msgstr ""
+msgstr "Kengo Miki (LinkedIn profil Link)"
 
 #: text/index.html:347
 msgid "設立日"
-msgstr ""
+msgstr " "
 
 #: text/index.html:348
 msgid "2014年10月14日"
-msgstr ""
+msgstr " "
 
 #: text/index.html:349
 msgid "事業内容 "
-msgstr ""
+msgstr "  "
 
 #: text/index.html:351
 msgid ""
@@ -454,15 +541,15 @@ msgid ""
 "■個人向け\n"
 "<br>\n"
 "転職先紹介、コンサルティング案件紹介、ネット通販、シェアオフィス・民泊（air BnB）運営、独立・起業支援\n"
-msgstr ""
+msgstr " "
 
 #: text/index.html:361
 msgid "顧問税理士"
-msgstr ""
+msgstr " "
 
 #: text/index.html:362
 msgid "きずな綜合会計事務所　池本 健太郎"
-msgstr ""
+msgstr " "
 
 #: text/index.html:371
 msgid ""
@@ -470,6 +557,8 @@ msgid ""
 "採用情報については、<a href='https://jp.wantedly.com/companies/marketingoffice' "
 "target='_blank'>Wantedly</a>よりお問い合わせください。\n"
 msgstr ""
+"Terapkan di <a href='https://jp.wantedly.com/companies/marketingoffice' "
+"target='_blank'>Wantedly</a>."
 
 #: text/index.html:376
 msgid ""
@@ -478,6 +567,9 @@ msgid ""
 "href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform'"
 " target='_blank'>お問い合せフォーム</a>よりお問い合わせください。\n"
 msgstr ""
+"Hubungi kami untuk <a "
+"href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform'"
+" target='_blank'>pertanyaan</a> lainnya."
 
 #: text/index.html:429
 msgid "事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。"
@@ -485,13 +577,13 @@ msgstr ""
 
 #: text/svg/u360-business.svg:10
 msgid "広報・ＰＲ"
-msgstr ""
+msgstr "Pemasaran dan PR"
 
 #: text/svg/u360-business.svg:12
 msgid "採用支援"
-msgstr ""
+msgstr "merekrut Dukungan"
 
 #: text/svg/u360-business.svg:13
 msgid "事業開発"
-msgstr ""
+msgstr "Pengembangan Bisnis"
 
