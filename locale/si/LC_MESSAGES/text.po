@@ -546,7 +546,7 @@ msgid ""
 "採用情報については、<a href='https://jp.wantedly.com/companies/marketingoffice' "
 "target='_blank'>Wantedly</a>よりお問い合わせください。\n"
 msgstr ""
-"<a href='https://jp.wantedly.com/companies/marketingoffice' "
+"<a href='https://gb.wantedly.com/companies/marketingoffice' "
 "target='_blank'>Wantedly</a> දී අදාළ වේ."
 
 #: text/index.html:376

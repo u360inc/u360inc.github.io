@@ -555,7 +555,7 @@ msgid ""
 "target='_blank'>Wantedly</a>よりお問い合わせください。\n"
 msgstr ""
 "Apply at \n"
-"<a href='https://jp.wantedly.com/companies/marketingoffice' "
+"<a href='https://us.wantedly.com/companies/marketingoffice' "
 "target='_blank'>Wantedly</a>.\n"
 
 #: text/index.html:376
