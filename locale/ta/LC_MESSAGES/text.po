@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-11 15:26+0700\n"
+"POT-Creation-Date: 2016-06-23 22:01+0900\n"
 "PO-Revision-Date: 2016-06-06 22:01+0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ta\n"
@@ -35,7 +35,7 @@ msgstr "U360 CO. LTD,"
 msgid "メニューを切り替える"
 msgstr "வழிசெலுத்தல் மாற்று"
 
-#: text/_base.html:67 text/index.html:392
+#: text/_base.html:67 text/index.html:394
 msgid "ニュース"
 msgstr "செய்திகள்"
 
@@ -59,7 +59,7 @@ msgstr "நிறுவனம் பதிவு செய்தது"
 msgid "採用情報"
 msgstr "வேலைவாய்ப்புகள்"
 
-#: text/_base.html:85 text/index.html:368
+#: text/_base.html:85 text/index.html:370
 msgid "お問い合わせ"
 msgstr "எங்களை தொடர்பு"
 
@@ -199,7 +199,7 @@ msgstr ""
 "U360 அணுகுமுறைகள் மற்றும் படிவுகள் சிறந்த நடைமுறைகள் கற்றல் வாய்ப்புகளை "
 "வழங்குகிறது."
 
-#: text/concept.html:65 text/index.html:443 text/index.html:448
+#: text/concept.html:65 text/index.html:445 text/index.html:450
 msgid "差積化-させきか-ブログ"
 msgstr "திரள்வது பற்றி வலைப்பதிவு"
 
@@ -482,7 +482,7 @@ msgstr ""
 "<a href='https://goo.gl/maps/ExxB1xYZVdR2' target='_blank'>1-5-6, "
 "Sasazuka, Shibuya, Tokyo, Japan 151-0073</a>"
 
-#: text/index.html:322
+#: text/index.html:323
 msgid ""
 "\n"
 "京王線/京王新線 笹塚駅より徒歩4分\n"
@@ -491,11 +491,11 @@ msgid ""
 "<br>\n"
 msgstr " "
 
-#: text/index.html:329
+#: text/index.html:330
 msgid "(五反田オフィス／本店所在地)"
 msgstr "Gotanda அலுவலகம்"
 
-#: text/index.html:331
+#: text/index.html:332
 msgid ""
 "\n"
 "〒141-0031\n"
@@ -507,7 +507,7 @@ msgstr ""
 "<a href='https://goo.gl/maps/89dGSLCmc9A2' target='_blank'>5-22-5, "
 "Nishigotanda, B1 Floor, Shinagawa, Tokyo, Japan 141-0031</a>"
 
-#: text/index.html:339
+#: text/index.html:341
 msgid ""
 "\n"
 "東急目黒線 不動前駅より徒歩3分\n"
@@ -515,29 +515,29 @@ msgid ""
 "JR山手線/都営浅草線/東急池上線 五反田駅より徒歩10分\n"
 msgstr " "
 
-#: text/index.html:345
+#: text/index.html:347
 msgid "代表者"
 msgstr "நிறுவனர்"
 
-#: text/index.html:346
+#: text/index.html:348
 msgid "代表取締役　三木 健吾"
 msgstr ""
 "Kengo Miki (<a href='https://www.linkedin.com/in/kengomiki'>LinkedIn "
 "சுயவிவர</a>)"
 
-#: text/index.html:347
+#: text/index.html:349
 msgid "設立日"
 msgstr " "
 
-#: text/index.html:348
+#: text/index.html:350
 msgid "2014年10月14日"
 msgstr " "
 
-#: text/index.html:349
+#: text/index.html:351
 msgid "事業内容 "
 msgstr " "
 
-#: text/index.html:351
+#: text/index.html:353
 msgid ""
 "\n"
 "■法人向け\n"
@@ -549,15 +549,15 @@ msgid ""
 "転職先紹介、コンサルティング案件紹介、ネット通販、シェアオフィス・民泊（air BnB）運営、独立・起業支援\n"
 msgstr " "
 
-#: text/index.html:361
+#: text/index.html:363
 msgid "顧問税理士"
 msgstr " "
 
-#: text/index.html:362
+#: text/index.html:364
 msgid "きずな綜合会計事務所　池本 健太郎"
 msgstr " "
 
-#: text/index.html:371
+#: text/index.html:373
 msgid ""
 "\n"
 "採用情報については、<a href='https://jp.wantedly.com/companies/marketingoffice' "
@@ -566,7 +566,7 @@ msgstr ""
 "<a href='https://gb.wantedly.com/companies/marketingoffice' "
 "target='_blank'>Wantedly</a> அளவில் தெளிக்கவும்."
 
-#: text/index.html:376
+#: text/index.html:378
 msgid ""
 "\n"
 "その他の内容につきましては、<a "
@@ -577,7 +577,7 @@ msgstr ""
 "href='https://docs.google.com/forms/d/12PuPGUxBoi1smbauDsUxIdiQvvCOdSyMMfm9bxNsQfA/viewform'"
 " target='_blank'>எங்களை தொடர்பு</a> கொள்ளவும்."
 
-#: text/index.html:429
+#: text/index.html:431
 msgid "事業創発集団 株式会社U360（ユーサンロクマル、東京都品川区）を法人登記しました。"
 msgstr ""
 
