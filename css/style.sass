@@ -57,6 +57,21 @@ $experimental-support-for-svg: true
     :image url(/creampaper/creampaper.png)
     :blend-mode overlay
 
+.nav li, .btn, h1, h2, h3, h4, .h1, .h2, .h3, .h4, address, dt
+  text-transform: capitalize
+
+// https://css-tricks.com/almanac/selectors/p/placeholder/
+::-webkit-input-placeholder
+  text-transform: capitalize
+\:-moz-placeholder
+  text-transform: capitalize
+::-moz-placeholder
+  text-transform: capitalize
+\:-ms-input-placeholder
+  text-transform: capitalize
+::-ms-input-placeholder
+  text-transform: capitalize
+
 body, h1, h2, h3, h4, .h1, .h2, .h3, .h4
   font-weight: 300
 .page-header

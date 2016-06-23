@@ -1,4 +1,4 @@
-LOCALES=en si ta
+LOCALES=en si ta id
 
 
 all: html css js $(ZIP)
