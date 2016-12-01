@@ -21,7 +21,7 @@ LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -print -or -type f -n
 
 .SUFFIXES: .haml .html
 .haml.html:
-	bundle exec haml -f html5 -t ugly $< $@
+	bundle exec haml --trace -f html5 -t ugly $< $@
 HAML = $(shell find $(TEXT_DIR) -name "*.haml" -print)
 HTML = $(HAML:.haml=.html)
 
