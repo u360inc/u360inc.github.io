@@ -1,4 +1,4 @@
-box: michilu/deploy-gh-pages
+box: michilu/deploy-gh-pages:2016-06-06
 build:
   steps:
     - script:
