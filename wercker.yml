@@ -34,6 +34,5 @@ deploy:
       repo: u360inc/u360inc.github.io
       token: $GITHUB_TOKEN
   after-steps:
-    - hipchat-notify:
-        token: $HIPCHAT_TOKEN
-        room-id: $HIPCHAT_ID
+  - slack-notifier:
+      url: $SLACK_URL
