@@ -16,8 +16,8 @@ BIN_STATICJINJA=assets/bin/build_staticjinja.py
 JS_DIR=js
 CSS_DIR=css
 TEXT_DIR=text
-ZIP=./assets/u360-logo.zip
-LOGO=$(shell find ./assets/u360-logo -type f -name "*.png" -print -or -type f -name "*.svg" -print)
+ZIP=assets/u360-logo.zip
+LOGO=$(shell find $(basename $(ZIP)) -type f -name "*.png" -print -or -type f -name "*.svg" -print)
 
 .SUFFIXES: .haml .html
 .haml.html:
@@ -81,7 +81,7 @@ js: $(MINJS) $(JS)
 css: $(MINCSS) $(CSS)
 
 $(ZIP): $(LOGO)
-	cd ./assets && zip -9DJor u360-logo.zip $(subst ./assets/,,$(LOGO))
+	cd $(dir $@) && zip -9DJor $(notdir $@) $(subst $(dir $@),,$(LOGO))
 
 server:
 	python -m SimpleHTTPServer
