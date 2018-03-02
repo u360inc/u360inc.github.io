@@ -1,4 +1,6 @@
-box: michilu/deploy-gh-pages:2016-06-06
+box:
+  id: michilu/deploy-gh-pages
+  cmd: /bin/sh
 build:
   steps:
     - script:
