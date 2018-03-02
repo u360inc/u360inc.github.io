@@ -22,6 +22,10 @@ build:
         name: copy output
         code: |-
           rsync -avz --copy-unsafe-links $WERCKER_SOURCE_DIR/ $WERCKER_OUTPUT_DIR
+  after-steps:
+  - slack-notifier:
+      url: $SLACK_URL
+      notify_on: failed
 deploy:
   steps:
     - script:
