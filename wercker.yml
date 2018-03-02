@@ -14,9 +14,10 @@ build:
         code: |-
           make
     - script:
-        name: check index.html
+        name: check contents
         code: |-
           test -e index.html
+          test -e assets/u360-logo.zip
     - script:
         name: copy output
         code: |-
