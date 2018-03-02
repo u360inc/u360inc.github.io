@@ -1,8 +1,4 @@
 LOCALES=en si ta id
-
-
-all: html css js $(ZIP)
-
 LOCALEDIR=locale
 TRANSRATE_KEYWORD="_([^)]*)"
 TRANSRATE=$(patsubst $(TEXT_DIR)/%,%,$(patsubst %.haml,%.html,$(shell grep $(TRANSRATE_KEYWORD) $(HAML)|awk -F: '{print $$1}'|sort -u)))
@@ -18,6 +14,10 @@ CSS_DIR=css
 TEXT_DIR=text
 ZIP=assets/u360-logo.zip
 LOGO=$(shell find $(basename $(ZIP)) -type f -name "*.png" -print -or -type f -name "*.svg" -print)
+
+
+all: html css js $(ZIP)
+
 
 .SUFFIXES: .haml .html
 .haml.html:
